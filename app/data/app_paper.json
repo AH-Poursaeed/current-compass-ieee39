@@ -1,0 +1,1137 @@
+{
+ "schema": "cca-paper/2",
+ "title": "Current Compass: A Local Control Law for Synchronization Stability of Grid-Forming Converters at the Current Limit",
+ "figures": [
+  {
+   "key": "cc_fig_system",
+   "file": "assets/figs/cc_fig1_unit.png",
+   "number": 1,
+   "width_in": 3.45,
+   "caption": "One GFM unit under the Current Compass, simplified: the power cap, the rotation \u03c8 of the saturated current, driven by the terminal reactive power within a quarter turn, and the release keyed to the terminal voltage; I_c, current command; I_r, limiter's reference.",
+   "shown": true,
+   "section": "cc_sec1_introduction",
+   "bytes": 263634,
+   "sha256": "7f35f870d56e9a3202c727d648ce536574b123995dc1edb008a6ac96b232c955",
+   "confirmed_by": "s60r.v6.r16.figs.fig1",
+   "pin": "s60r.v6.r16.figs_new.fig1.png_sha256",
+   "regen": "shipped as an image (its sha256 is the record's pin s60r.v6.r16.figs_new.fig1.png_sha256); every number its caption prints is regenerated from the released record",
+   "asset": "assets/figs/cc_fig1_unit.png"
+  },
+  {
+   "key": "cc_fig_concept",
+   "file": "assets/figs/cc_fig_concept.png",
+   "number": 2,
+   "width_in": 3.45,
+   "caption": "(a) Phasors at A: the limited I lags V^o by \u03bb; \u03c8 turns it toward lagging. (b) The line P=P^* crosses Theorem 1's circle before, not in, a dip; filled: attracting. (c) The cap's rays (11) meet the dip circle at A and B; arrows: lag's motion. (d) Sketch: \u03c8 rises while Q_t<Q_f and decays after release.",
+   "shown": true,
+   "section": "cc_sec2_saturated_unit",
+   "bytes": 209531,
+   "sha256": "76a72017122c4a6227363863309f005629cf90bf644ea29edf363d15a81bbcdb",
+   "confirmed_by": "s60r.v6.r16.figs.fig2",
+   "pin": "s60r.v6.fig_concept.png_sha256",
+   "regen": "shipped as an image (its sha256 is the record's pin s60r.v6.fig_concept.png_sha256); every number its caption prints is regenerated from the released record",
+   "asset": "assets/figs/cc_fig_concept.png"
+  },
+  {
+   "key": "cc_fig_circle",
+   "file": "assets/figs/cc_fig2_circle.png",
+   "number": 3,
+   "width_in": 3.45,
+   "caption": "(a) Moderate circle M of Theorem 1, 0.60 pu behind 0.05 + j0.25 pu, rays (11), balances, each law's measured end powers, at A on a frozen source, locked on a turning one. (b) Power factor at the lock against the turning rate, predicted and measured, on M and deep circle D, 0.35 pu behind 0.02 + j0.10 pu; bars: following range (24); crosses: no lock. (c) Measured against modeled travel, direction held or free.",
+   "shown": true,
+   "section": "cc_sec2_saturated_unit",
+   "bytes": 237731,
+   "sha256": "a15ec2ef84ce2c3f9df259c0cdfacc5d7412f06eb8a38029cb5d84617c8d1eca",
+   "confirmed_by": "s60r.v6.r16.figs.fig3",
+   "pin": "s60r.v6.fig_circle.png_sha256",
+   "regen": "shipped as an image (its sha256 is the record's pin s60r.v6.fig_circle.png_sha256); every number its caption prints is regenerated from the released record",
+   "asset": "assets/figs/cc_fig2_circle.png"
+  },
+  {
+   "key": "cc_fig_flow",
+   "file": "assets/figs/cc_fig_flow.png",
+   "number": 4,
+   "width_in": 3.45,
+   "caption": "Theorem 2's flow, computed from (16), (19), (20) for circles M, D of Fig. 3. Trajectories start at the onset lag and at departure points.",
+   "shown": true,
+   "section": "cc_sec3_compass",
+   "bytes": 150310,
+   "sha256": "be0ac1e26948c95f0013567bed80c819165b65717cae399ef5beedc80a3fb612",
+   "confirmed_by": "s60r.v6.r16.figs.fig4",
+   "pin": "s60r.v6.fig_flow.png_sha256",
+   "regen": "shipped as an image (its sha256 is the record's pin s60r.v6.fig_flow.png_sha256); every number its caption prints is regenerated from the released record",
+   "asset": "assets/figs/cc_fig_flow.png"
+  },
+  {
+   "key": "cc_fig_oneline",
+   "file": "assets/figs/cc_fig_oneline.png",
+   "number": 5,
+   "width_in": 3.45,
+   "caption": "The IEEE 39-bus (New England) system as modeled; GFM units 7 to 10 dispatched at 0.91 to 0.97 pu at base load.",
+   "shown": true,
+   "section": "cc_sec4_test_system",
+   "bytes": 230822,
+   "sha256": "5010e45f8f53e4ce255971baf63dd72d08e2aedc4bc0ac9ebd368643c0a1749e",
+   "confirmed_by": "s60r.v6.r16.figs.fig5",
+   "pin": "s60r.v6.r16.figs_new.fig5.png_sha256",
+   "regen": "shipped as an image (its sha256 is the record's pin s60r.v6.r16.figs_new.fig5.png_sha256); every number its caption prints is regenerated from the released record",
+   "asset": "assets/figs/cc_fig_oneline.png"
+  },
+  {
+   "key": "cc_fig_compare",
+   "file": "assets/figs/cc_fig_compare.png",
+   "number": 6,
+   "width_in": 7.16,
+   "caption": "Left: each row's lost runs by fault duration, on the 101 common scenarios and their 27 of 0.3 s shortened to 100 and 150 ms (eligibility: Section IV); limited at end: its returns on the common scenarios that end with a limiter engaged, as in Table III (for the compared laws, each law's own limiter flag). Right: each row's 78 ladder faults of up to 2 s by fault bus. Load steps: the six events of Section V-F (no fault), the smaller step above; buses 23, 25, 29.",
+   "shown": true,
+   "section": "cc_sec5_results",
+   "bytes": 732998,
+   "sha256": "b0ee19d80c600e3969f1f51339057e3c33f311e3a31a38cdb75eaef1e483080a",
+   "confirmed_by": "s60r.v6.r16.figs.fig6",
+   "pin": "s60r.v6.fig_compare.png_sha256",
+   "regen": "shipped as an image (its sha256 is the record's pin s60r.v6.fig_compare.png_sha256); every number its caption prints is regenerated from the released record",
+   "asset": "assets/figs/cc_fig_compare.png"
+  },
+  {
+   "key": "cc_fig_fault",
+   "file": "assets/figs/cc_fig_decisive.png",
+   "number": 7,
+   "width_in": 3.45,
+   "caption": "Three-phase faults of 1 s (shaded) through 0.001 pu, load 1.0; traces and bars: bus 39 (unit 10). One row a law; published laws by reference number, at the published setting where eligible, else selected. Columns: loss instants by fault bus; Current Compass: return times; *: lost by the growing angle at the record's end. (c): all traces peak at onset, at 1.445 times the limit.",
+   "shown": true,
+   "section": "cc_sec5_results",
+   "bytes": 378155,
+   "sha256": "97eae80a830d22c6fe2b5907a35a19e65cbd2f17582d3f946a59f3a3b4f7d5e2",
+   "confirmed_by": "s60r.v6.r16.figs.fig7",
+   "pin": "s60r.v6.fig_decisive.png_sha256",
+   "regen": "shipped as an image (its sha256 is the record's pin s60r.v6.fig_decisive.png_sha256); every number its caption prints is regenerated from the released record",
+   "asset": "assets/figs/cc_fig_decisive.png"
+  }
+ ],
+ "tables": [
+  {
+   "key": "cc_tab_par",
+   "number": "I",
+   "title": "Test System and Current Compass Parameters",
+   "section": "cc_sec4_test_system",
+   "rows": 11,
+   "cells": [
+    {
+     "c": [
+      "Quantity",
+      "Value",
+      "Quantity",
+      "Value"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "System base",
+      "100 MVA, 345 kV, 60 Hz",
+      "Load",
+      "6254.23 MW, 1387.1 Mvar, constant impedance"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Ratings",
+      "GFM 564 to 1100 MVA, GFL 508 to 1040 MVA",
+      "Droop slope, frequency clamp",
+      "0.56 to 1.10 % per pu; 2 Hz"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Power filter, droop lag",
+      "50 ms, 10 ms",
+      "Output filter",
+      "24.6 mH, 407 nF"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Voltage loop",
+      "0.122 S, 0.325 S/s",
+      "Current loop",
+      "6.15 ohm, 30.7 ohm/s"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "PLL of the GFL units",
+      "1.2 Hz, damping 0.99",
+      "Current limit, anti-windup",
+      "1.25 pu, circular; conditional integration"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Bridge",
+      "Averaged, no dc link, one-step delay",
+      "Grounding",
+      "Star grounded: every source, load and transformer winding"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Lines",
+      "Series resistance and inductance, shunt charging; equal sequence impedances",
+      "Solver",
+      "ode23t, relative tolerance 0.001, step 0.1 ms"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Fault resistance",
+      "0.01 pu (11.9 ohm) or 0.001 pu, ramp 0.4 ms",
+      "Cap factor",
+      "0.8, the inverse of the current limit"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Reactive-power floor",
+      "0.5 pu",
+      "Rotation gain",
+      "20 rad/s per pu"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Voltage filter",
+      "5 ms",
+      "Release decay, time-out",
+      "10 ms; 1000 s, never reached"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    }
+   ],
+   "notes": [
+    "Droop slope: percent of the nominal frequency per pu. Loops: proportional and integral gains. Step: the solver's largest step and every controller's sample time."
+   ],
+   "heads": [],
+   "regen": "shipped as the paper prints it, every cell and note; every number it prints is in the numbers view, regenerated from the released record"
+  },
+  {
+   "key": "cc_tab_set",
+   "number": "II",
+   "title": "The Current Compass and the Compared Laws",
+   "section": "cc_sec4_test_system",
+   "rows": 15,
+   "cells": [
+    {
+     "c": [
+      "Law",
+      "Grant",
+      "Setting",
+      "Harness",
+      "Lost"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Current Compass",
+      "-",
+      "This paper (Table I)",
+      "-",
+      "0"
+     ],
+     "b": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ]
+    },
+    {
+     "c": [
+      "Active-power path:",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Virtual active power feedback [9]",
+      "-",
+      "No free constant",
+      "R",
+      "5"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Multi-objective strategy [10]",
+      "X",
+      "Resistance gain 2.5; threshold at the common limit, 1.25 pu",
+      "N",
+      "55"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Synchronization:",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Reactive power synchronization [13]",
+      "X",
+      "Bandwidth 0.1 of the current loop's; selected: 0.05",
+      "F",
+      "42; 32"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Cross-forming control [14]",
+      "D",
+      "Virtual reactance 0.2 pu, gain 1, reactive droop 0.2; selected: 0.4 pu, 1.5, 0.4",
+      "F",
+      "7/12; 45"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Saturated cross-forming control [15]",
+      "X",
+      "0.3 pu, 1; this work: reactive droop 0.2; selected: 0.4 pu, 1.5, 0.4",
+      "R",
+      "46; 43"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Current angle:",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Fixed-angle priority limiter [17]",
+      "X, A",
+      "Angle by its rule and droop-angle block (in this port, while limited); selected: block always",
+      "R",
+      "97; 97"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Power-angle switching [18]",
+      "X",
+      "This work: exit threshold 0.9 pu",
+      "N",
+      "45"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Baselines:",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Virtual-impedance limiter after [7]",
+      "-",
+      "This work: reactance 0.3 pu, resistance 0, threshold 1 pu",
+      "-",
+      "79"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Reactive-priority limiter",
+      "-",
+      "This work: no free constant",
+      "-",
+      "98"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    }
+   ],
+   "notes": [
+    "Grant: X pre-fault reactance, A load-flow angles, D platform droop module (that of [14] held the operating point at none of 18 settings), -: none. Setting: the paper's values, or this work's where marked. Selected: chosen before its runs on five three-phase faults of 0.25 to 1 s at buses 16, 38 and 39 by the fewest losses, then the smallest sum of return times (a loss as 5 s), then the smallest largest angle. Harness: R reproduced (at their best settings these lose 5, 43 and 97), F fault-on behavior only, N not reproduced ([18]: its switching logic), -: no source result. Lost: of the 101 common scenarios, selected second; a/b: of the b where eligible. Not ported: [11], [12], [16], [19], [20], [21], [22]."
+   ],
+   "heads": [],
+   "regen": "shipped as the paper prints it, every cell and note; every number it prints is in the numbers view, regenerated from the released record"
+  },
+  {
+   "key": "cc_tab_parts",
+   "number": "III",
+   "title": "What Each Part of the Law Buys",
+   "section": "cc_sec5_results",
+   "rows": 8,
+   "cells": [
+    {
+     "c": [
+      "Law or part",
+      "Short (of 66)",
+      "Long (of 35)",
+      "Of both, SLG",
+      "0.01 pu (of 39)",
+      "0.001 pu (of 39)",
+      "4 and 5 s (of 26)",
+      "SLG (of 39)",
+      "(of 6)",
+      "Median, s",
+      "Short returns",
+      "Long returns",
+      "Ladder, 4 and 5 s",
+      "SLG ladder",
+      "Load steps"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Current Compass",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0.31",
+      "0 of 66",
+      "0 of 35",
+      "0 of 26",
+      "0 of 39",
+      "0 of 6"
+     ],
+     "b": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+     ]
+    },
+    {
+     "c": [
+      "Fixed Quarter Turn",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0.32",
+      "63 of 66",
+      "31 of 35",
+      "25 of 25",
+      "39 of 39",
+      "6 of 6"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Cap and fixed quarter turn, no release",
+      "0",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0.32",
+      "64 of 66",
+      "28 of 30",
+      "25 of 26",
+      "39 of 39",
+      "6 of 6"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Cap and rotation without release",
+      "0",
+      "5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0.31",
+      "0 of 66",
+      "0 of 30",
+      "0 of 26",
+      "0 of 39",
+      "0 of 6"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Cap alone",
+      "2",
+      "8",
+      "10",
+      "0",
+      "0",
+      "0",
+      "3",
+      "0",
+      "0.28",
+      "0 of 64",
+      "0 of 27",
+      "0 of 26",
+      "0 of 36",
+      "0 of 6"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Supervised rotation without the cap",
+      "10",
+      "32",
+      "13",
+      "13",
+      "7",
+      "22",
+      "13",
+      "0",
+      "0.66 (29)",
+      "0 of 56",
+      "0 of 3",
+      "0 of 4",
+      "0 of 26",
+      "0 of 6"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Circular limiter alone",
+      "49",
+      "35",
+      "31",
+      "31",
+      "23",
+      "24",
+      "30",
+      "3",
+      "0.51 (5)",
+      "0 of 17",
+      "-",
+      "0 of 2",
+      "0 of 9",
+      "0 of 3"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    }
+   ],
+   "notes": [
+    "Short, long: common scenarios of 0.3 to 1 s, 2 to 5 s. Load steps: Section V-F. Return time: Section IV's, each row's median over the short three-phase scenarios it returns from, count in parentheses if below 39. Limiter engaged: a limiter flag set in the record's last 1 s; -: no return. Bold: the Current Compass."
+   ],
+   "heads": [
+    [
+     "Lost, common scenarios",
+     2,
+     4
+    ],
+    [
+     "Lost, ladder",
+     5,
+     8
+    ],
+    [
+     "Lost, load steps",
+     9,
+     9
+    ],
+    [
+     "Return time",
+     10,
+     10
+    ],
+    [
+     "Ending with a limiter engaged",
+     11,
+     15
+    ]
+   ],
+   "regen": "shipped as the paper prints it, every cell and note; every number it prints is in the numbers view, regenerated from the released record"
+  },
+  {
+   "key": "cc_tab_rob",
+   "number": "IV",
+   "title": "Robustness: Losses With One Setting Varied",
+   "section": "cc_sec5_results",
+   "rows": 10,
+   "cells": [
+    {
+     "c": [
+      "Setting varied",
+      "Tested values (design)",
+      "Current Compass",
+      "[9]"
+     ],
+     "b": [
+      false,
+      false,
+      true,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Design point",
+      "-",
+      "0",
+      "5"
+     ],
+     "b": [
+      true,
+      false,
+      true,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Reactive-power floor, pu",
+      "0.3, 0.4, 0.6, 0.7 (0.5)",
+      "0, 0, 0, 0",
+      "-"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Rotation gain, rad/s per pu",
+      "10, 40 (20)",
+      "0, 0",
+      "-"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Cap factor",
+      "0.7, 0.9, 1.0 (0.8)",
+      "0/9, 0, 0",
+      "-"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Release ratio",
+      "2, 5 (3)",
+      "0, 0",
+      "-"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Voltage filter; decay, ms",
+      "2, 10 (5); 5, 20 (10)",
+      "0, 0; 0, 0",
+      "-"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Current limit, pu",
+      "1.1, 1.15, 1.2, 1.4 (1.25)",
+      "0, 0, 0, 0",
+      "5, 5, 5, 7"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "PLL, Hz",
+      "3.2, 9.0 (1.2)",
+      "0, 1",
+      "5, 11"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "c": [
+      "Droop slope, times design",
+      "0.5, 2 (1)",
+      "0, 3",
+      "0, 5"
+     ],
+     "b": [
+      false,
+      false,
+      false,
+      false
+     ]
+    }
+   ],
+   "notes": [
+    "Lost of the 18 scenarios, one setting varied at a time. Current-limit row: cap factor 1/limit. At these four limits the other published laws, each at its setting of Section V-B, lose: [10] 9, 6, 8, 12; [13] 3, 3, 3, 3; [14] 10, 9, 7, 3; [15] 8, 7, 5, 3; [17] 8, 9, 16, 15; [18] 12, 10, 9, 6. a/b: of the b eligible; at 0.7 the cap binds before the fault at base load. -: not a setting of [9]. Without the release the law loses 3; at the faster PLL, 6 of its returns are unsettled (a converter frequency outside 0.05 Hz of 60 Hz at the record's end)."
+   ],
+   "heads": [],
+   "regen": "every count cell regenerated from the released record (s60r.v6.r140.sets.s18, s60r.v6.r140.s18.table, s60r.v6.r19.t4.cells.capf_0p7, s60r.v6.r15.lim, s60r.v6.r15.lim_d2) and asserted equal to the paper's cell; the rest shipped as the paper prints it"
+  }
+ ],
+ "sections": [
+  {
+   "module": "cc_sec1_introduction",
+   "number": "I",
+   "title": "Introduction",
+   "subsections": []
+  },
+  {
+   "module": "cc_sec2_saturated_unit",
+   "number": "II",
+   "title": "A Saturated Unit in a Network",
+   "subsections": [
+    "Setting and Scope",
+    "The Circle and the Fixed Reference",
+    "The Power Cap"
+   ]
+  },
+  {
+   "module": "cc_sec3_compass",
+   "number": "III",
+   "title": "The Current Compass",
+   "subsections": [
+    "The Law",
+    "The Loop With Its Clamp",
+    "The Release, Lags and Floor"
+   ]
+  },
+  {
+   "module": "cc_sec4_test_system",
+   "number": "IV",
+   "title": "Test System and Protocol",
+   "subsections": []
+  },
+  {
+   "module": "cc_sec5_results",
+   "number": "V",
+   "title": "Results",
+   "subsections": [
+    "What Each Part of the Law Buys",
+    "The Comparison on the Common Scenarios",
+    "The Fault Location and the Fault Path",
+    "Five Decisive Faults",
+    "The Theory Confirmed",
+    "Robustness",
+    "Scope and Limits"
+   ]
+  },
+  {
+   "module": "cc_sec6_conclusion",
+   "number": "VI",
+   "title": "Conclusion",
+   "subsections": []
+  },
+  {
+   "module": "cc_sec7_appendix",
+   "number": "Appendix",
+   "title": "Appendix",
+   "subsections": []
+  }
+ ],
+ "statements": [
+  {
+   "kind": "Theorem",
+   "number": 1,
+   "name": "the circle",
+   "section": "II",
+   "module": "cc_sec2_saturated_unit"
+  },
+  {
+   "kind": "Proposition",
+   "number": 1,
+   "name": "the cap's balances",
+   "section": "II",
+   "module": "cc_sec2_saturated_unit"
+  },
+  {
+   "kind": "Theorem",
+   "number": 2,
+   "name": "the loop with its clamp",
+   "section": "III",
+   "module": "cc_sec3_compass"
+  },
+  {
+   "kind": "Theorem",
+   "number": 3,
+   "name": "a turning network",
+   "section": "III",
+   "module": "cc_sec3_compass"
+  }
+ ],
+ "references": [
+  "Y. Zhang, C. Zhang, R. Yang, M. Molinas, and X. Cai, \"Current-constrained power-angle characterization method for transient stability analysis of grid-forming voltage source converters,\" IEEE Trans. Energy Convers., vol. 38, no. 2, pp. 1338-1349, Jun. 2023.",
+  "N. Baeckeland, B. Yang, and G.-S. Seo, \"Unified model of current-limiting grid-forming inverters for large-signal analysis,\" IEEE Trans. Power Syst., vol. 41, no. 1, pp. 198-213, Jan. 2026.",
+  "B. Fan and X. Wang, \"Equivalent circuit model of grid-forming converters with circular current limiter for transient stability analysis,\" IEEE Trans. Power Syst., vol. 37, no. 4, pp. 3141-3144, Jul. 2022.",
+  "A. Arjomandi-Nezhad, Y. Guo, B. C. Pal, and G. Yang, \"Modeling fault recovery and transient stability of grid-forming converters equipped with current reference limitation,\" IEEE Trans. Energy Convers., vol. 40, no. 2, pp. 1140-1152, Jun. 2025.",
+  "Y. Li, Y. Lu, J. Yang, J. Liu, T. Mu, H. Ye, and Z. Du, \"Synchronization stability of multiple VSGs embedded power system with controller limits,\" IEEE Trans. Power Syst., vol. 40, no. 1, pp. 834-849, Jan. 2025.",
+  "W. Lin, R. Preece, and P. N. Papadopoulos, \"Analytical prediction of equilibrium existence in current-limited grid-forming inverters,\" arXiv:2608.04740v3, Oct. 2026.",
+  "X. Lyu, W. Du, S. M. Mohiuddin, and Y. Cheng, \"Critical clearing time for droop-controlled grid-forming inverters with circular current limiting and virtual impedance current limiting,\" IEEE Trans. Power Syst., vol. 40, no. 2, pp. 1997-2000, Mar. 2025.",
+  "A. H. Poursaeed, F. Namdari, S. Shen, and P. A. Crossley, \"Current-limited grid-forming converter clusters in inverter-dominated grids: A transient stability margin framework,\" IEEE Trans. Ind. Appl., early access, Oct. 1, 2026, doi: 10.1109/TIA.2026.3738689.",
+  "K. V. Kkuni and G. Yang, \"Effects of current limit for grid forming converters on transient stability: Analysis and solution,\" Int. J. Elect. Power Energy Syst., vol. 158, Art. no. 109919, Jul. 2024.",
+  "M. Gao, Y. Chen, C. Luo, Z. Xie, Z. Wang, and Z. Lian, \"Fault ride-through strategy for grid-forming converters satisfying multi-objective constraints,\" IEEE Trans. Sustain. Energy, vol. 17, no. 1, pp. 101-115, Jan. 2026.",
+  "M. G. Taul, X. Wang, P. Davari, and F. Blaabjerg, \"Current limiting control with enhanced dynamics of grid-forming converters during fault conditions,\" IEEE J. Emerg. Sel. Topics Power Electron., vol. 8, no. 2, pp. 1062-1073, Jun. 2020.",
+  "N. Sajeev, S. A. Obi, and J.-J. Jung, \"Structural decoupling and current-angle steering for post-fault recovery of current-limited grid-forming inverters,\" arXiv:2607.09058v1, Jul. 2026.",
+  "H. Deng, Y. Qi, J. Fang, Y. Tang, and V. Debusschere, \"A robust low-voltage-ride-through strategy for grid-forming converters based on reactive power synchronization,\" IEEE Trans. Power Electron., vol. 38, no. 1, pp. 346-357, Jan. 2023.",
+  "X. He, M. A. Desai, L. Huang, and F. D\u00f6rfler, \"Cross-forming control and fault current limiting for grid-forming inverters,\" IEEE Trans. Power Electron., vol. 40, no. 3, pp. 3980-4007, Mar. 2025.",
+  "J. Yang, H. Ye, Q. Mou, X. He, Y. Liu, and H. Geng, \"A saturated cross-forming control for stability enhancement of grid-forming inverters during grid fault recovery,\" IEEE Trans. Power Electron., vol. 41, no. 10, pp. 18069-18082, Oct. 2026.",
+  "E. Rokrok, T. Qoria, A. Bruyere, B. Francois, and X. Guillaud, \"Transient stability assessment and enhancement of grid-forming converters embedding current reference saturation as current limiting strategy,\" IEEE Trans. Power Syst., vol. 37, no. 2, pp. 1519-1531, Mar. 2022.",
+  "J. Yang, H. Ye, Y. Wang, Y. Liu, Y. Li, and Z. Du, \"Mechanism and methods for fault recovery of grid-forming inverter by graphical illustration,\" IEEE Trans. Power Syst., vol. 40, no. 2, pp. 1973-1976, Mar. 2025.",
+  "L. Wei, J. Yang, H. Ye, Y. Chi, and Q. Mou, \"Power angle switching control for fault recovery of grid-connected grid-forming inverters,\" Smart Power & Energy Security, to be published, doi: 10.1016/j.spes.2026.07.001.",
+  "H. Li, T. Mu, Y. Zhang, D. Wu, Y. Li, and Z. Du, \"Transient stability enhancement of a PMSG-based system by saturated current angle control,\" Appl. Sci., vol. 15, no. 20, Art. no. 10861, Oct. 2025.",
+  "J. Liu, Z. Tu, X. Zhang, Z. Shao, J. Li, and Y. Li, \"An enhanced transient stability strategy for grid-forming converters through rotational saturation current angle control,\" in Proc. IEEE 8th Int. Elect. Energy Conf. (CIEEC), May 2025, pp. 1859-1864.",
+  "S. K. Timalsina, Z. Zhang, and N. Zhou, \"Adaptive current angle control for enhancing transient stability of single-loop grid-forming inverters,\" in Proc. IEEE/CCAE Symp. Adv. Electrific. Syst. (SAES), Sep. 2026, pp. 1-8.",
+  "A. Pal, D. Pal, and B. K. Panigrahi, \"A current saturation strategy for enhancing the low voltage ride-through capability of grid-forming inverters,\" IEEE Trans. Circuits Syst. II, Exp. Briefs, vol. 70, no. 3, pp. 1009-1013, Mar. 2023.",
+  "M. A. Desai, R. Stoll, X. He, F. D\u00f6rfler, and G. Hug, \"Comparison of current-limiting strategies for grid-forming converters under grid faults,\" in Proc. IEEE Kiel PowerTech, Jun. 2025, pp. 1-6.",
+  "R. E. \u00c1vila-Mart\u00ednez, L. Rouco, J. Renedo, L. Sigrist, and A. Garcia-Cerrada, \"Active-power control strategies in grid-forming power converters to improve transient stability in power systems with 100% converter-based generation,\" Electr. Power Syst. Res., vol. 262, Art. no. 113629, Jan. 2027.",
+  "A. H. Poursaeed, \"current-compass-ieee39,\" GitHub repository, 2026. [Online]. Available: https://github.com/AH-Poursaeed/current-compass-ieee39.",
+  "X. Wang and X. Chen, \"Distributed coordination of grid-forming and grid-following inverters for optimal frequency control in power systems,\" IEEE Trans. Power Syst., vol. 41, no. 5, pp. 3831-3846, Sep. 2026.",
+  "National Grid ESO, \"GC0137: Minimum specification required for provision of GB grid forming (GBGF) capability (formerly virtual synchronous machine/VSM capability),\" National Grid ESO, Final Modification Rep., Nov. 11, 2021."
+ ],
+ "source": "the paper's own sources at its build: the figures and tables of each section"
+}

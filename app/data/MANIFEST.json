@@ -1,0 +1,175 @@
+{
+ "schema": "cca-manifest/1",
+ "record": {
+  "round": 19,
+  "date": "2026-11-23",
+  "files": [
+   {
+    "file": "app/data/record/released_record.json",
+    "bytes": 1089243,
+    "sha256": "b9fcdd25cbb5363cd54ea8945af403e2b375cb711a835b38d511ece6928df344"
+   }
+  ],
+  "sha256_8": "b9fcdd25",
+  "group": "s60r.v6.r20",
+  "group_state": "FINAL",
+  "generated_utc": "2026-11-23 19:57 UTC"
+ },
+ "rule": {
+  "max_duration_ms": 5000,
+  "src": "s60r.v6.r15.sets.c101.max_duration_ms"
+ },
+ "files": [
+  {
+   "file": "app_grid.json",
+   "bytes": 123447,
+   "sha256": "8c8f90fef5a53d505de4bc996b99289f96dd698c61571cc70dc9518c41f653b9",
+   "from": "regenerated from the released record: every outcome a leaf of the record, read from the simulation records by the readers in src/frt/readers"
+  },
+  {
+   "file": "app_laws.json",
+   "bytes": 4365,
+   "sha256": "cdc4b5643c763059616ecaea7529922ebd03af51c2c8a9701f70840495a490bc",
+   "from": "regenerated from the released record and the inputs file (Table II's laws and settings, Table III's rows, the names and colours: data/record/inputs.json)"
+  },
+  {
+   "file": "app_numbers.json",
+   "bytes": 26791,
+   "sha256": "09a1358060c83b472c9ddbdef36a3986da61cbf16a00d2971fa52a3375926244",
+   "from": "regenerated from the released record (data/record/released_record.json)"
+  },
+  {
+   "file": "app_paper.json",
+   "bytes": 29747,
+   "sha256": "cd81f1bc2317f0c0657cc7860a6eb8b27b16319d5a4392100bf98444eb84de8f",
+   "from": "shipped as data: the paper's own texts (headings, captions, table titles, cells and notes, references) and its figure files' sha256"
+  },
+  {
+   "file": "app_printed.json",
+   "bytes": 98383,
+   "sha256": "22b25ac67b3a944daeab012453af403d17ea73107f77e5eac6667995e0e0c246",
+   "from": "regenerated from the released record's printed leaves (every printed number of the paper)"
+  },
+  {
+   "file": "app_runs.json",
+   "bytes": 2734524,
+   "sha256": "9664602b5a296b0a18847ddeb3d792ba7c2e11103ee0ba0cf7b973a07bfe751f",
+   "from": "regenerated from the campaign table of the paper's runs (artifacts/campaign), the released record and the runs' outcomes (data/record/run_outcomes.json): every run of the paper with its outcome where the record holds it"
+  },
+  {
+   "file": "app_text.json",
+   "bytes": 5446,
+   "sha256": "bb1948e0f3caaad89c9f3db29fa642e5f8622176bc9691a27538b49ca277d57e",
+   "from": "shipped as data: CITATION.cff, LICENSE, the notices and the paper's authors block"
+  },
+  {
+   "file": "record/inputs.json",
+   "bytes": 13464,
+   "sha256": "a11156686472c81c9bd645a39a4207a2f0222a4825b48039e95b86b194d08d02",
+   "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
+  },
+  {
+   "file": "record/released_paths.txt",
+   "bytes": 55782,
+   "sha256": "9f0e44282644874a7b4e6e602432236610eefe253d7721a3916cdbbc1584bc92",
+   "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
+  },
+  {
+   "file": "record/released_record.json",
+   "bytes": 1089243,
+   "sha256": "b9fcdd25cbb5363cd54ea8945af403e2b375cb711a835b38d511ece6928df344",
+   "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
+  },
+  {
+   "file": "record/run_outcomes.json",
+   "bytes": 114791,
+   "sha256": "a2a6ffadd549d35c6fc9a82374f3fede9332ba00088ba3caf68c5b5318fbd2eb",
+   "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
+  },
+  {
+   "file": "runs/index.json",
+   "bytes": 1769,
+   "sha256": "976cc7b0b8b8c34b1d03ce170eaa7cd7d661a1ebb9c7a2348af94b58711a3790",
+   "from": "regenerated from the released inputs' trace list and the shipped run files' bytes"
+  },
+  {
+   "file": "runs/LRFk39_1000_10TF.json",
+   "bytes": 202437,
+   "sha256": "000fd9708c989d31b4605eabb54db823fb11d9ed65a6b60d940b5042b4a001a6",
+   "from": "shipped: Fig. 7's traces, the series its panels draw for each drawn row (bus 39, unit 10), under the run's tag"
+  },
+  {
+   "file": "runs/LRFn39_1000_10TF.json",
+   "bytes": 203176,
+   "sha256": "036a15c5ebac0e5a6328034327ae360e81231bcd09eaa044aca7ccca9d838619",
+   "from": "shipped: Fig. 7's traces, the series its panels draw for each drawn row (bus 39, unit 10), under the run's tag"
+  },
+  {
+   "file": "runs/LRFv39_1000_10TF.json",
+   "bytes": 242778,
+   "sha256": "145592445ce311b8a8a8fab39901e264ce300414d4eb2d95f86241659152a21a",
+   "from": "shipped: Fig. 7's traces, the series its panels draw for each drawn row (bus 39, unit 10), under the run's tag"
+  },
+  {
+   "file": "runs/LROl51r39_1000_10TF.json",
+   "bytes": 201328,
+   "sha256": "63841b70c1f7e888ffd2ef9fda1da17583a644b9cdbbe2b553735a1fb362fa58",
+   "from": "shipped: Fig. 7's traces, the series its panels draw for each drawn row (bus 39, unit 10), under the run's tag"
+  },
+  {
+   "file": "runs/LROl99r39_1000_10TF.json",
+   "bytes": 203116,
+   "sha256": "01d355ea5a190a8d9bdd6b37e825d194197f0574d21d1763a4c0f842a6232264",
+   "from": "shipped: Fig. 7's traces, the series its panels draw for each drawn row (bus 39, unit 10), under the run's tag"
+  },
+  {
+   "file": "runs/LROor39_1000_10TF.json",
+   "bytes": 201268,
+   "sha256": "ef8e5634227fa0ecbd527a7f72dcb76f58d0553e8434e0385c4be00bca33ac98",
+   "from": "shipped: Fig. 7's traces, the series its panels draw for each drawn row (bus 39, unit 10), under the run's tag"
+  },
+  {
+   "file": "runs/LROyr39_1000_10TF.json",
+   "bytes": 203765,
+   "sha256": "9f13e3baed2634223fbac758161f57ce3f2e0d4c574e372313669ef7210d0a59",
+   "from": "shipped: Fig. 7's traces, the series its panels draw for each drawn row (bus 39, unit 10), under the run's tag"
+  }
+ ],
+ "assets": [
+  {
+   "file": "assets/figs/cc_fig1_unit.png",
+   "bytes": 263634,
+   "sha256": "7f35f870d56e9a3202c727d648ce536574b123995dc1edb008a6ac96b232c955"
+  },
+  {
+   "file": "assets/figs/cc_fig2_circle.png",
+   "bytes": 237731,
+   "sha256": "a15ec2ef84ce2c3f9df259c0cdfacc5d7412f06eb8a38029cb5d84617c8d1eca"
+  },
+  {
+   "file": "assets/figs/cc_fig_compare.png",
+   "bytes": 732998,
+   "sha256": "b0ee19d80c600e3969f1f51339057e3c33f311e3a31a38cdb75eaef1e483080a"
+  },
+  {
+   "file": "assets/figs/cc_fig_concept.png",
+   "bytes": 209531,
+   "sha256": "76a72017122c4a6227363863309f005629cf90bf644ea29edf363d15a81bbcdb"
+  },
+  {
+   "file": "assets/figs/cc_fig_decisive.png",
+   "bytes": 378155,
+   "sha256": "97eae80a830d22c6fe2b5907a35a19e65cbd2f17582d3f946a59f3a3b4f7d5e2"
+  },
+  {
+   "file": "assets/figs/cc_fig_flow.png",
+   "bytes": 150310,
+   "sha256": "be0ac1e26948c95f0013567bed80c819165b65717cae399ef5beedc80a3fb612"
+  },
+  {
+   "file": "assets/figs/cc_fig_oneline.png",
+   "bytes": 230822,
+   "sha256": "5010e45f8f53e4ce255971baf63dd72d08e2aedc4bc0ac9ebd368643c0a1749e"
+  }
+ ]
+}

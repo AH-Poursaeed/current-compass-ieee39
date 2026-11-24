@@ -1,0 +1,1477 @@
+{
+ "schema": "cca-numbers/1",
+ "record": {
+  "round": 19,
+  "date": "2026-11-23",
+  "files": [
+   {
+    "file": "app/data/record/released_record.json",
+    "bytes": 1089243,
+    "sha256": "b9fcdd25cbb5363cd54ea8945af403e2b375cb711a835b38d511ece6928df344"
+   }
+  ],
+  "sha256_8": "b9fcdd25",
+  "group": "s60r.v6.r20",
+  "group_state": "FINAL"
+ },
+ "leaves": [
+  {
+   "path": "s60r._stamp.round",
+   "value": 19
+  },
+  {
+   "path": "s60r._stamp.date",
+   "value": "2026-11-23"
+  },
+  {
+   "path": "s60r.v6.p_rt.rows.v.median_s",
+   "value": 0.3054
+  },
+  {
+   "path": "s60r.v6.p_pairs.v_k.D_PF.S3.median",
+   "value": 279.85
+  },
+  {
+   "path": "s60r.v6.p_pairs.v_k.verdicts.S3.both_return",
+   "value": 34
+  },
+  {
+   "path": "s60r.v6.r15.sets.c101.max_duration_ms",
+   "value": 5000
+  },
+  {
+   "path": "s60r.v6.r15.sets.c101.n_keys",
+   "value": 101
+  },
+  {
+   "path": "s60r.v6.r15.sets.c101.n_short",
+   "value": 66
+  },
+  {
+   "path": "s60r.v6.r15.sets.c101.n_long",
+   "value": 35
+  },
+  {
+   "path": "s60r.v6.r15.sets.c101.long_range_print",
+   "value": "2 to 5"
+  },
+  {
+   "path": "s60r.v6.r15.c101.v.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r15.c101.v.long_lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r15.sets.lad26.n",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r15.sets.lad26.print",
+   "value": "26 faults of 4 and 5 s"
+  },
+  {
+   "path": "s60r.v6.r15.sets.s18.n_keys",
+   "value": 18
+  },
+  {
+   "path": "s60r.v6.r15.lim.limits_print",
+   "value": "1.1, 1.15, 1.2 and 1.4"
+  },
+  {
+   "path": "s60r.v6.r15.lim.cap_rule",
+   "value": "c = 1/Im at every limit (the cap at the unit's rating: c Im = 1 pu)"
+  },
+  {
+   "path": "s60r.v6.r15.pooled.tests.T-S4.rows_v",
+   "value": 109
+  },
+  {
+   "path": "s60r.v6.r15.pooled.tests.T-S4.samples_v",
+   "value": 2652894
+  },
+  {
+   "path": "s60r.v6.r15.pooled.tests.T-S4.violations",
+   "value": 0
+  },
+  {
+   "path": "chain.census.form.compared_laws",
+   "value": [
+    "h",
+    "y",
+    "d",
+    "q",
+    "k",
+    "o",
+    "l10",
+    "l20",
+    "l63",
+    "l94",
+    "l51",
+    "l98",
+    "l99"
+   ]
+  },
+  {
+   "path": "system.n_bus",
+   "value": 39
+  },
+  {
+   "path": "system.n_unit",
+   "value": 10
+  },
+  {
+   "path": "system.n_gfl",
+   "value": 6
+  },
+  {
+   "path": "system.n_gfm",
+   "value": 4
+  },
+  {
+   "path": "system.load_MW",
+   "value": 6254.23
+  },
+  {
+   "path": "system.Vbase_kV",
+   "value": 345
+  },
+  {
+   "path": "system.Sbase_MVA",
+   "value": 100
+  },
+  {
+   "path": "system.Fref",
+   "value": 60
+  },
+  {
+   "path": "system.iLimPu",
+   "value": 1.25
+  },
+  {
+   "path": "system.loadScale_second_point",
+   "value": 0.9
+  },
+  {
+   "path": "s60r.v6.t_par.gfm_control.law_v_options.value",
+   "value": "frtLim qrot, frtQfloor 0.5, frtPShape 0.8, frtRelCv 3, frtRelTf 0.005, frtRelTb 1000, frtRelTau 0.01, qGain 20 (default)"
+  },
+  {
+   "path": "s60r.v6.t_par.gfm_control.cap_formula.value",
+   "value": "pe = min(P*, c 1.5 hypot(vd,vq) Imax), c = 0.8, unfiltered, each controller step"
+  },
+  {
+   "path": "s60r.v6.t_par.gfm_control.iLimPu.value",
+   "value": 1.25
+  },
+  {
+   "path": "s60r.v6.r16.sets.c101_fault_buses_n",
+   "value": 13
+  },
+  {
+   "path": "s60r.v6.r16.sets.r1.n",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.sets.r1.print",
+   "value": "39 SLG faults of 1, 2 and 5 s"
+  },
+  {
+   "path": "s60r.v6.r16.sets.r1.fault_print",
+   "value": "phase a to ground through 0.01 pu at base load in the base network"
+  },
+  {
+   "path": "s60r.v6.r16.sets.r3.n",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.sets.r3.print",
+   "value": "26 faults of 4 and 5 s"
+  },
+  {
+   "path": "s60r.v6.r16.sets.r2.n",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.sets.r2.print",
+   "value": "6 load steps without a fault"
+  },
+  {
+   "path": "s60r.v6.r16.r4.print",
+   "value": "101 of the 101"
+  },
+  {
+   "path": "s60r.v6.r16.r4.both_settings_return_on_all_101",
+   "value": true
+  },
+  {
+   "path": "s60r.v6.r16.r4.published.code",
+   "value": "d"
+  },
+  {
+   "path": "s60r.v6.r16.r4.published.law_losses_on_101",
+   "value": 42
+  },
+  {
+   "path": "s60r.v6.r16.r4.published.explained",
+   "value": 42
+  },
+  {
+   "path": "s60r.v6.r16.r4.published.of",
+   "value": 101
+  },
+  {
+   "path": "s60r.v6.r16.r4.published.granted_returns",
+   "value": 101
+  },
+  {
+   "path": "s60r.v6.r16.r4.selected.code",
+   "value": "q"
+  },
+  {
+   "path": "s60r.v6.r16.r4.selected.law_losses_on_101",
+   "value": 32
+  },
+  {
+   "path": "s60r.v6.r16.r4.selected.explained",
+   "value": 32
+  },
+  {
+   "path": "s60r.v6.r16.r4.selected.of",
+   "value": 101
+  },
+  {
+   "path": "s60r.v6.r16.r4.selected.granted_returns",
+   "value": 101
+  },
+  {
+   "path": "s60r.v6.r16.r1.v.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.v.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.v.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.u1.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.u1.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.u1.returned_limiter_engaged",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.f.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.f.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.f.returned_limiter_engaged",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.z.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.z.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.z.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.c.lost",
+   "value": 3
+  },
+  {
+   "path": "s60r.v6.r16.r1.c.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.c.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.e.lost",
+   "value": 13
+  },
+  {
+   "path": "s60r.v6.r16.r1.e.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.e.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.n.lost",
+   "value": 30
+  },
+  {
+   "path": "s60r.v6.r16.r1.n.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.n.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.k.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r1.k.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r16.r1.k.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.v.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.v.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.r3.v.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.u1.lost",
+   "value": 1
+  },
+  {
+   "path": "s60r.v6.r16.r3.u1.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.r3.u1.returned_limiter_engaged",
+   "value": 25
+  },
+  {
+   "path": "s60r.v6.r16.r3.f.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.f.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.r3.f.returned_limiter_engaged",
+   "value": 25
+  },
+  {
+   "path": "s60r.v6.r16.r3.z.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.z.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.r3.z.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.c.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.c.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.r3.c.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.e.lost",
+   "value": 22
+  },
+  {
+   "path": "s60r.v6.r16.r3.e.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.r3.e.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.n.lost",
+   "value": 24
+  },
+  {
+   "path": "s60r.v6.r16.r3.n.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.r3.n.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r3.k.lost",
+   "value": 12
+  },
+  {
+   "path": "s60r.v6.r16.r3.k.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r16.r3.k.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.v.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.v.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.v.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.v.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.u1.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.u1.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.u1.returned_limiter_engaged",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.u1.engaged_print",
+   "value": "6 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.f.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.f.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.f.returned_limiter_engaged",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.f.engaged_print",
+   "value": "6 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.z.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.z.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.z.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.z.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.c.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.c.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.c.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.c.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.e.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.e.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.e.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.e.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.n.lost",
+   "value": 3
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.n.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.n.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.n.engaged_print",
+   "value": "0 of 3"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.k.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.k.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.k.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.k.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.o.lost",
+   "value": 3
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.o.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.o.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.o.engaged_print",
+   "value": "0 of 3"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.d.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.d.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.d.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.d.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.q.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.q.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.q.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.q.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.y.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.y.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.y.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.y.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l63.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l63.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l63.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l63.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l94.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l94.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l94.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l94.engaged_print",
+   "value": "0 of 6"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l10.lost",
+   "value": 4
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l10.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l10.returned_limiter_engaged",
+   "value": 2
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l10.engaged_print",
+   "value": "2 of 2"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l20.lost",
+   "value": 4
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l20.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l20.returned_limiter_engaged",
+   "value": 2
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l20.engaged_print",
+   "value": "2 of 2"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l51.lost",
+   "value": 1
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l51.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l51.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l51.engaged_print",
+   "value": "0 of 5"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l99.lost",
+   "value": 3
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l99.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l99.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l99.engaged_print",
+   "value": "0 of 3"
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l98.lost",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l98.of",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l98.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r16.r2.per_code.l98.engaged_print",
+   "value": "0 of 1"
+  },
+  {
+   "path": "s60r.v6.r17.ran.all_three_groups_ran_by_the_law_its_parts_and_the_twelve",
+   "value": true
+  },
+  {
+   "path": "s60r.v6.r17.q1.twelve.none_codes",
+   "value": [
+    "k",
+    "d",
+    "q"
+   ]
+  },
+  {
+   "path": "s60r.v6.r17.q1.twelve.others_codes",
+   "value": [
+    "y",
+    "o",
+    "l10",
+    "l20",
+    "l63",
+    "l94",
+    "l51",
+    "l99",
+    "l98"
+   ]
+  },
+  {
+   "path": "s60r.v6.r17.q1.twelve.others_range_print",
+   "value": "10 to 36"
+  },
+  {
+   "path": "s60r.v6.r17.q2.twelve.k_lost",
+   "value": 12
+  },
+  {
+   "path": "s60r.v6.r17.q2.twelve.eleven_others.codes",
+   "value": [
+    "y",
+    "d",
+    "q",
+    "o",
+    "l10",
+    "l20",
+    "l63",
+    "l94",
+    "l51",
+    "l99",
+    "l98"
+   ]
+  },
+  {
+   "path": "s60r.v6.r17.q2.twelve.eleven_others.range_print",
+   "value": "14 to 26"
+  },
+  {
+   "path": "s60r.v6.r16.r1.c.buses_lost",
+   "value": [
+    37
+   ]
+  },
+  {
+   "path": "s60r.v6.r17.vf.passed_at_all_three",
+   "value": true
+  },
+  {
+   "path": "s60r.v6.r17.vf.buses",
+   "value": [
+    23,
+    25,
+    29
+   ]
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.23.passed",
+   "value": true
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.23.cap_longest_bind_print_3",
+   "value": "0.050"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.23.df_max_print_3",
+   "value": "0.027"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.23.law_T_RET_s",
+   "value": "0.1962"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.23.limiter_alone_T_RET_s",
+   "value": "0.1962"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.25.passed",
+   "value": true
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.25.cap_longest_bind_print_3",
+   "value": "0.017"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.25.df_max_print_3",
+   "value": "0.022"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.25.law_T_RET_s",
+   "value": "0.1780"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.25.limiter_alone_T_RET_s",
+   "value": "0.1780"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.29.passed",
+   "value": true
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.29.cap_longest_bind_print_3",
+   "value": "0.067"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.29.df_max_print_3",
+   "value": "0.100"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.29.law_T_RET_s",
+   "value": "0.3076"
+  },
+  {
+   "path": "s60r.v6.r17.vf.per_bus.29.limiter_alone_T_RET_s",
+   "value": "0.3076"
+  },
+  {
+   "path": "s60r.v6.r17.q1.y.lost",
+   "value": 13
+  },
+  {
+   "path": "s60r.v6.r17.q1.y.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.y.returned",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q1.y.returned_at_rest",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q1.y.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.d.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.d.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.d.returned",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.d.returned_at_rest",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.d.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.q.lost",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.q.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.q.returned",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.q.returned_at_rest",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.q.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.o.lost",
+   "value": 18
+  },
+  {
+   "path": "s60r.v6.r17.q1.o.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.o.returned",
+   "value": 21
+  },
+  {
+   "path": "s60r.v6.r17.q1.o.returned_at_rest",
+   "value": 21
+  },
+  {
+   "path": "s60r.v6.r17.q1.o.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.l10.lost",
+   "value": 34
+  },
+  {
+   "path": "s60r.v6.r17.q1.l10.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.l10.returned",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.q1.l10.returned_at_rest",
+   "value": 4
+  },
+  {
+   "path": "s60r.v6.r17.q1.l10.returned_limiter_engaged",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.q1.l20.lost",
+   "value": 34
+  },
+  {
+   "path": "s60r.v6.r17.q1.l20.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.l20.returned",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.q1.l20.returned_at_rest",
+   "value": 4
+  },
+  {
+   "path": "s60r.v6.r17.q1.l20.returned_limiter_engaged",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.q1.l63.lost",
+   "value": 10
+  },
+  {
+   "path": "s60r.v6.r17.q1.l63.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.l63.returned",
+   "value": 29
+  },
+  {
+   "path": "s60r.v6.r17.q1.l63.returned_at_rest",
+   "value": 29
+  },
+  {
+   "path": "s60r.v6.r17.q1.l63.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.l94.lost",
+   "value": 12
+  },
+  {
+   "path": "s60r.v6.r17.q1.l94.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.l94.returned",
+   "value": 27
+  },
+  {
+   "path": "s60r.v6.r17.q1.l94.returned_at_rest",
+   "value": 27
+  },
+  {
+   "path": "s60r.v6.r17.q1.l94.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.l51.lost",
+   "value": 11
+  },
+  {
+   "path": "s60r.v6.r17.q1.l51.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.l51.returned",
+   "value": 28
+  },
+  {
+   "path": "s60r.v6.r17.q1.l51.returned_at_rest",
+   "value": 13
+  },
+  {
+   "path": "s60r.v6.r17.q1.l51.returned_limiter_engaged",
+   "value": 15
+  },
+  {
+   "path": "s60r.v6.r17.q1.l99.lost",
+   "value": 29
+  },
+  {
+   "path": "s60r.v6.r17.q1.l99.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.l99.returned",
+   "value": 10
+  },
+  {
+   "path": "s60r.v6.r17.q1.l99.returned_at_rest",
+   "value": 10
+  },
+  {
+   "path": "s60r.v6.r17.q1.l99.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q1.l98.lost",
+   "value": 36
+  },
+  {
+   "path": "s60r.v6.r17.q1.l98.of",
+   "value": 39
+  },
+  {
+   "path": "s60r.v6.r17.q1.l98.returned",
+   "value": 3
+  },
+  {
+   "path": "s60r.v6.r17.q1.l98.returned_at_rest",
+   "value": 3
+  },
+  {
+   "path": "s60r.v6.r17.q1.l98.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.y.lost",
+   "value": 21
+  },
+  {
+   "path": "s60r.v6.r17.q2.y.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.y.returned",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.q2.y.returned_at_rest",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.q2.y.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.d.lost",
+   "value": 14
+  },
+  {
+   "path": "s60r.v6.r17.q2.d.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.d.returned",
+   "value": 12
+  },
+  {
+   "path": "s60r.v6.r17.q2.d.returned_at_rest",
+   "value": 12
+  },
+  {
+   "path": "s60r.v6.r17.q2.d.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.q.lost",
+   "value": 16
+  },
+  {
+   "path": "s60r.v6.r17.q2.q.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.q.returned",
+   "value": 10
+  },
+  {
+   "path": "s60r.v6.r17.q2.q.returned_at_rest",
+   "value": 10
+  },
+  {
+   "path": "s60r.v6.r17.q2.q.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.o.lost",
+   "value": 25
+  },
+  {
+   "path": "s60r.v6.r17.q2.o.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.o.returned",
+   "value": 1
+  },
+  {
+   "path": "s60r.v6.r17.q2.o.returned_at_rest",
+   "value": 1
+  },
+  {
+   "path": "s60r.v6.r17.q2.o.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l10.lost",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l10.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l10.returned",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l10.returned_at_rest",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l10.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l20.lost",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l20.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l20.returned",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l20.returned_at_rest",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l20.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l63.lost",
+   "value": 20
+  },
+  {
+   "path": "s60r.v6.r17.q2.l63.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l63.returned",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r17.q2.l63.returned_at_rest",
+   "value": 6
+  },
+  {
+   "path": "s60r.v6.r17.q2.l63.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l94.lost",
+   "value": 21
+  },
+  {
+   "path": "s60r.v6.r17.q2.l94.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l94.returned",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.q2.l94.returned_at_rest",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.q2.l94.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l51.lost",
+   "value": 24
+  },
+  {
+   "path": "s60r.v6.r17.q2.l51.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l51.returned",
+   "value": 2
+  },
+  {
+   "path": "s60r.v6.r17.q2.l51.returned_at_rest",
+   "value": 2
+  },
+  {
+   "path": "s60r.v6.r17.q2.l51.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l99.lost",
+   "value": 24
+  },
+  {
+   "path": "s60r.v6.r17.q2.l99.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l99.returned",
+   "value": 2
+  },
+  {
+   "path": "s60r.v6.r17.q2.l99.returned_at_rest",
+   "value": 2
+  },
+  {
+   "path": "s60r.v6.r17.q2.l99.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l98.lost",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l98.of",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.r17.q2.l98.returned",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l98.returned_at_rest",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.r17.q2.l98.returned_limiter_engaged",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.p_path.fault_resistance.base_pu",
+   "value": 0.01
+  },
+  {
+   "path": "s60r.v6.p_path.fault_resistance.low_pu",
+   "value": 0.001
+  },
+  {
+   "path": "s60r.v6.r17.d1.n",
+   "value": 5
+  },
+  {
+   "path": "s60r.v6.r17.d1.n_word",
+   "value": "five"
+  },
+  {
+   "path": "s60r.v6.r17.d1.n_word_cap",
+   "value": "Five"
+  },
+  {
+   "path": "s60r.v6.r17.d1.circular_limiter_alone_on_all",
+   "value": true
+  },
+  {
+   "path": "s60r.v6.r17.d1.keys_read.all",
+   "value": 143
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.v",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.u1",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.f",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.z",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.c",
+   "value": 0
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.e",
+   "value": 20
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.n",
+   "value": 54
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.k",
+   "value": 20
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.o",
+   "value": 27
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.d",
+   "value": 26
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.q",
+   "value": 19
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.y",
+   "value": 25
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.l63",
+   "value": 28
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.l94",
+   "value": 23
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.l10",
+   "value": 75
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.l20",
+   "value": 75
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.l51",
+   "value": 28
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.l99",
+   "value": 51
+  },
+  {
+   "path": "s60r.v6.p_nr.A2.lost_of_78_by_setting.l98",
+   "value": 77
+  },
+  {
+   "path": "s60r.v6.r15.pooled.tests.T-S1.n",
+   "value": 4865925
+  },
+  {
+   "path": "s60r.v6.r15.pooled.tests.T-S1.median",
+   "value": 0.003166542388498783
+  }
+ ],
+ "series": {},
+ "constants": {
+  "c": {
+   "value": 0.8,
+   "option": "frtPShape",
+   "src": "s60r.v6.t_par.gfm_control.law_v_options.value"
+  },
+  "Q_f": {
+   "value": 0.5,
+   "option": "frtQfloor",
+   "src": "s60r.v6.t_par.gfm_control.law_v_options.value"
+  },
+  "release_ratio": {
+   "value": 3.0,
+   "option": "frtRelCv",
+   "src": "s60r.v6.t_par.gfm_control.law_v_options.value"
+  },
+  "T_f": {
+   "value": 0.005,
+   "option": "frtRelTf",
+   "src": "s60r.v6.t_par.gfm_control.law_v_options.value"
+  },
+  "tau_r": {
+   "value": 0.01,
+   "option": "frtRelTau",
+   "src": "s60r.v6.t_par.gfm_control.law_v_options.value"
+  },
+  "k_q": {
+   "value": 20.0,
+   "option": "qGain",
+   "src": "s60r.v6.t_par.gfm_control.law_v_options.value"
+  },
+  "timer_s": {
+   "value": 1000.0,
+   "option": "frtRelTb",
+   "src": "s60r.v6.t_par.gfm_control.law_v_options.value"
+  },
+  "I_m": {
+   "value": 1.25,
+   "option": "iLimPu",
+   "src": "s60r.v6.t_par.gfm_control.iLimPu.value"
+  },
+  "cap_rule": {
+   "value": 1.0,
+   "option": "c = 1/Im",
+   "src": "derived: the product of s60r.v6.t_par.gfm_control.law_v_options.value (frtPShape) and s60r.v6.t_par.gfm_control.iLimPu.value, asserted equal to 1"
+  }
+ }
+}

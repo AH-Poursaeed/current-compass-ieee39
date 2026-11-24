@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository, please cite the accompanying manuscript
+  (preferred citation below) and the platform authors' paper it builds
+  on (Wang and Chen, IEEE Trans. Power Systems, 2026,
+  doi:10.1109/TPWRS.2026.3684791).
+title: >-
+  Current Compass: A Local Control Law for Synchronization Stability
+  of Grid-Forming Converters at the Current Limit
+  (reproduction repository)
+type: software
+authors:
+  - family-names: Poursaeed
+    given-names: Amir Hossein
+    affiliation: University of Exeter
+  - family-names: Namdari
+    given-names: Farhad
+    affiliation: University of Exeter
+  - family-names: Shen
+    given-names: Shuhang
+    affiliation: University of Exeter
+  - family-names: Crossley
+    given-names: Peter A.
+    affiliation: University of Manchester
+license: MIT
+repository-code: "https://github.com/AH-Poursaeed/current-compass-ieee39"
+preferred-citation:
+  type: article
+  title: >-
+    Current Compass: A Local Control Law for Synchronization Stability
+    of Grid-Forming Converters at the Current Limit
+  authors:
+    - family-names: Poursaeed
+      given-names: Amir Hossein
+    - family-names: Namdari
+      given-names: Farhad
+    - family-names: Shen
+      given-names: Shuhang
+    - family-names: Crossley
+      given-names: Peter A.
+  journal: IEEE Transactions on Power Systems
+  year: 2026
+  status: submitted

@@ -1,0 +1,5 @@
+# The Python packages outside the standard library that the released Python files import.
+# Versions as installed on the authors' computer.
+#     python -m pip install -r requirements.txt
+h5py==3.16.0
+numpy==2.3.5

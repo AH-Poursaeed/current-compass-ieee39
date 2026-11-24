@@ -1,0 +1,82 @@
+level1_network_overlay - the bus numbers on the display copy of level1_network.png, from the coordinate master of the one-line diagram
+bus  1  master x   57.50..  77.00 y  97.50  print x  402.. 690 y  896.. 918  ends  -37.7 /  +55.3 px, centre  +0.8 px
+bus  2  master x   66.00.. 126.50 y  66.50  print x  525..1132 y  585.. 606  ends   +0.3 /   +2.2 px, centre  -0.7 px
+bus  3  master x  115.50.. 162.00 y 113.00  print x  983..1485 y 1052..1073  ends  -36.8 /   +0.2 px, centre  +1.3 px
+bus  4  master x  102.50.. 163.50 y 144.00  print x  888..1601 y 1360..1382  ends   -1.8 / +101.2 px, centre  -0.3 px
+bus  5  master x   75.25.. 126.50 y 159.50  print x  580..1168 y 1516..1537  ends  -37.2 /  +38.2 px, centre  +0.2 px
+bus  6  master x  115.50.. 177.50 y 175.00  print x  983..1640 y 1671..1693  ends  -36.8 /   +0.2 px, centre  +0.7 px
+bus  7  master x   89.50.. 126.50 y 190.50  print x  747..1168 y 1827..1848  ends  -12.8 /  +38.2 px, centre  +1.2 px
+bus  8  master x   75.25.. 124.25 y 206.00  print x  580..1109 y 1979..2001  ends  -37.2 /   +1.7 px, centre  -1.3 px
+bus  9  master x   57.50..  86.25 y 221.50  print x  402.. 765 y 2135..2157  ends  -37.7 /  +37.7 px, centre  -0.3 px
+bus 10  master x  199.00.. 241.25 y 221.50  print x 1816..2279 y 2135..2157  ends  -38.9 /   +1.6 px, centre  -0.3 px
+bus 11  master x  166.50.. 210.00 y 206.00  print x 1530..2001 y 1979..2001  ends   +0.2 /  +36.1 px, centre  -1.3 px
+bus 12  master x  199.00.. 226.50 y 175.00  print x 1836..2132 y 1671..1693  ends  -18.9 /   +2.1 px, centre  +0.7 px
+bus 13  master x  215.50.. 260.50 y 190.50  print x 2019..2471 y 1827..1848  ends   -0.9 /   +1.1 px, centre  +1.2 px
+bus 14  master x  217.00.. 260.50 y 159.50  print x 2033..2507 y 1516..1537  ends   -1.9 /  +37.1 px, centre  +0.2 px
+bus 15  master x  238.50.. 260.50 y 128.50  print x 2250..2507 y 1204..1226  ends   +0.1 /  +37.1 px, centre  -1.3 px
+bus 16  master x  249.50.. 349.50 y 113.00  print x 2322..3360 y 1052..1073  ends  -37.9 /   -0.0 px, centre  +1.3 px
+bus 17  master x  222.00.. 260.50 y  97.50  print x 2047..2507 y  896.. 918  ends  -37.9 /  +37.1 px, centre  +0.8 px
+bus 18  master x  151.25.. 179.75 y  97.50  print x 1377..1662 y  896.. 918  ends   -0.3 /   -0.3 px, centre  +0.8 px
+bus 19  master x  292.50.. 357.50 y 190.50  print x 2772..3440 y 1827..1848  ends  -18.0 /   -0.0 px, centre  +1.2 px
+bus 20  master x  273.50.. 314.50 y 221.50  print x 2600..3010 y 2135..2157  ends   +0.1 /   +0.0 px, centre  -0.3 px
+bus 21  master x  330.50.. 350.50 y 159.50  print x 3147..3371 y 1516..1537  ends  -23.0 /   +1.0 px, centre  +0.2 px
+bus 22  master x  390.75.. 431.50 y 159.50  print x 3772..4182 y 1516..1537  ends   -0.6 /   +1.9 px, centre  +0.2 px
+bus 23  master x  380.25.. 431.50 y 206.00  print x 3630..4218 y 1979..2001  ends  -37.5 /  +37.9 px, centre  -1.3 px
+bus 24  master x  338.50.. 391.25 y  66.50  print x 3250..3815 y  585.. 606  ends   -0.0 /  +37.4 px, centre  -0.7 px
+bus 25  master x  115.50.. 179.75 y  51.00  print x 1019..1662 y  429.. 451  ends   -0.8 /   -0.3 px, centre  -1.2 px
+bus 26  master x  222.00.. 312.00 y  51.00  print x 2083..2996 y  429.. 451  ends   -1.9 /  +11.0 px, centre  -1.2 px
+bus 27  master x  234.50.. 260.50 y  66.50  print x 2208..2507 y  585.. 606  ends   -1.9 /  +37.1 px, centre  -0.7 px
+bus 28  master x  341.00.. 369.50 y  51.00  print x 3275..3560 y  429.. 451  ends   -0.0 /   -0.0 px, centre  -1.2 px
+bus 29  master x  398.25.. 450.50 y  51.00  print x 3847..4371 y  429.. 451  ends   -0.6 /   +0.9 px, centre  -1.2 px
+bus 30  master x   76.75..  94.75 y  35.50  print x  633.. 812 y  276.. 298  ends   +0.8 /   -0.3 px, centre  +0.8 px
+bus 31  master x  144.50.. 173.50 y 237.00  print x 1308..1612 y 2291..2312  ends   -1.8 /  +12.2 px, centre  +0.1 px
+bus 32  master x  204.00.. 222.00 y 237.00  print x 1905..2085 y 2291..2312  ends   +0.1 /   +0.1 px, centre  +0.1 px
+bus 33  master x  343.00.. 361.00 y 237.00  print x 3294..3476 y 2291..2312  ends   -1.0 /   +1.0 px, centre  +0.1 px
+bus 34  master x  289.00.. 307.00 y 237.00  print x 2755..2935 y 2291..2312  ends   +0.0 /   +0.0 px, centre  +0.1 px
+bus 35  master x  417.00.. 435.00 y 144.00  print x 4033..4215 y 1360..1382  ends   -2.1 /   -0.1 px, centre  -0.3 px
+bus 36  master x  403.50.. 441.00 y 221.50  print x 3900..4276 y 2135..2157  ends   -0.1 /   +0.9 px, centre  -0.3 px
+bus 37  master x  133.50.. 171.50 y  35.50  print x 1200..1582 y  276.. 298  ends   +0.2 /   +2.2 px, centre  +0.8 px
+bus 38  master x  420.50.. 458.00 y  66.50  print x 4069..4446 y  585.. 606  ends   -1.1 /   +0.9 px, centre  -0.7 px
+bus 39  master x   14.50..  68.50 y 144.00  print x    8.. 587 y 1360..1382  ends   -1.7 /  +37.3 px, centre  -0.3 px
+map: x_px = 10.0010 * x + -135.33, y_px = 10.0010 * y + -68.87 (rows 13; 49 of 78 candidate bar ends agree within 5.0 px); every master bar lies inside its own print bar
+bus  1  number at (307.7, 387.7) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus  2  number at (486.6, 262.2) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus  3  number at (629.6, 450.5) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus  4  number at (676.5, 576.0) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus  5  number at (501.2, 638.8) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus  6  number at (692.3, 701.5) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus  7  number at (501.2, 764.3) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus  8  number at (477.3, 827.1) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus  9  number at (338.1, 889.8) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 10  number at (951.0, 889.8) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 11  number at (838.5, 827.1) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 12  number at (891.5, 701.5) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 13  number at (1028.7, 764.3) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 14  number at (1043.3, 638.8) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 15  number at (1043.3, 513.3) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 16  number at (1388.7, 450.5) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 17  number at (1043.3, 387.7) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 18  number at (701.2, 387.7) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 19  number at (1421.1, 764.3) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 20  number at (1247.0, 889.8) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 21  number at (1393.1, 638.8) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 22  number at (1721.5, 638.8) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 23  number at (1736.0, 827.1) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 24  number at (1572.9, 262.2) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 25  number at (701.2, 199.5) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 26  number at (1241.3, 199.5) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 27  number at (1043.3, 262.2) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 28  number at (1469.6, 199.5) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 29  number at (1798.0, 199.5) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 30  number at (357.1, 136.7) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 31  number at (681.0, 952.6) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 32  number at (872.5, 952.6) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 33  number at (1435.6, 952.6) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 34  number at (1216.6, 952.6) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 35  number at (1734.8, 576.0) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 36  number at (1759.5, 889.8) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 37  number at (668.8, 136.7) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 38  number at (1828.3, 262.2) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+bus 39  number at (266.0, 576.0) of the display copy, 28.3 px right of the drawn end; ink under it 0.0 %
+the copy widened by 0 px left, 0 px top, 82 px right, 0 px bottom for the numbers
+39 bus numbers drawn, 44 px high type (5.6 pt at the paper's width, as the one-line figure prints them)

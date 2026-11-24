@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="cc.css">
+<script src="icons.js"></script>
+<style>
+body { background: var(--surface); border-right: 1px solid var(--border); }
+.rail { display: flex; flex-direction: column; height: 100%; padding: 12px 8px; }
+.item { position: relative; display: flex; align-items: center; gap: 12px; height: 40px; margin-bottom: 4px;
+  padding: 0 16px; border-radius: 6px; font-size: 13px; color: var(--ink2); cursor: pointer; user-select: none; }
+.item:hover { background: var(--sunken); color: var(--ink); }
+.item.active { background: var(--tint); color: var(--accent); }
+.item.active::before { content: ""; position: absolute; left: 0; top: 8px; width: 3px; height: 24px;
+  border-radius: 2px; background: var(--accent); }
+.rule { height: 1px; background: var(--border); margin: 8px 12px 12px 12px; }
+.grow { flex: 1; }
+.collapse { color: var(--ink3); }
+</style></head>
+<body>
+<div class="rail" id="rail"></div>
+<script>
+var ITEMS = [['overview','Overview'],['reproduce','Reproduce'],['run','Run'],['compare','Compare'],
+             ['scenarios','Scenarios'],null,['model','Model'],['provenance','Provenance'],['about','About']];
+function render(active) {
+  var h = '';
+  ITEMS.forEach(function (it) {
+    if (!it) { h += '<div class="rule"></div>'; return; }
+    h += '<div class="item' + (it[0] === active ? ' active' : '') + '" data-id="' + it[0] + '">' +
+         ccIcon(it[0]) + '<span>' + it[1] + '</span></div>';
+  });
+  h += '<div class="grow"></div>';
+  document.getElementById('rail').innerHTML = h;
+  Array.prototype.forEach.call(document.querySelectorAll('.item'), function (el) {
+    el.onclick = function () { window.hc.sendEventToMATLAB('nav', el.getAttribute('data-id')); };
+  });
+}
+function setup(htmlComponent) {
+  window.hc = htmlComponent;
+  htmlComponent.addEventListener('DataChanged', function () {
+    render((htmlComponent.Data || {}).active || 'overview');
+  });
+  render((htmlComponent.Data || {}).active || 'overview');
+}
+</script>
+</body></html>

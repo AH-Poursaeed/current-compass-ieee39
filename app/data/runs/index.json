@@ -1,0 +1,68 @@
+{
+ "schema": "cca-runs/2",
+ "runs": [
+  {
+   "key": "39_1000_10TF_0p001pu",
+   "code": "v",
+   "file": "LRFv39_1000_10TF.json",
+   "sha256": "145592445ce311b8a8a8fab39901e264ce300414d4eb2d95f86241659152a21a",
+   "tag": "LRFv39_1000_10TF"
+  },
+  {
+   "key": "39_1000_10TF_0p001pu",
+   "code": "k",
+   "file": "LRFk39_1000_10TF.json",
+   "sha256": "000fd9708c989d31b4605eabb54db823fb11d9ed65a6b60d940b5042b4a001a6",
+   "tag": "LRFk39_1000_10TF"
+  },
+  {
+   "key": "39_1000_10TF_0p001pu",
+   "code": "l51",
+   "file": "LROl51r39_1000_10TF.json",
+   "sha256": "63841b70c1f7e888ffd2ef9fda1da17583a644b9cdbbe2b553735a1fb362fa58",
+   "tag": "LROl51r39_1000_10TF"
+  },
+  {
+   "key": "39_1000_10TF_0p001pu",
+   "code": "l99",
+   "file": "LROl99r39_1000_10TF.json",
+   "sha256": "01d355ea5a190a8d9bdd6b37e825d194197f0574d21d1763a4c0f842a6232264",
+   "tag": "LROl99r39_1000_10TF"
+  },
+  {
+   "key": "39_1000_10TF_0p001pu",
+   "code": "n",
+   "file": "LRFn39_1000_10TF.json",
+   "sha256": "036a15c5ebac0e5a6328034327ae360e81231bcd09eaa044aca7ccca9d838619",
+   "tag": "LRFn39_1000_10TF"
+  },
+  {
+   "key": "39_1000_10TF_0p001pu",
+   "code": "o",
+   "file": "LROor39_1000_10TF.json",
+   "sha256": "ef8e5634227fa0ecbd527a7f72dcb76f58d0553e8434e0385c4be00bca33ac98",
+   "tag": "LROor39_1000_10TF"
+  },
+  {
+   "key": "39_1000_10TF_0p001pu",
+   "code": "y",
+   "file": "LROyr39_1000_10TF.json",
+   "sha256": "9f13e3baed2634223fbac758161f57ce3f2e0d4c574e372313669ef7210d0a59",
+   "tag": "LROyr39_1000_10TF"
+  }
+ ],
+ "series": {
+  "panels": {
+   "a": "relmax",
+   "b": "Vt",
+   "c": "Iout_join",
+   "d": "psi (the law's own)"
+  },
+  "unit": "unit 10 at bus 39",
+  "window_s_after_clearing": [
+   -1.2,
+   3.5
+  ]
+ },
+ "src": "Fig. 7's traces: the rows its panels draw, under their tags"
+}

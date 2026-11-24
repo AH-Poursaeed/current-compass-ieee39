@@ -1,0 +1,5583 @@
+{
+ "schema": "cca-run-outcomes/1",
+ "sets": {
+  "shortened runs": {
+   "FMCu109_0100_09SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0100_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0100_10SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0100_10TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0150_09SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0150_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0150_10SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0150_10TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu109_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu118_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu118_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu122_0100_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu122_0150_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0100_09SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0100_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0100_10SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0100_10TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0150_09SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0150_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0150_10SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0150_10TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu129_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu136_0100_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu136_0150_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0100_09SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0100_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0100_10SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0100_10TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0150_09SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0150_09TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0150_10SF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0150_10TF": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "FMCu138_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true,
+    "detail": "at rest"
+   },
+   "MSc22_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSc22_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSc36_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSc36_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSd22_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSd22_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSd36_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSd36_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSh22_0100_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "MSh22_0150_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "MSh36_0100_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "MSh36_0150_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "MSk22_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSk22_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSk36_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSk36_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl1022_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl1022_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl1036_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl1036_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl2022_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl2022_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl2036_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl2036_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl5122_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl5122_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl5136_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl5136_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl6322_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl6322_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl6336_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl6336_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl9422_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl9422_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl9436_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl9436_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl9822_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl9822_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl9836_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl9836_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "MSl9922_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl9922_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl9936_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSl9936_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSn22_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSn22_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSn36_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSn36_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSo22_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSo22_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSo36_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSo36_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSq22_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSq22_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSq36_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSq36_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSv22_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSv22_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSv36_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSv36_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSy22_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSy22_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSy36_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "MSy36_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc18_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc18_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSc38_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd18_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd18_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSd38_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh09_0100_09SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0100_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0100_10SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0100_10SO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh09_0100_10TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0100_10TO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh09_0150_09SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0150_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0150_10SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0150_10SO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh09_0150_10TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0150_10TO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh18_0100_10TO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh18_0150_10TO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0100_09SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0100_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0100_10SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0100_10SO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh29_0100_10TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0100_10TO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh29_0150_09SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0150_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0150_10SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0150_10SO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh29_0150_10TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0150_10TO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh38_0100_09SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0100_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0100_10SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0100_10SO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh38_0100_10TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0100_10TO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh38_0150_09SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0150_09TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0150_10SF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0150_10SO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSh38_0150_10TF": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0150_10TO1718": {
+    "outcome": "not eligible",
+    "counted": false
+   },
+   "NMSh38_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk18_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk18_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSk38_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl1009_0100_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0100_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0100_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0100_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0100_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0100_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl1009_0150_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0150_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0150_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0150_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl1009_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1009_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl1018_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl1018_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl1029_0100_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0100_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0100_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0100_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0100_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0100_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0100_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0150_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0150_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0150_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0150_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1029_0150_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0100_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0100_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0100_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0100_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0100_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0100_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0100_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0150_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0150_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0150_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0150_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl1038_0150_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0100_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0100_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0100_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0100_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0100_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0100_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl2009_0150_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0150_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0150_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0150_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl2009_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2009_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl2018_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl2018_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl2029_0100_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0100_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0100_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0100_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0100_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0100_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0100_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0150_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0150_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0150_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0150_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2029_0150_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0100_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0100_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0100_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0100_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0100_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0100_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0100_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0150_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0150_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0150_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0150_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl2038_0150_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl5109_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5109_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5118_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5118_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5129_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl5138_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6309_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6318_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6318_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6329_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl6338_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9409_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9418_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9418_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9429_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9438_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9809_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9818_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9818_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9829_0100_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0100_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0100_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9829_0100_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0100_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0100_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0150_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0150_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0150_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0150_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9829_0150_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0100_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0100_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0100_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0100_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0100_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0100_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0100_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0100_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0150_09SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0150_09TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0150_10SF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0150_10SO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0150_10SU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9838_0150_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSl9909_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9909_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9918_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9918_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9929_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSl9938_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn18_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn18_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn29_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSn29_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSn29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSn38_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSn38_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSn38_0150_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSo09_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo18_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo18_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSo38_0150_10TF": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSo38_0150_10TO1718": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSo38_0150_10TU08": {
+    "outcome": "lost",
+    "counted": true
+   },
+   "NMSq09_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq18_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq18_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSq38_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv18_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv18_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSv38_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy09_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy18_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy18_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy29_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0100_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0100_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0100_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0100_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0100_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0100_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0100_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0100_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0150_09SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0150_09TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0150_10SF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0150_10SO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0150_10SU08": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0150_10TF": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0150_10TO1718": {
+    "outcome": "returned",
+    "counted": true
+   },
+   "NMSy38_0150_10TU08": {
+    "outcome": "returned",
+    "counted": true
+   }
+  },
+  "module search": {
+   "MXG0050T02_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0050T02_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0050T02_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0050T02_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0050T02_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0050T02_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0050T10_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0050T10_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0050T10_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0050T10_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0050T10_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0050T10_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0100T02_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0100T02_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0100T02_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0100T02_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0100T02_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0100T02_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0100T10_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0100T10_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0100T10_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0100T10_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0100T10_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0100T10_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0150T02_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0150T02_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0150T02_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0150T02_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0150T02_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0150T02_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0150T10_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0150T10_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0150T10_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0150T10_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0150T10_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0150T10_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0250T02_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0250T02_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0250T02_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0250T02_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0250T02_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0250T02_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0250T05_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0250T05_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0250T05_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0250T05_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0250T05_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0250T05_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0250T10_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0250T10_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0250T10_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0250T10_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0250T10_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0250T10_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0500T02_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0500T02_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0500T02_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0500T02_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0500T02_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0500T02_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0500T05_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0500T05_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0500T05_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0500T05_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0500T05_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0500T05_10W": {
+    "outcome": "not steady"
+   },
+   "MXG0500T10_09F": {
+    "outcome": "not steady"
+   },
+   "MXG0500T10_09W": {
+    "outcome": "not steady"
+   },
+   "MXG0500T10_10F": {
+    "outcome": "not steady"
+   },
+   "MXG0500T10_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG0500T10_10U08": {
+    "outcome": "steady"
+   },
+   "MXG0500T10_10W": {
+    "outcome": "not steady"
+   },
+   "MXG1000T02_09F": {
+    "outcome": "not steady"
+   },
+   "MXG1000T02_09W": {
+    "outcome": "not steady"
+   },
+   "MXG1000T02_10F": {
+    "outcome": "not steady"
+   },
+   "MXG1000T02_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG1000T02_10U08": {
+    "outcome": "steady"
+   },
+   "MXG1000T02_10W": {
+    "outcome": "not steady"
+   },
+   "MXG1000T05_09F": {
+    "outcome": "not steady"
+   },
+   "MXG1000T05_09W": {
+    "outcome": "not steady"
+   },
+   "MXG1000T05_10F": {
+    "outcome": "not steady"
+   },
+   "MXG1000T05_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG1000T05_10U08": {
+    "outcome": "steady"
+   },
+   "MXG1000T05_10W": {
+    "outcome": "not steady"
+   },
+   "MXG1000T10_09F": {
+    "outcome": "not steady"
+   },
+   "MXG1000T10_09W": {
+    "outcome": "not steady"
+   },
+   "MXG1000T10_10F": {
+    "outcome": "not steady"
+   },
+   "MXG1000T10_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG1000T10_10U08": {
+    "outcome": "steady"
+   },
+   "MXG1000T10_10W": {
+    "outcome": "not steady"
+   },
+   "MXG2000T02_09F": {
+    "outcome": "not steady"
+   },
+   "MXG2000T02_09W": {
+    "outcome": "not steady"
+   },
+   "MXG2000T02_10F": {
+    "outcome": "not steady"
+   },
+   "MXG2000T02_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG2000T02_10U08": {
+    "outcome": "steady"
+   },
+   "MXG2000T02_10W": {
+    "outcome": "not steady"
+   },
+   "MXG2000T05_09F": {
+    "outcome": "not steady"
+   },
+   "MXG2000T05_09W": {
+    "outcome": "not steady"
+   },
+   "MXG2000T05_10F": {
+    "outcome": "not steady"
+   },
+   "MXG2000T05_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG2000T05_10U08": {
+    "outcome": "steady"
+   },
+   "MXG2000T05_10W": {
+    "outcome": "not steady"
+   },
+   "MXG2000T10_09F": {
+    "outcome": "not steady"
+   },
+   "MXG2000T10_09W": {
+    "outcome": "not steady"
+   },
+   "MXG2000T10_10F": {
+    "outcome": "not steady"
+   },
+   "MXG2000T10_10O1718": {
+    "outcome": "not steady"
+   },
+   "MXG2000T10_10U08": {
+    "outcome": "steady"
+   },
+   "MXG2000T10_10W": {
+    "outcome": "not steady"
+   }
+  },
+  "fault-free row": {
+   "GA0c_09D": {
+    "outcome": "steady"
+   },
+   "GA0c_10D": {
+    "outcome": "steady"
+   },
+   "GA0z_09D": {
+    "outcome": "steady"
+   },
+   "GA0z_10D": {
+    "outcome": "steady"
+   },
+   "MH0c_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0c_10U08": {
+    "outcome": "steady"
+   },
+   "MH0d_09F": {
+    "outcome": "steady"
+   },
+   "MH0d_09W": {
+    "outcome": "steady"
+   },
+   "MH0d_10F": {
+    "outcome": "steady"
+   },
+   "MH0d_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0d_10U08": {
+    "outcome": "steady"
+   },
+   "MH0d_10W": {
+    "outcome": "steady"
+   },
+   "MH0e_09F": {
+    "outcome": "steady"
+   },
+   "MH0e_09W": {
+    "outcome": "steady"
+   },
+   "MH0e_10F": {
+    "outcome": "steady"
+   },
+   "MH0e_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0e_10U08": {
+    "outcome": "steady"
+   },
+   "MH0e_10W": {
+    "outcome": "steady"
+   },
+   "MH0h_09F": {
+    "outcome": "not steady"
+   },
+   "MH0h_09W": {
+    "outcome": "not steady"
+   },
+   "MH0h_10F": {
+    "outcome": "not steady"
+   },
+   "MH0h_10O1718": {
+    "outcome": "not steady"
+   },
+   "MH0h_10U08": {
+    "outcome": "steady"
+   },
+   "MH0h_10W": {
+    "outcome": "not steady"
+   },
+   "MH0k_09F": {
+    "outcome": "steady"
+   },
+   "MH0k_09W": {
+    "outcome": "steady"
+   },
+   "MH0k_10F": {
+    "outcome": "steady"
+   },
+   "MH0k_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0k_10U08": {
+    "outcome": "steady"
+   },
+   "MH0k_10W": {
+    "outcome": "steady"
+   },
+   "MH0l10_09F": {
+    "outcome": "steady"
+   },
+   "MH0l10_10F": {
+    "outcome": "steady"
+   },
+   "MH0l10_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0l10_10U08": {
+    "outcome": "steady"
+   },
+   "MH0l20_09F": {
+    "outcome": "steady"
+   },
+   "MH0l20_10F": {
+    "outcome": "steady"
+   },
+   "MH0l20_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0l20_10U08": {
+    "outcome": "steady"
+   },
+   "MH0l51_09F": {
+    "outcome": "steady"
+   },
+   "MH0l51_10F": {
+    "outcome": "steady"
+   },
+   "MH0l51_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0l51_10U08": {
+    "outcome": "steady"
+   },
+   "MH0l63_09F": {
+    "outcome": "steady"
+   },
+   "MH0l63_10F": {
+    "outcome": "steady"
+   },
+   "MH0l63_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0l63_10U08": {
+    "outcome": "steady"
+   },
+   "MH0l94_09F": {
+    "outcome": "steady"
+   },
+   "MH0l94_10F": {
+    "outcome": "steady"
+   },
+   "MH0l94_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0l94_10U08": {
+    "outcome": "steady"
+   },
+   "MH0l98_09F": {
+    "outcome": "steady"
+   },
+   "MH0l98_10F": {
+    "outcome": "steady"
+   },
+   "MH0l98_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0l98_10U08": {
+    "outcome": "steady"
+   },
+   "MH0l99_09F": {
+    "outcome": "steady"
+   },
+   "MH0l99_10F": {
+    "outcome": "steady"
+   },
+   "MH0l99_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0l99_10U08": {
+    "outcome": "steady"
+   },
+   "MH0n_09F": {
+    "outcome": "steady"
+   },
+   "MH0n_09W": {
+    "outcome": "steady"
+   },
+   "MH0n_10F": {
+    "outcome": "steady"
+   },
+   "MH0n_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0n_10U08": {
+    "outcome": "steady"
+   },
+   "MH0n_10W": {
+    "outcome": "steady"
+   },
+   "MH0o_09F": {
+    "outcome": "steady"
+   },
+   "MH0o_09W": {
+    "outcome": "steady"
+   },
+   "MH0o_10F": {
+    "outcome": "steady"
+   },
+   "MH0o_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0o_10U08": {
+    "outcome": "steady"
+   },
+   "MH0o_10W": {
+    "outcome": "steady"
+   },
+   "MH0q_09F": {
+    "outcome": "steady"
+   },
+   "MH0q_09W": {
+    "outcome": "steady"
+   },
+   "MH0q_10F": {
+    "outcome": "steady"
+   },
+   "MH0q_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0q_10U08": {
+    "outcome": "steady"
+   },
+   "MH0q_10W": {
+    "outcome": "steady"
+   },
+   "MH0y_09F": {
+    "outcome": "steady"
+   },
+   "MH0y_09W": {
+    "outcome": "steady"
+   },
+   "MH0y_10F": {
+    "outcome": "steady"
+   },
+   "MH0y_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0y_10U08": {
+    "outcome": "steady"
+   },
+   "MH0y_10W": {
+    "outcome": "steady"
+   },
+   "MH0z_10O1718": {
+    "outcome": "steady"
+   },
+   "MH0z_10U08": {
+    "outcome": "steady"
+   },
+   "MQHd1k_09F": {
+    "outcome": "steady"
+   },
+   "MQHd1k_09W": {
+    "outcome": "steady"
+   },
+   "MQHd1k_10F": {
+    "outcome": "steady"
+   },
+   "MQHd1k_10W": {
+    "outcome": "steady"
+   },
+   "MQHd1z_09F": {
+    "outcome": "steady"
+   },
+   "MQHd1z_09W": {
+    "outcome": "steady"
+   },
+   "MQHd1z_10F": {
+    "outcome": "steady"
+   },
+   "MQHd1z_10W": {
+    "outcome": "steady"
+   },
+   "MQHd2k_09F": {
+    "outcome": "steady"
+   },
+   "MQHd2k_09W": {
+    "outcome": "steady"
+   },
+   "MQHd2k_10F": {
+    "outcome": "steady"
+   },
+   "MQHd2k_10W": {
+    "outcome": "steady"
+   },
+   "MQHd2z_09F": {
+    "outcome": "steady"
+   },
+   "MQHd2z_09W": {
+    "outcome": "steady"
+   },
+   "MQHd2z_10F": {
+    "outcome": "steady"
+   },
+   "MQHd2z_10W": {
+    "outcome": "steady"
+   },
+   "MQHl1k_09F": {
+    "outcome": "steady"
+   },
+   "MQHl1k_09W": {
+    "outcome": "steady"
+   },
+   "MQHl1k_10F": {
+    "outcome": "steady"
+   },
+   "MQHl1k_10W": {
+    "outcome": "steady"
+   },
+   "MQHl2k_09F": {
+    "outcome": "steady"
+   },
+   "MQHl2k_09W": {
+    "outcome": "steady"
+   },
+   "MQHl2k_10F": {
+    "outcome": "steady"
+   },
+   "MQHl2k_10W": {
+    "outcome": "steady"
+   },
+   "MQHp1k_09F": {
+    "outcome": "steady"
+   },
+   "MQHp1k_09W": {
+    "outcome": "steady"
+   },
+   "MQHp1k_10F": {
+    "outcome": "steady"
+   },
+   "MQHp1k_10W": {
+    "outcome": "steady"
+   },
+   "MQHp1z_09F": {
+    "outcome": "steady"
+   },
+   "MQHp1z_09W": {
+    "outcome": "steady"
+   },
+   "MQHp1z_10F": {
+    "outcome": "steady"
+   },
+   "MQHp1z_10W": {
+    "outcome": "steady"
+   },
+   "MQHp2k_09F": {
+    "outcome": "steady"
+   },
+   "MQHp2k_09W": {
+    "outcome": "steady"
+   },
+   "MQHp2k_10F": {
+    "outcome": "steady"
+   },
+   "MQHp2k_10W": {
+    "outcome": "steady"
+   },
+   "MQHp2z_09F": {
+    "outcome": "steady"
+   },
+   "MQHp2z_09W": {
+    "outcome": "steady"
+   },
+   "MQHp2z_10F": {
+    "outcome": "steady"
+   },
+   "MQHp2z_10W": {
+    "outcome": "steady"
+   }
+  }
+ },
+ "notes": {
+  "shortened runs": "per run from the record of the shortened runs (Fig. 6's counts per law and duration, asserted)",
+  "module search": "per run from the record of [14]'s module search: a fault-free run steady or not at each of six operating states (none of the 18 modules steady in all six, asserted)",
+  "fault-free row": "per run where the record holds the run's own reading (124 of 275 rows); the others are counted by the eligibility of Table II and Table IV"
+ },
+ "places": {
+  "common scenarios": {
+   "MAd": [
+    "Section V"
+   ],
+   "MAq": [
+    "Section V"
+   ],
+   "c": [
+    "Section V",
+    "Table III"
+   ],
+   "d": [
+    "Table II",
+    "Section V"
+   ],
+   "e": [
+    "Section V",
+    "Table III"
+   ],
+   "f": [
+    "Table III",
+    "Section V"
+   ],
+   "h": [
+    "Table II",
+    "Section V"
+   ],
+   "k": [
+    "Table II",
+    "Abstract",
+    "Section I",
+    "Section V",
+    "Section VI"
+   ],
+   "l10": [
+    "Table II",
+    "Section V"
+   ],
+   "l20": [
+    "Table II",
+    "Section V"
+   ],
+   "l51": [
+    "Table II",
+    "Section V"
+   ],
+   "l63": [
+    "Table II",
+    "Section V"
+   ],
+   "l94": [
+    "Table II",
+    "Section V"
+   ],
+   "l98": [
+    "Table II",
+    "Section V"
+   ],
+   "l99": [
+    "Table II",
+    "Section V"
+   ],
+   "n": [
+    "Section V",
+    "Table III"
+   ],
+   "o": [
+    "Table II",
+    "Section V"
+   ],
+   "q": [
+    "Table II",
+    "Section V"
+   ],
+   "u1": [
+    "Table III",
+    "Section V"
+   ],
+   "v": [
+    "Section V",
+    "Table II",
+    "Table III",
+    "Abstract",
+    "Section I",
+    "Section VI"
+   ],
+   "y": [
+    "Table II",
+    "Section V"
+   ],
+   "z": [
+    "Table III",
+    "Section V"
+   ]
+  },
+  "shortened runs": {
+   "c": [],
+   "d": [],
+   "h": [],
+   "k": [],
+   "l10": [],
+   "l20": [],
+   "l51": [],
+   "l63": [],
+   "l94": [],
+   "l98": [],
+   "l99": [],
+   "n": [],
+   "o": [],
+   "q": [],
+   "u1": [],
+   "v": [
+    "Fig. 6, caption"
+   ],
+   "y": []
+  },
+  "ladder 0.01 pu": {
+   "c": [
+    "Table III",
+    "Section V"
+   ],
+   "d": [
+    "Section V"
+   ],
+   "e": [
+    "Section V",
+    "Table IV"
+   ],
+   "f": [
+    "Table IV",
+    "Section V"
+   ],
+   "k": [
+    "Abstract",
+    "Section I",
+    "Section V",
+    "Section VI"
+   ],
+   "l10": [
+    "Section V"
+   ],
+   "l20": [
+    "Section V"
+   ],
+   "l51": [
+    "Section V"
+   ],
+   "l63": [
+    "Section V"
+   ],
+   "l94": [
+    "Section V"
+   ],
+   "l98": [
+    "Section V"
+   ],
+   "l99": [
+    "Section V"
+   ],
+   "n": [
+    "Table III",
+    "Section V"
+   ],
+   "o": [
+    "Section V"
+   ],
+   "q": [
+    "Section V"
+   ],
+   "u1": [
+    "Table III",
+    "Section V"
+   ],
+   "v": [
+    "Section V",
+    "Fig. 6, caption",
+    "Table III",
+    "Abstract",
+    "Section I",
+    "Section VI"
+   ],
+   "y": [
+    "Section V"
+   ],
+   "z": [
+    "Table IV",
+    "Section V"
+   ]
+  },
+  "ladder 0.001 pu": {
+   "c": [
+    "Table III",
+    "Section V"
+   ],
+   "d": [
+    "Section V"
+   ],
+   "e": [
+    "Section V",
+    "Table IV"
+   ],
+   "f": [
+    "Table IV",
+    "Section V"
+   ],
+   "k": [
+    "Section I",
+    "Section V"
+   ],
+   "l10": [
+    "Section V"
+   ],
+   "l20": [
+    "Section V"
+   ],
+   "l51": [
+    "Section V"
+   ],
+   "l63": [
+    "Section V"
+   ],
+   "l94": [
+    "Section V"
+   ],
+   "l98": [
+    "Section V"
+   ],
+   "l99": [
+    "Section V"
+   ],
+   "n": [
+    "Table III",
+    "Section V"
+   ],
+   "o": [
+    "Section V"
+   ],
+   "q": [
+    "Section V"
+   ],
+   "u1": [
+    "Table III",
+    "Section V"
+   ],
+   "v": [
+    "Section IV",
+    "Section V",
+    "Fig. 6, caption",
+    "Table III",
+    "Abstract",
+    "Section I",
+    "Section VI"
+   ],
+   "y": [
+    "Section V"
+   ],
+   "z": [
+    "Table IV",
+    "Section V"
+   ]
+  },
+  "faults of 4 and 5 s": {
+   "c": [
+    "Table III",
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "d": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "e": [
+    "Table III",
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "f": [
+    "Table III",
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "k": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "l10": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "l20": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "l51": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "l63": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "l94": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "l98": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "l99": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "n": [
+    "Table III",
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "o": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "q": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "u1": [
+    "Section V",
+    "Table III",
+    "Abstract",
+    "Section I"
+   ],
+   "v": [
+    "Abstract",
+    "Section I",
+    "Section VI",
+    "Section V",
+    "Table III"
+   ],
+   "y": [
+    "Abstract",
+    "Section I",
+    "Section V"
+   ],
+   "z": [
+    "Table III",
+    "Abstract",
+    "Section I",
+    "Section V"
+   ]
+  },
+  "single-phase ladder": {
+   "c": [
+    "Section V",
+    "Table III"
+   ],
+   "d": [
+    "Section V"
+   ],
+   "e": [
+    "Table III",
+    "Section V"
+   ],
+   "f": [
+    "Table III",
+    "Section V"
+   ],
+   "k": [
+    "Section V"
+   ],
+   "l10": [
+    "Section V"
+   ],
+   "l20": [
+    "Section V"
+   ],
+   "l51": [
+    "Section V"
+   ],
+   "l63": [
+    "Section V"
+   ],
+   "l94": [
+    "Section V"
+   ],
+   "l98": [
+    "Section V"
+   ],
+   "l99": [
+    "Section V"
+   ],
+   "n": [
+    "Table III",
+    "Section V"
+   ],
+   "o": [
+    "Section V"
+   ],
+   "q": [
+    "Section V"
+   ],
+   "u1": [
+    "Table III",
+    "Section V"
+   ],
+   "v": [
+    "Section V",
+    "Table III"
+   ],
+   "y": [
+    "Section V"
+   ],
+   "z": [
+    "Table III",
+    "Section V"
+   ]
+  },
+  "load steps": {
+   "c": [
+    "Section V",
+    "Table III"
+   ],
+   "d": [
+    "Section V",
+    "Table III"
+   ],
+   "e": [
+    "Section V",
+    "Table III"
+   ],
+   "f": [
+    "Section V",
+    "Table III"
+   ],
+   "k": [
+    "Section V",
+    "Table III"
+   ],
+   "l10": [
+    "Section V",
+    "Table III"
+   ],
+   "l20": [
+    "Section V",
+    "Table III"
+   ],
+   "l51": [
+    "Section V",
+    "Table III"
+   ],
+   "l63": [
+    "Section V",
+    "Table III"
+   ],
+   "l94": [
+    "Section V",
+    "Table III"
+   ],
+   "l98": [
+    "Section V",
+    "Table III"
+   ],
+   "l99": [
+    "Section V",
+    "Table III"
+   ],
+   "n": [
+    "Section V",
+    "Table III"
+   ],
+   "o": [
+    "Section V",
+    "Table III"
+   ],
+   "q": [
+    "Section V",
+    "Table III"
+   ],
+   "u1": [
+    "Section V",
+    "Table III"
+   ],
+   "v": [
+    "Section V",
+    "Table III"
+   ],
+   "y": [
+    "Section V",
+    "Table III"
+   ],
+   "z": [
+    "Section V",
+    "Table III"
+   ]
+  },
+  "Table IV": {
+   "k": [
+    "Section V",
+    "Table IV"
+   ],
+   "l10": [
+    "Section V",
+    "Table IV"
+   ],
+   "l51": [
+    "Section V",
+    "Table IV"
+   ],
+   "l94": [
+    "Section V",
+    "Table IV"
+   ],
+   "o": [
+    "Section V",
+    "Table IV"
+   ],
+   "q": [
+    "Section V",
+    "Table IV"
+   ],
+   "v": [
+    "Section V",
+    "Table IV"
+   ],
+   "y": [
+    "Section V",
+    "Table IV"
+   ]
+  },
+  "reruns": {
+   "v": [
+    "Section V"
+   ]
+  },
+  "theory checks": {
+   "u1": [
+    "Section V"
+   ],
+   "v": [
+    "Section V"
+   ]
+  },
+  "module search": {
+   "l96": [
+    "Table II"
+   ],
+   "l97": [
+    "Table II"
+   ],
+   "x": [
+    "Table II"
+   ]
+  },
+  "fault-free row": {
+   "c": [
+    "Section IV"
+   ],
+   "d": [
+    "Section IV"
+   ],
+   "e": [
+    "Section IV"
+   ],
+   "f": [
+    "Section IV"
+   ],
+   "h": [
+    "Section IV",
+    "Table II"
+   ],
+   "k": [
+    "Section IV"
+   ],
+   "l10": [
+    "Section IV"
+   ],
+   "l20": [
+    "Section IV"
+   ],
+   "l51": [
+    "Section IV"
+   ],
+   "l63": [
+    "Section IV"
+   ],
+   "l94": [
+    "Section IV"
+   ],
+   "l98": [
+    "Section IV"
+   ],
+   "l99": [
+    "Section IV"
+   ],
+   "n": [
+    "Section IV"
+   ],
+   "o": [
+    "Section IV"
+   ],
+   "q": [
+    "Section IV"
+   ],
+   "v": [
+    "Section IV"
+   ],
+   "y": [
+    "Section IV"
+   ],
+   "z": [
+    "Section IV"
+   ]
+  }
+ },
+ "tags_of_record": {
+  "n": {
+   "09_0300_09SF": "NMCn09_0300_09SF",
+   "09_0300_09TF": "NMCn09_0300_09TF",
+   "09_0300_10SF": "NMCn09_0300_10SF",
+   "09_0300_10SO1718": "NMCn09_0300_10SO1718",
+   "09_0300_10SU08": "NMCn09_0300_10SU08",
+   "09_0300_10TF": "NMCn09_0300_10TF",
+   "09_0300_10TO1718": "NMCn09_0300_10TO1718",
+   "09_0300_10TU08": "NMCn09_0300_10TU08",
+   "18_0300_10TO1718": "NMCn18_0300_10TO1718",
+   "22_0300_09TF": "MCn22_0300_09TF",
+   "29_0300_09SF": "NMCn29_0300_09SF",
+   "29_0300_09TF": "NMCn29_0300_09TF",
+   "29_0300_10SF": "NMCn29_0300_10SF",
+   "29_0300_10SO1718": "NMCn29_0300_10SO1718",
+   "29_0300_10SU08": "NMCn29_0300_10SU08",
+   "29_0300_10TF": "NMCn29_0300_10TF",
+   "29_0300_10TO1718": "NMCn29_0300_10TO1718",
+   "29_0300_10TU08": "NMCn29_0300_10TU08",
+   "36_0300_09TF": "MCn36_0300_09TF",
+   "38_0300_09SF": "NMCn38_0300_09SF",
+   "38_0300_09TF": "NMCn38_0300_09TF",
+   "38_0300_10SF": "NMCn38_0300_10SF",
+   "38_0300_10SO1718": "NMCn38_0300_10SO1718",
+   "38_0300_10SU08": "NMCn38_0300_10SU08",
+   "38_0300_10TF": "NMCn38_0300_10TF",
+   "38_0300_10TO1718": "NMCn38_0300_10TO1718",
+   "38_0300_10TU08": "NMCn38_0300_10TU08",
+   "28_0500_10TF": "MCn28_0500_10TF",
+   "09_1000_09SF": "NMCn09_1000_09SF",
+   "09_1000_09TF": "NMCn09_1000_09TF",
+   "09_1000_10SF": "NMCn09_1000_10SF",
+   "09_1000_10SO1718": "NMCn09_1000_10SO1718",
+   "09_1000_10SU08": "NMCn09_1000_10SU08",
+   "09_1000_10TF": "NMCn09_1000_10TF",
+   "09_1000_10TO1718": "NMCn09_1000_10TO1718",
+   "09_1000_10TU08": "NMCn09_1000_10TU08",
+   "13_1000_10SO1718": "NMCn13_1000_10SO1718",
+   "16_1000_09TF": "NMCn16_1000_09TF",
+   "16_1000_10TF": "NMCn16_1000_10TF",
+   "25_1000_09TF": "MCn25_1000_09TF",
+   "26_1000_09TF": "MCn26_1000_09TF",
+   "26_1000_10TF": "MCn26_1000_10TF",
+   "28_1000_10TF": "MCn28_1000_10TF",
+   "29_1000_09SF": "NMCn29_1000_09SF",
+   "29_1000_09TF": "NMCn29_1000_09TF",
+   "29_1000_10SF": "NMCn29_1000_10SF",
+   "29_1000_10SO1718": "NMCn29_1000_10SO1718",
+   "29_1000_10SU08": "NMCn29_1000_10SU08",
+   "29_1000_10TF": "NMCn29_1000_10TF",
+   "29_1000_10TO1718": "NMCn29_1000_10TO1718",
+   "29_1000_10TU08": "NMCn29_1000_10TU08",
+   "36_1000_09TF": "MCn36_1000_09TF",
+   "36_1000_10TF": "MCn36_1000_10TF",
+   "37_1000_09SF": "MCn37_1000_09SF",
+   "37_1000_10SF": "MCn37_1000_10SF",
+   "37_1000_10TF": "MCn37_1000_10TF",
+   "38_1000_09SF": "NMCn38_1000_09SF",
+   "38_1000_09TF": "NMCn38_1000_09TF",
+   "38_1000_10SF": "NMCn38_1000_10SF",
+   "38_1000_10SO1718": "NMCn38_1000_10SO1718",
+   "38_1000_10SU08": "NMCn38_1000_10SU08",
+   "38_1000_10TF": "NMCn38_1000_10TF",
+   "38_1000_10TO1718": "NMCn38_1000_10TO1718",
+   "38_1000_10TU08": "NMCn38_1000_10TU08",
+   "39_1000_09TF": "MCn39_1000_09TF",
+   "39_1000_10TF": "NMCn39_1000_10TF",
+   "37_2000_09SF": "NMCn37_2000_09SF",
+   "37_2000_10SF": "NMCn37_2000_10SF",
+   "39_2000_09SW": "NMCn39_2000_09SW",
+   "39_2000_10SW": "NMCn39_2000_10SW",
+   "37_3000_09SF": "NMCn37_3000_09SF",
+   "37_3000_10SF": "NMCn37_3000_10SF",
+   "39_3000_09SW": "NMCn39_3000_09SW",
+   "39_3000_10SW": "NMCn39_3000_10SW",
+   "39_3000_10TF": "NMCn39_3000_10TF",
+   "37_4000_09SF": "NMCn37_4000_09SF",
+   "37_4000_10SF": "NMCn37_4000_10SF",
+   "39_4000_09SW": "NMCn39_4000_09SW",
+   "39_4000_09TW": "NMCn39_4000_09TW",
+   "39_4000_10SW": "NMCn39_4000_10SW",
+   "39_4000_10TW": "NMCn39_4000_10TW",
+   "37_5000_09SF": "NMCn37_5000_09SF",
+   "37_5000_10SF": "NMCn37_5000_10SF",
+   "39_5000_09SW": "NMCn39_5000_09SW",
+   "39_5000_09TF": "NMCn39_5000_09TF",
+   "39_5000_09TW": "NMCn39_5000_09TW",
+   "39_5000_10SW": "NMCn39_5000_10SW",
+   "39_5000_10TF": "NMCn39_5000_10TF",
+   "39_5000_10TW": "NMCn39_5000_10TW"
+  },
+  "c": {
+   "09_0300_09SF": "NMPc09_0300_09SF",
+   "09_0300_09TF": "NMPc09_0300_09TF",
+   "09_0300_10SF": "NMPc09_0300_10SF",
+   "09_0300_10SO1718": "NMPc09_0300_10SO1718",
+   "09_0300_10SU08": "NMPc09_0300_10SU08",
+   "09_0300_10TF": "NMPc09_0300_10TF",
+   "09_0300_10TO1718": "NMPc09_0300_10TO1718",
+   "09_0300_10TU08": "NMPc09_0300_10TU08",
+   "18_0300_10TO1718": "NMPc18_0300_10TO1718",
+   "22_0300_09TF": "MGc22_0300_09TF",
+   "29_0300_09SF": "NMPc29_0300_09SF",
+   "29_0300_09TF": "NMPc29_0300_09TF",
+   "29_0300_10SF": "NMPc29_0300_10SF",
+   "29_0300_10SO1718": "NMPc29_0300_10SO1718",
+   "29_0300_10SU08": "NMPc29_0300_10SU08",
+   "29_0300_10TF": "NMPc29_0300_10TF",
+   "29_0300_10TO1718": "NMPc29_0300_10TO1718",
+   "29_0300_10TU08": "NMPc29_0300_10TU08",
+   "36_0300_09TF": "MGc36_0300_09TF",
+   "38_0300_09SF": "NMPc38_0300_09SF",
+   "38_0300_09TF": "NMPc38_0300_09TF",
+   "38_0300_10SF": "NMPc38_0300_10SF",
+   "38_0300_10SO1718": "NMPc38_0300_10SO1718",
+   "38_0300_10SU08": "NMPc38_0300_10SU08",
+   "38_0300_10TF": "NMPc38_0300_10TF",
+   "38_0300_10TO1718": "NMPc38_0300_10TO1718",
+   "38_0300_10TU08": "NMPc38_0300_10TU08",
+   "28_0500_10TF": "MGc28_0500_10TF",
+   "09_1000_09SF": "NMPc09_1000_09SF",
+   "09_1000_09TF": "NMPc09_1000_09TF",
+   "09_1000_10SF": "NMPc09_1000_10SF",
+   "09_1000_10SO1718": "NMPc09_1000_10SO1718",
+   "09_1000_10SU08": "NMPc09_1000_10SU08",
+   "09_1000_10TF": "NMPc09_1000_10TF",
+   "09_1000_10TO1718": "NMPc09_1000_10TO1718",
+   "09_1000_10TU08": "NMPc09_1000_10TU08",
+   "13_1000_10SO1718": "NMPc13_1000_10SO1718",
+   "16_1000_09TF": "NMMc16_1000_09TF",
+   "16_1000_10TF": "NMMc16_1000_10TF",
+   "25_1000_09TF": "MGc25_1000_09TF",
+   "26_1000_09TF": "MGc26_1000_09TF",
+   "26_1000_10TF": "MGc26_1000_10TF",
+   "28_1000_10TF": "MGc28_1000_10TF",
+   "29_1000_09SF": "NMPc29_1000_09SF",
+   "29_1000_09TF": "NMPc29_1000_09TF",
+   "29_1000_10SF": "NMPc29_1000_10SF",
+   "29_1000_10SO1718": "NMPc29_1000_10SO1718",
+   "29_1000_10SU08": "NMPc29_1000_10SU08",
+   "29_1000_10TF": "NMPc29_1000_10TF",
+   "29_1000_10TO1718": "NMPc29_1000_10TO1718",
+   "29_1000_10TU08": "NMPc29_1000_10TU08",
+   "36_1000_09TF": "MGc36_1000_09TF",
+   "36_1000_10TF": "MGc36_1000_10TF",
+   "37_1000_09SF": "MGc37_1000_09SF",
+   "37_1000_10SF": "MGc37_1000_10SF",
+   "37_1000_10TF": "MGc37_1000_10TF",
+   "38_1000_09SF": "NMPc38_1000_09SF",
+   "38_1000_09TF": "NMPc38_1000_09TF",
+   "38_1000_10SF": "NMPc38_1000_10SF",
+   "38_1000_10SO1718": "NMPc38_1000_10SO1718",
+   "38_1000_10SU08": "NMPc38_1000_10SU08",
+   "38_1000_10TF": "NMPc38_1000_10TF",
+   "38_1000_10TO1718": "NMPc38_1000_10TO1718",
+   "38_1000_10TU08": "NMPc38_1000_10TU08",
+   "39_1000_09TF": "MGc39_1000_09TF",
+   "39_1000_10TF": "NMMc39_1000_10TF",
+   "37_2000_09SF": "NMBc37_2000_09SF",
+   "37_2000_10SF": "NMBc37_2000_10SF",
+   "39_2000_09SW": "NMBc39_2000_09SW",
+   "39_2000_10SW": "NMBc39_2000_10SW",
+   "37_3000_09SF": "NMBc37_3000_09SF",
+   "37_3000_10SF": "NMBc37_3000_10SF",
+   "39_3000_09SW": "NMBc39_3000_09SW",
+   "39_3000_10SW": "NMBc39_3000_10SW",
+   "39_3000_10TF": "NMMc39_3000_10TF",
+   "37_4000_09SF": "NMBc37_4000_09SF",
+   "37_4000_10SF": "NMBc37_4000_10SF",
+   "39_4000_09SW": "NMBc39_4000_09SW",
+   "39_4000_09TW": "NMMc39_4000_09TW",
+   "39_4000_10SW": "NMBc39_4000_10SW",
+   "39_4000_10TW": "NMMc39_4000_10TW",
+   "37_5000_09SF": "NMBc37_5000_09SF",
+   "37_5000_10SF": "NMBc37_5000_10SF",
+   "39_5000_09SW": "NMBc39_5000_09SW",
+   "39_5000_09TF": "NMMc39_5000_09TF",
+   "39_5000_09TW": "NMMc39_5000_09TW",
+   "39_5000_10SW": "NMBc39_5000_10SW",
+   "39_5000_10TF": "NMMc39_5000_10TF",
+   "39_5000_10TW": "NMMc39_5000_10TW"
+  },
+  "e": {
+   "09_0300_09SF": "NMCe09_0300_09SF",
+   "09_0300_09TF": "NMCe09_0300_09TF",
+   "09_0300_10SF": "NMCe09_0300_10SF",
+   "09_0300_10SO1718": "NMCe09_0300_10SO1718",
+   "09_0300_10SU08": "NMCe09_0300_10SU08",
+   "09_0300_10TF": "NMCe09_0300_10TF",
+   "09_0300_10TO1718": "NMCe09_0300_10TO1718",
+   "09_0300_10TU08": "NMCe09_0300_10TU08",
+   "18_0300_10TO1718": "NMCe18_0300_10TO1718",
+   "22_0300_09TF": "MCe22_0300_09TF",
+   "29_0300_09SF": "NMCe29_0300_09SF",
+   "29_0300_09TF": "NMCe29_0300_09TF",
+   "29_0300_10SF": "NMCe29_0300_10SF",
+   "29_0300_10SO1718": "NMCe29_0300_10SO1718",
+   "29_0300_10SU08": "NMCe29_0300_10SU08",
+   "29_0300_10TF": "NMCe29_0300_10TF",
+   "29_0300_10TO1718": "NMCe29_0300_10TO1718",
+   "29_0300_10TU08": "NMCe29_0300_10TU08",
+   "36_0300_09TF": "MCe36_0300_09TF",
+   "38_0300_09SF": "NMCe38_0300_09SF",
+   "38_0300_09TF": "NMCe38_0300_09TF",
+   "38_0300_10SF": "NMCe38_0300_10SF",
+   "38_0300_10SO1718": "NMCe38_0300_10SO1718",
+   "38_0300_10SU08": "NMCe38_0300_10SU08",
+   "38_0300_10TF": "NMCe38_0300_10TF",
+   "38_0300_10TO1718": "NMCe38_0300_10TO1718",
+   "38_0300_10TU08": "NMCe38_0300_10TU08",
+   "28_0500_10TF": "MCe28_0500_10TF",
+   "09_1000_09SF": "NMCe09_1000_09SF",
+   "09_1000_09TF": "NMCe09_1000_09TF",
+   "09_1000_10SF": "NMCe09_1000_10SF",
+   "09_1000_10SO1718": "NMCe09_1000_10SO1718",
+   "09_1000_10SU08": "NMCe09_1000_10SU08",
+   "09_1000_10TF": "NMCe09_1000_10TF",
+   "09_1000_10TO1718": "NMCe09_1000_10TO1718",
+   "09_1000_10TU08": "NMCe09_1000_10TU08",
+   "13_1000_10SO1718": "NMCe13_1000_10SO1718",
+   "16_1000_09TF": "NMCe16_1000_09TF",
+   "16_1000_10TF": "NMCe16_1000_10TF",
+   "25_1000_09TF": "MCe25_1000_09TF",
+   "26_1000_09TF": "MCe26_1000_09TF",
+   "26_1000_10TF": "MCe26_1000_10TF",
+   "28_1000_10TF": "MCe28_1000_10TF",
+   "29_1000_09SF": "NMCe29_1000_09SF",
+   "29_1000_09TF": "NMCe29_1000_09TF",
+   "29_1000_10SF": "NMCe29_1000_10SF",
+   "29_1000_10SO1718": "NMCe29_1000_10SO1718",
+   "29_1000_10SU08": "NMCe29_1000_10SU08",
+   "29_1000_10TF": "NMCe29_1000_10TF",
+   "29_1000_10TO1718": "NMCe29_1000_10TO1718",
+   "29_1000_10TU08": "NMCe29_1000_10TU08",
+   "36_1000_09TF": "MCe36_1000_09TF",
+   "36_1000_10TF": "MCe36_1000_10TF",
+   "37_1000_09SF": "MCe37_1000_09SF",
+   "37_1000_10SF": "MCe37_1000_10SF",
+   "37_1000_10TF": "MCe37_1000_10TF",
+   "38_1000_09SF": "NMCe38_1000_09SF",
+   "38_1000_09TF": "NMCe38_1000_09TF",
+   "38_1000_10SF": "NMCe38_1000_10SF",
+   "38_1000_10SO1718": "NMCe38_1000_10SO1718",
+   "38_1000_10SU08": "NMCe38_1000_10SU08",
+   "38_1000_10TF": "NMCe38_1000_10TF",
+   "38_1000_10TO1718": "NMCe38_1000_10TO1718",
+   "38_1000_10TU08": "NMCe38_1000_10TU08",
+   "39_1000_09TF": "MCe39_1000_09TF",
+   "39_1000_10TF": "NMCe39_1000_10TF",
+   "37_2000_09SF": "NMCe37_2000_09SF",
+   "37_2000_10SF": "NMCe37_2000_10SF",
+   "39_2000_09SW": "NMCe39_2000_09SW",
+   "39_2000_10SW": "NMCe39_2000_10SW",
+   "37_3000_09SF": "NMCe37_3000_09SF",
+   "37_3000_10SF": "NMCe37_3000_10SF",
+   "39_3000_09SW": "NMCe39_3000_09SW",
+   "39_3000_10SW": "NMCe39_3000_10SW",
+   "39_3000_10TF": "NMCe39_3000_10TF",
+   "37_4000_09SF": "NMCe37_4000_09SF",
+   "37_4000_10SF": "NMCe37_4000_10SF",
+   "39_4000_09SW": "NMCe39_4000_09SW",
+   "39_4000_09TW": "NMCe39_4000_09TW",
+   "39_4000_10SW": "NMCe39_4000_10SW",
+   "39_4000_10TW": "NMCe39_4000_10TW",
+   "37_5000_09SF": "NMCe37_5000_09SF",
+   "37_5000_10SF": "NMCe37_5000_10SF",
+   "39_5000_09SW": "NMCe39_5000_09SW",
+   "39_5000_09TF": "NMCe39_5000_09TF",
+   "39_5000_09TW": "NMCe39_5000_09TW",
+   "39_5000_10SW": "NMCe39_5000_10SW",
+   "39_5000_10TF": "NMCe39_5000_10TF",
+   "39_5000_10TW": "NMCe39_5000_10TW"
+  },
+  "f": {
+   "09_0300_09SF": "NMPf09_0300_09SF",
+   "09_0300_09TF": "NMPf09_0300_09TF",
+   "09_0300_10SF": "NMPf09_0300_10SF",
+   "09_0300_10SO1718": "NMPf09_0300_10SO1718",
+   "09_0300_10SU08": "NMPf09_0300_10SU08",
+   "09_0300_10TF": "NMPf09_0300_10TF",
+   "09_0300_10TO1718": "NMPf09_0300_10TO1718",
+   "09_0300_10TU08": "NMPf09_0300_10TU08",
+   "18_0300_10TO1718": "NMPf18_0300_10TO1718",
+   "22_0300_09TF": "MGf22_0300_09TF",
+   "29_0300_09SF": "NMPf29_0300_09SF",
+   "29_0300_09TF": "NMPf29_0300_09TF",
+   "29_0300_10SF": "NMPf29_0300_10SF",
+   "29_0300_10SO1718": "NMPf29_0300_10SO1718",
+   "29_0300_10SU08": "NMPf29_0300_10SU08",
+   "29_0300_10TF": "NMPf29_0300_10TF",
+   "29_0300_10TO1718": "NMPf29_0300_10TO1718",
+   "29_0300_10TU08": "NMPf29_0300_10TU08",
+   "36_0300_09TF": "MGf36_0300_09TF",
+   "38_0300_09SF": "NMPf38_0300_09SF",
+   "38_0300_09TF": "NMPf38_0300_09TF",
+   "38_0300_10SF": "NMPf38_0300_10SF",
+   "38_0300_10SO1718": "NMPf38_0300_10SO1718",
+   "38_0300_10SU08": "NMPf38_0300_10SU08",
+   "38_0300_10TF": "NMPf38_0300_10TF",
+   "38_0300_10TO1718": "NMPf38_0300_10TO1718",
+   "38_0300_10TU08": "NMPf38_0300_10TU08",
+   "28_0500_10TF": "MGf28_0500_10TF",
+   "09_1000_09SF": "NMPf09_1000_09SF",
+   "09_1000_09TF": "NMPf09_1000_09TF",
+   "09_1000_10SF": "NMPf09_1000_10SF",
+   "09_1000_10SO1718": "NMPf09_1000_10SO1718",
+   "09_1000_10SU08": "NMPf09_1000_10SU08",
+   "09_1000_10TF": "NMPf09_1000_10TF",
+   "09_1000_10TO1718": "NMPf09_1000_10TO1718",
+   "09_1000_10TU08": "NMPf09_1000_10TU08",
+   "13_1000_10SO1718": "NMPf13_1000_10SO1718",
+   "16_1000_09TF": "NMMf16_1000_09TF",
+   "16_1000_10TF": "NMMf16_1000_10TF",
+   "25_1000_09TF": "MGf25_1000_09TF",
+   "26_1000_09TF": "MGf26_1000_09TF",
+   "26_1000_10TF": "MGf26_1000_10TF",
+   "28_1000_10TF": "MGf28_1000_10TF",
+   "29_1000_09SF": "NMPf29_1000_09SF",
+   "29_1000_09TF": "NMPf29_1000_09TF",
+   "29_1000_10SF": "NMPf29_1000_10SF",
+   "29_1000_10SO1718": "NMPf29_1000_10SO1718",
+   "29_1000_10SU08": "NMPf29_1000_10SU08",
+   "29_1000_10TF": "NMPf29_1000_10TF",
+   "29_1000_10TO1718": "NMPf29_1000_10TO1718",
+   "29_1000_10TU08": "NMPf29_1000_10TU08",
+   "36_1000_09TF": "MGf36_1000_09TF",
+   "36_1000_10TF": "MGf36_1000_10TF",
+   "37_1000_09SF": "MGf37_1000_09SF",
+   "37_1000_10SF": "MGf37_1000_10SF",
+   "37_1000_10TF": "MGf37_1000_10TF",
+   "38_1000_09SF": "NMPf38_1000_09SF",
+   "38_1000_09TF": "NMPf38_1000_09TF",
+   "38_1000_10SF": "NMPf38_1000_10SF",
+   "38_1000_10SO1718": "NMPf38_1000_10SO1718",
+   "38_1000_10SU08": "NMPf38_1000_10SU08",
+   "38_1000_10TF": "NMPf38_1000_10TF",
+   "38_1000_10TO1718": "NMPf38_1000_10TO1718",
+   "38_1000_10TU08": "NMPf38_1000_10TU08",
+   "39_1000_09TF": "MGf39_1000_09TF",
+   "39_1000_10TF": "NMMf39_1000_10TF",
+   "37_2000_09SF": "FMCf37_2000_09SF",
+   "37_2000_10SF": "FMCf37_2000_10SF",
+   "39_2000_09SW": "FMCf39_2000_09SW",
+   "39_2000_10SW": "FMCf39_2000_10SW",
+   "37_3000_09SF": "FMCf37_3000_09SF",
+   "37_3000_10SF": "FMCf37_3000_10SF",
+   "39_3000_09SW": "FMCf39_3000_09SW",
+   "39_3000_10SW": "FMCf39_3000_10SW",
+   "39_3000_10TF": "NMMf39_3000_10TF",
+   "37_4000_09SF": "FMCf37_4000_09SF",
+   "37_4000_10SF": "FMCf37_4000_10SF",
+   "39_4000_09SW": "FMCf39_4000_09SW",
+   "39_4000_09TW": "NMMf39_4000_09TW",
+   "39_4000_10SW": "FMCf39_4000_10SW",
+   "39_4000_10TW": "NMMf39_4000_10TW",
+   "37_5000_09SF": "FMCf37_5000_09SF",
+   "37_5000_10SF": "FMCf37_5000_10SF",
+   "39_5000_09SW": "FMCf39_5000_09SW",
+   "39_5000_09TF": "NMMf39_5000_09TF",
+   "39_5000_09TW": "NMMf39_5000_09TW",
+   "39_5000_10SW": "FMCf39_5000_10SW",
+   "39_5000_10TF": "NMMf39_5000_10TF",
+   "39_5000_10TW": "NMMf39_5000_10TW"
+  },
+  "z": {
+   "09_0300_09SF": "NMPz09_0300_09SF",
+   "09_0300_09TF": "NMPz09_0300_09TF",
+   "09_0300_10SF": "NMPz09_0300_10SF",
+   "09_0300_10SO1718": "NMPz09_0300_10SO1718",
+   "09_0300_10SU08": "NMPz09_0300_10SU08",
+   "09_0300_10TF": "NMPz09_0300_10TF",
+   "09_0300_10TO1718": "NMPz09_0300_10TO1718",
+   "09_0300_10TU08": "NMPz09_0300_10TU08",
+   "18_0300_10TO1718": "NMPz18_0300_10TO1718",
+   "22_0300_09TF": "MGz22_0300_09TF",
+   "29_0300_09SF": "NMPz29_0300_09SF",
+   "29_0300_09TF": "NMPz29_0300_09TF",
+   "29_0300_10SF": "NMPz29_0300_10SF",
+   "29_0300_10SO1718": "NMPz29_0300_10SO1718",
+   "29_0300_10SU08": "NMPz29_0300_10SU08",
+   "29_0300_10TF": "NMPz29_0300_10TF",
+   "29_0300_10TO1718": "NMPz29_0300_10TO1718",
+   "29_0300_10TU08": "NMPz29_0300_10TU08",
+   "36_0300_09TF": "MGz36_0300_09TF",
+   "38_0300_09SF": "NMPz38_0300_09SF",
+   "38_0300_09TF": "NMPz38_0300_09TF",
+   "38_0300_10SF": "NMPz38_0300_10SF",
+   "38_0300_10SO1718": "NMPz38_0300_10SO1718",
+   "38_0300_10SU08": "NMPz38_0300_10SU08",
+   "38_0300_10TF": "NMPz38_0300_10TF",
+   "38_0300_10TO1718": "NMPz38_0300_10TO1718",
+   "38_0300_10TU08": "NMPz38_0300_10TU08",
+   "28_0500_10TF": "MGz28_0500_10TF",
+   "09_1000_09SF": "NMPz09_1000_09SF",
+   "09_1000_09TF": "NMPz09_1000_09TF",
+   "09_1000_10SF": "NMPz09_1000_10SF",
+   "09_1000_10SO1718": "NMPz09_1000_10SO1718",
+   "09_1000_10SU08": "NMPz09_1000_10SU08",
+   "09_1000_10TF": "NMPz09_1000_10TF",
+   "09_1000_10TO1718": "NMPz09_1000_10TO1718",
+   "09_1000_10TU08": "NMPz09_1000_10TU08",
+   "13_1000_10SO1718": "NMPz13_1000_10SO1718",
+   "16_1000_09TF": "NMMz16_1000_09TF",
+   "16_1000_10TF": "NMMz16_1000_10TF",
+   "25_1000_09TF": "MGz25_1000_09TF",
+   "26_1000_09TF": "MGz26_1000_09TF",
+   "26_1000_10TF": "MGz26_1000_10TF",
+   "28_1000_10TF": "MGz28_1000_10TF",
+   "29_1000_09SF": "NMPz29_1000_09SF",
+   "29_1000_09TF": "NMPz29_1000_09TF",
+   "29_1000_10SF": "NMPz29_1000_10SF",
+   "29_1000_10SO1718": "NMPz29_1000_10SO1718",
+   "29_1000_10SU08": "NMPz29_1000_10SU08",
+   "29_1000_10TF": "NMPz29_1000_10TF",
+   "29_1000_10TO1718": "NMPz29_1000_10TO1718",
+   "29_1000_10TU08": "NMPz29_1000_10TU08",
+   "36_1000_09TF": "MGz36_1000_09TF",
+   "36_1000_10TF": "MGz36_1000_10TF",
+   "37_1000_09SF": "MGz37_1000_09SF",
+   "37_1000_10SF": "MGz37_1000_10SF",
+   "37_1000_10TF": "MGz37_1000_10TF",
+   "38_1000_09SF": "NMPz38_1000_09SF",
+   "38_1000_09TF": "NMPz38_1000_09TF",
+   "38_1000_10SF": "NMPz38_1000_10SF",
+   "38_1000_10SO1718": "NMPz38_1000_10SO1718",
+   "38_1000_10SU08": "NMPz38_1000_10SU08",
+   "38_1000_10TF": "NMPz38_1000_10TF",
+   "38_1000_10TO1718": "NMPz38_1000_10TO1718",
+   "38_1000_10TU08": "NMPz38_1000_10TU08",
+   "39_1000_09TF": "MGz39_1000_09TF",
+   "39_1000_10TF": "NMMz39_1000_10TF",
+   "37_2000_09SF": "NMBz37_2000_09SF",
+   "37_2000_10SF": "NMBz37_2000_10SF",
+   "39_2000_09SW": "NMBz39_2000_09SW",
+   "39_2000_10SW": "NMBz39_2000_10SW",
+   "37_3000_09SF": "NMBz37_3000_09SF",
+   "37_3000_10SF": "NMBz37_3000_10SF",
+   "39_3000_09SW": "NMBz39_3000_09SW",
+   "39_3000_10SW": "NMBz39_3000_10SW",
+   "39_3000_10TF": "NMMz39_3000_10TF",
+   "37_4000_09SF": "NMBz37_4000_09SF",
+   "37_4000_10SF": "NMBz37_4000_10SF",
+   "39_4000_09SW": "NMBz39_4000_09SW",
+   "39_4000_09TW": "NMMz39_4000_09TW",
+   "39_4000_10SW": "NMBz39_4000_10SW",
+   "39_4000_10TW": "NMMz39_4000_10TW",
+   "37_5000_09SF": "NMBz37_5000_09SF",
+   "37_5000_10SF": "NMBz37_5000_10SF",
+   "39_5000_09SW": "NMBz39_5000_09SW",
+   "39_5000_09TF": "NMMz39_5000_09TF",
+   "39_5000_09TW": "NMMz39_5000_09TW",
+   "39_5000_10SW": "NMBz39_5000_10SW",
+   "39_5000_10TF": "NMMz39_5000_10TF",
+   "39_5000_10TW": "NMMz39_5000_10TW"
+  }
+ },
+ "src": "the record's per-run readings under the runs' tags, the parts' run tags of record and the places of the paper's printed leaves",
+ "traces": [
+  {
+   "tag": "LRFv39_1000_10TF",
+   "key": "39_1000_10TF_0p001pu",
+   "code": "v",
+   "file": "LRFv39_1000_10TF.json"
+  },
+  {
+   "tag": "LRFk39_1000_10TF",
+   "key": "39_1000_10TF_0p001pu",
+   "code": "k",
+   "file": "LRFk39_1000_10TF.json"
+  },
+  {
+   "tag": "LROl51r39_1000_10TF",
+   "key": "39_1000_10TF_0p001pu",
+   "code": "l51",
+   "file": "LROl51r39_1000_10TF.json"
+  },
+  {
+   "tag": "LROl99r39_1000_10TF",
+   "key": "39_1000_10TF_0p001pu",
+   "code": "l99",
+   "file": "LROl99r39_1000_10TF.json"
+  },
+  {
+   "tag": "LRFn39_1000_10TF",
+   "key": "39_1000_10TF_0p001pu",
+   "code": "n",
+   "file": "LRFn39_1000_10TF.json"
+  },
+  {
+   "tag": "LROor39_1000_10TF",
+   "key": "39_1000_10TF_0p001pu",
+   "code": "o",
+   "file": "LROor39_1000_10TF.json"
+  },
+  {
+   "tag": "LROyr39_1000_10TF",
+   "key": "39_1000_10TF_0p001pu",
+   "code": "y",
+   "file": "LROyr39_1000_10TF.json"
+  }
+ ],
+ "trace_series": {
+  "panels": {
+   "a": "relmax",
+   "b": "Vt",
+   "c": "Iout_join",
+   "d": "psi (the law's own)"
+  },
+  "unit": "unit 10 at bus 39",
+  "window_s_after_clearing": [
+   -1.2,
+   3.5
+  ]
+ }
+}

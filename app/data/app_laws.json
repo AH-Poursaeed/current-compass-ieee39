@@ -1,0 +1,214 @@
+{
+ "schema": "cca-laws/1",
+ "laws": [
+  {
+   "code": "v",
+   "name": "Current Compass",
+   "mode": "compass",
+   "group": "This paper",
+   "setting": "this paper",
+   "colour": "#0054B4",
+   "line": "-",
+   "ref": ""
+  },
+  {
+   "code": "k",
+   "name": "Virtual active power feedback",
+   "mode": "vap",
+   "group": "Active-power path",
+   "setting": "published",
+   "colour": "#228833",
+   "line": "-",
+   "ref": "kkuni_yang"
+  },
+  {
+   "code": "o",
+   "name": "Multi-objective strategy",
+   "mode": "gao",
+   "group": "Active-power path",
+   "setting": "published",
+   "colour": "#EE6677",
+   "line": "-",
+   "ref": "gao_tste"
+  },
+  {
+   "code": "d",
+   "name": "Reactive power synchronization",
+   "mode": "qsyn",
+   "group": "Synchronization",
+   "setting": "published",
+   "colour": "#AA3377",
+   "line": "-",
+   "ref": "deng"
+  },
+  {
+   "code": "q",
+   "name": "Reactive power synchronization, selected",
+   "mode": "qsyn",
+   "group": "Synchronization",
+   "setting": "selected",
+   "colour": "#AA3377",
+   "line": ":",
+   "ref": "deng"
+  },
+  {
+   "code": "h",
+   "name": "Cross-forming control",
+   "mode": "xf",
+   "group": "Synchronization",
+   "setting": "published",
+   "colour": "#B8A000",
+   "line": "-",
+   "ref": "he_dorfler"
+  },
+  {
+   "code": "y",
+   "name": "Cross-forming control, selected",
+   "mode": "xf",
+   "group": "Synchronization",
+   "setting": "selected",
+   "colour": "#B8A000",
+   "line": ":",
+   "ref": "he_dorfler"
+  },
+  {
+   "code": "l63",
+   "name": "Saturated cross-forming control",
+   "mode": "sxf",
+   "group": "Synchronization",
+   "setting": "published",
+   "colour": "#EE7733",
+   "line": "-",
+   "ref": "yang_satxf"
+  },
+  {
+   "code": "l94",
+   "name": "Saturated cross-forming control, selected",
+   "mode": "sxf",
+   "group": "Synchronization",
+   "setting": "selected",
+   "colour": "#EE7733",
+   "line": ":",
+   "ref": "yang_satxf"
+  },
+  {
+   "code": "l10",
+   "name": "Fixed-angle priority limiter",
+   "mode": "fap",
+   "group": "Current angle",
+   "setting": "published",
+   "colour": "#009988",
+   "line": "-",
+   "ref": "yang_tpwrs_letter"
+  },
+  {
+   "code": "l20",
+   "name": "Fixed-angle priority limiter, selected",
+   "mode": "fap",
+   "group": "Current angle",
+   "setting": "selected",
+   "colour": "#009988",
+   "line": ":",
+   "ref": "yang_tpwrs_letter"
+  },
+  {
+   "code": "l51",
+   "name": "Power-angle switching",
+   "mode": "pas",
+   "group": "Current angle",
+   "setting": "published",
+   "colour": "#332288",
+   "line": "-",
+   "ref": "wei_spes"
+  },
+  {
+   "code": "l99",
+   "name": "Virtual-impedance limiter",
+   "mode": "vimp",
+   "group": "Baselines",
+   "setting": "baseline",
+   "colour": "#666666",
+   "line": "-",
+   "ref": ""
+  },
+  {
+   "code": "l98",
+   "name": "Reactive-priority limiter",
+   "mode": "qprio",
+   "group": "Baselines",
+   "setting": "baseline",
+   "colour": "#8C592B",
+   "line": "-",
+   "ref": ""
+  }
+ ],
+ "others": [
+  {
+   "code": "u1",
+   "name": "Fixed Quarter Turn",
+   "mode": "fixedturn",
+   "group": "Ablation",
+   "setting": "ablation",
+   "colour": "#0054B4",
+   "line": "--",
+   "ref": ""
+  },
+  {
+   "code": "f",
+   "name": "Cap and fixed quarter turn, no release",
+   "mode": "fixedturn",
+   "group": "Ablation",
+   "setting": "ablation",
+   "colour": "#0054B4",
+   "line": "-.",
+   "ref": ""
+  },
+  {
+   "code": "z",
+   "name": "Cap and rotation without release",
+   "mode": "norel",
+   "group": "Ablation",
+   "setting": "ablation",
+   "colour": "#0054B4",
+   "line": ":",
+   "ref": ""
+  },
+  {
+   "code": "c",
+   "name": "Cap alone",
+   "mode": "cap",
+   "group": "Ablation",
+   "setting": "ablation",
+   "colour": "#E8A100",
+   "line": "-",
+   "ref": ""
+  },
+  {
+   "code": "e",
+   "name": "Supervised rotation without the cap",
+   "mode": "rot",
+   "group": "Ablation",
+   "setting": "ablation",
+   "colour": "#33A8DE",
+   "line": "-",
+   "ref": ""
+  },
+  {
+   "code": "n",
+   "name": "Circular limiter alone",
+   "mode": "native",
+   "group": "Ablation",
+   "setting": "ablation",
+   "colour": "#000000",
+   "line": "-",
+   "ref": ""
+  }
+ ],
+ "sources": {
+  "published": "data/record/inputs.json published, baselines, families",
+  "family": "data/record/inputs.json family",
+  "names": "data/record/inputs.json names",
+  "parts": "data/record/inputs.json parts (Table III's row labels)",
+  "colours": "data/record/inputs.json colours"
+ }
+}

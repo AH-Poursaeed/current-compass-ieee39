@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="cc.css">
+<script src="icons.js"></script>
+<style>
+body { background: var(--ground); }
+.tabs { display: flex; height: 37px; gap: 0; }
+.tab { display: flex; align-items: center; gap: 10px; padding: 0 16px; min-width: 210px; font-size: 13px;
+  color: var(--ink2); cursor: pointer; border: 1px solid transparent; border-bottom: none; }
+.tab .n { color: var(--ink3); margin-left: auto; font-size: 12px; }
+.tab.active { background: var(--surface); color: var(--ink); border-color: var(--border); border-top: 2px solid var(--accent); }
+.surface { position: absolute; top: 37px; left: 0; right: 0; bottom: 0; background: var(--surface);
+  border: 1px solid var(--border); }
+.toolbar { display: flex; align-items: center; gap: 8px; height: 60px; padding: 0 16px; border-bottom: 1px solid var(--border); }
+.tlabel { font-size: 12px; color: var(--ink3); margin-right: 2px; white-space: nowrap; }
+.chip { height: 28px; padding: 0 9px; white-space: nowrap; display: flex; align-items: center; border: 1px solid var(--border2);
+  border-radius: 4px; font-size: 12px; color: var(--ink2); cursor: pointer; user-select: none; background: var(--surface); }
+.chip.on { border-color: var(--accent); color: var(--accent); background: var(--tint); }
+.gap { width: 18px; }
+.grow { flex: 1; }
+.tnote { font-size: 12px; line-height: 1.35; color: var(--ink2); max-height: 50px; overflow: hidden; }
+.export { white-space: nowrap; display: flex; gap: 6px; align-items: center; font-size: 13px; color: var(--accent); cursor: pointer; }
+#gridwrap { position: absolute; top: 61px; left: 0; right: 0; bottom: 0; overflow: hidden; }
+#card { position: absolute; display: none; width: 250px; padding: 10px 12px; background: var(--surface);
+  border: 1px solid var(--border2); box-shadow: 0 4px 14px rgba(14,23,38,0.12); font-size: 12px; color: var(--ink2); z-index: 5; }
+#card b { color: var(--ink); font-weight: 600; display: block; margin-bottom: 4px; }
+#card .link { display: inline-block; margin-top: 6px; }
+#card .cellhead { display: block; color: var(--ink); margin-bottom: 4px; }
+#card .mark { display: block; color: var(--accent); margin-bottom: 4px; }
+.lstest { padding: 2px 16px 14px 16px; font-size: 12px; line-height: 1.45; color: var(--ink2); max-width: 880px; }
+.lstest p { margin: 0 0 3px 0; }
+.lstest p.lead { color: var(--ink); }
+.empty { padding: 40px; font-size: 14px; color: var(--ink2); }
+</style></head>
+<body>
+<div class="tabs" id="tabs"></div>
+<div class="surface">
+  <div class="toolbar" id="toolbar"></div>
+  <div id="gridwrap"></div>
+  <div id="card"></div>
+</div>
+<script>
+var D = null, TAB = 'scenario', RESET = false, FAM = 'all', DUR = { SHORT: true, LONG: true }, SEL = '';
+var NS = 'http://www.w3.org/2000/svg';
+function css(v) { return getComputedStyle(document.documentElement).getPropertyValue('--' + v).trim(); }
+function el(tag, attrs, parent) {
+  var e = document.createElementNS(NS, tag);
+  for (var k in attrs) { e.setAttribute(k, attrs[k]); }
+  if (parent) { parent.appendChild(e); }
+  return e;
+}
+function arr(x) { return Array.isArray(x) ? x : (x == null ? [] : [x]); }
+function renderTabs() {
+  var t = [['scenario', ccIcon('compare'), 'By scenario', D.nScen], ['location', ccIcon('scenarios'), 'By fault location', D.nBus + ' buses'],
+           ['loadsteps', ccIcon('run'), 'Load steps', D.ls ? D.nLs + ' events' : ''],
+           ['ablation', ccIcon('reproduce'), 'Parts', D.abl ? (arr(D.abl.cols).length - 1) + ' parts' : '']];
+  var h = '';
+  t.forEach(function (x) {
+    h += '<div class="tab' + (TAB === x[0] ? ' active' : '') + '" data-id="' + x[0] + '">' + x[1] + '<span>' + x[2] +
+         '</span><span class="n">' + x[3] + '</span></div>';
+  });
+  document.getElementById('tabs').innerHTML = h;
+  Array.prototype.forEach.call(document.querySelectorAll('.tab'), function (e) {
+    e.onclick = function () {
+      TAB = e.getAttribute('data-id'); RESET = true; renderAll();
+      if (window.hc) { window.hc.sendEventToMATLAB('tab', TAB); }   // the side panel belongs to the first tab only
+    };
+  });
+}
+function tabData() { return TAB === 'location' ? D.lad : (TAB === 'loadsteps' ? D.ls : (TAB === 'ablation' ? D.abl : null)); }
+function renderToolbar() {
+  var X = tabData(), TALL = !!(X && X.noteTall);
+  var tb1 = document.getElementById('toolbar'), gw = document.getElementById('gridwrap');
+  tb1.style.height = ''; tb1.style.padding = ''; gw.style.top = '';
+  if (X) {
+    tb1.innerHTML = '<div class="tnote" id="tnote"></div><div class="grow"></div>';
+    var tn = document.getElementById('tnote');
+    tn.textContent = X.note || '';
+    if (TALL) {   // a long note: the toolbar as tall as the whole note, the table below it
+      tn.style.maxHeight = 'none';
+      tb1.style.height = 'auto'; tb1.style.padding = '8px 16px';
+      gw.style.top = Math.max(61, tb1.offsetHeight + 1) + 'px';
+    }
+    return;
+  }
+  var h = '<span class="tlabel">Family</span>';
+  [['all', 'All'], ['published', 'Published setting'], ['selected', 'Selected setting'], ['baseline', 'Baseline limiter']]
+    .forEach(function (x) { h += '<div class="chip' + (FAM === x[0] ? ' on' : '') + '" data-fam="' + x[0] + '">' + x[1] + '</div>'; });
+  h += '<div class="gap"></div><span class="tlabel">Duration</span>';
+  arr(D.groups).forEach(function (g) {
+    h += '<div class="chip' + (DUR[g.cls] ? ' on' : '') + '" data-dur="' + g.cls + '">' + g.label + ' . ' + g.n + '</div>';
+  });
+  h += '<div class="grow"></div><div class="export" id="export">' +
+       '<svg class="icon" viewBox="0 0 16 16"><path d="M8 2.5v7.5M4.8 7l3.2 3.2L11.2 7M3 12.5h10"/></svg>Export table</div>';
+  var tb = document.getElementById('toolbar');
+  tb.innerHTML = h;
+  Array.prototype.forEach.call(tb.querySelectorAll('[data-fam]'), function (e) {
+    e.onclick = function () { FAM = e.getAttribute('data-fam'); renderAll(); };
+  });
+  Array.prototype.forEach.call(tb.querySelectorAll('[data-dur]'), function (e) {
+    e.onclick = function () { var c = e.getAttribute('data-dur'); DUR[c] = !DUR[c]; renderAll(); };
+  });
+  document.getElementById('export').onclick = function () { window.hc.sendEventToMATLAB('export', FAM); };
+}
+function visibleCols() {
+  var out = [];
+  arr(D.cols).forEach(function (c, j) {
+    if (FAM === 'all' || c.setting === 'this paper' || c.setting === FAM) { out.push(j); }
+  });
+  return out;
+}
+function renderGrid() {
+  var wrap = document.getElementById('gridwrap');
+  var keep = wrap.scrollTop;
+  wrap.innerHTML = '';
+  document.getElementById('card').style.display = 'none';
+  PIN = null;
+  var ABL = TAB === 'ablation', LAD = TAB === 'location', LS = TAB === 'loadsteps', OTHER = ABL || LAD || LS;
+  var X = tabData();
+  if (OTHER && !X) { return; }
+  var COLS = OTHER ? arr(X.cols) : arr(D.cols);
+  var FOOT = OTHER ? arr(X.totals) : arr(D.totals);   // the foot rows: {label, sub, vals}, the losses as the paper prints them
+  var ACELLS = OTHER ? arr(X.cells) : null;
+  var cellOf = function (L, j) { return OTHER ? ACELLS[L.i].charAt(j) : L.r.cells.charAt(j); };
+  var cols = OTHER ? COLS.map(function (c, j) { return j; }) : visibleCols();
+  var rows = (LAD || LS) ? arr(X.rows) : arr(D.rows), groups = (LAD || LS) ? arr(X.groups) : arr(D.groups);
+  var X0 = LS ? 230 : (LAD ? 150 : 112), CW = cols.length > 14 ? 36 : 40, RH = LS ? 22 : (LAD ? 3 : 3.4), HEAD = LAD ? 196 : 182, GH = LS ? 20 : 22;
+  if (!LAD && !LS) {   // the common scenarios' rows: as tall as the region allows (2.6 to 3.4 px), the foot rows in view
+    var nR = 0, nOpen = 0;
+    groups.forEach(function (g) { if (DUR[g.cls] !== false) { nOpen++; rows.forEach(function (r) { if (r.cls === g.cls) { nR++; } }); } });
+    var fixed = HEAD + groups.length * GH + 6 * nOpen + 22 + 30 * FOOT.length;
+    if (nR > 0 && wrap.clientHeight > fixed) { RH = Math.max(2.6, Math.min(3.4, (wrap.clientHeight - fixed) / nR)); }
+  }
+  var W = X0 + CW * cols.length + 150;   // room on the right for the last columns' slanted names
+  var y = HEAD, layout = [];
+  groups.forEach(function (g) {
+    layout.push({ kind: 'group', g: g, y: y }); y += GH;
+    if (DUR[g.cls] !== false) {
+      rows.forEach(function (r, i) { if (r.cls === g.cls) { layout.push({ kind: 'row', r: r, i: i, y: y }); y += RH; } });
+      y += 6;
+    }
+  });
+  var totY = y + 8, H = totY + 14 + 30 * FOOT.length;
+  var svg = el('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H }, wrap);
+  var TEST = LS ? arr(X.test) : [], below = 0;   // the load steps' test under the table, the passed test first
+  if (TEST.length) {
+    var td = document.createElement('div');
+    td.className = 'lstest';
+    TEST.forEach(function (s, k) {
+      var p = document.createElement('p');
+      if (!k) { p.className = 'lead'; }
+      p.textContent = s;
+      td.appendChild(p);
+    });
+    wrap.appendChild(td);
+    below = td.offsetHeight;
+  }
+  wrap.style.overflowY = H + below > wrap.clientHeight ? 'auto' : 'hidden';   // a table taller than the region scrolls
+  wrap.scrollTop = RESET ? 0 : keep;
+  RESET = false;
+  // legend
+  var lg = el('g', {}, svg);
+  var t = el('text', { x: 16, y: 26, 'font-size': 12, 'font-weight': 600, fill: css('ink') }, lg); t.textContent = 'Cell';
+  var keyItems = [['ret', 'returns']];
+  if (OTHER && X.hasE) { keyItems.push(['limited', 'returns, limited at end']); }
+  keyItems.push(['lossInk', 'loss of synchronism']);
+  if (OTHER ? X.hasN === true : true) { keyItems.push(['sunken', 'not eligible']); }
+  if (LAD && X.hasMark) { keyItems.push(['mark', X.markLabel]); }
+  keyItems.forEach(function (x, k) {
+    if (x[0] === 'mark') {   // the mark left of a marked row
+      el('rect', { x: 22, y: 39 + 18 * k, width: 12, height: 2.4, fill: css('ink') }, lg);
+    } else {
+      el('rect', { x: 16, y: 36 + 18 * k, width: 22, height: 9, fill: css(x[0]), stroke: css('border') }, lg);
+    }
+    var tt = el('text', { x: 44, y: 44 + 18 * k, 'font-size': 11, fill: css('ink2') }, lg); tt.textContent = x[1];
+  });
+  var note = el('text', { x: 16, y: 50 + 18 * keyItems.length, 'font-size': 11, fill: css('ink3') }, lg);
+  (LAD ? ['Rows: fault type,', 'resistance, duration', 'and bus; columns:', 'the law, its parts,', 'the compared settings.'] :
+   LS ? ['Rows: the steps', 'by size and bus;', 'columns: as on', 'the ladder.'] :
+   ABL ? ['Columns: the', 'Current Compass and', 'its parts, the rows', 'of Table ' + D.abl.tableParts + '.']
+       : ['Columns: the', 'Current Compass and', 'the compared settings', 'of Table ' + D.tableSet + ', in its', 'order.']).forEach(function (s, k) {
+    var ts = el('tspan', { x: 16, dy: k ? 14 : 0 }, note); ts.textContent = s;
+  });
+  // column heads
+  cols.forEach(function (j, q) {
+    var c = COLS[j], cx = X0 + CW * q + CW / 2;
+    var tx = el('text', { x: 0, y: 0, 'font-size': 10.5, fill: j === 0 ? css('accent') : css('ink2'),
+      transform: 'translate(' + (cx + 3) + ',' + (HEAD - 10) + ') rotate(-55)' }, svg);
+    tx.textContent = c.name;
+    el('line', { x1: X0 + CW * q + 4, x2: X0 + CW * (q + 1) - 4, y1: HEAD - 4, y2: HEAD - 4, stroke: c.colour,
+      'stroke-width': 3, 'stroke-dasharray': c.line === ':' ? '2 2' : (c.line === '--' ? '5 3' : (c.line === '-.' ? '6 2 1.5 2' : 'none')) }, svg);
+  });
+  // rows
+  layout.forEach(function (L) {
+    if (L.kind === 'group') {
+      el('rect', { x: 8, y: L.y + 3, width: W - 16, height: GH - 6, fill: css('sunken') }, svg);
+      var gt = el('text', { x: 16, y: L.y + 15, 'font-size': 12, fill: css('ink') }, svg);
+      gt.textContent = (DUR[L.g.cls] !== false ? '\u25BE  ' : '\u25B8  ') + L.g.label;
+      if (L.g.sub) {   // the group's fault resistance and its count, inside the group's band
+        var gs = el('text', { x: X0 + CW + 8, y: L.y + 15, 'font-size': 11, fill: css('ink2') }, svg);
+        gs.textContent = L.g.sub + ' . ' + L.g.n + ' faults';
+      } else {
+        var gn = el('text', { x: X0 - 12, y: L.y + 15, 'font-size': 11, fill: css('ink3'), 'text-anchor': 'end' }, svg);
+        gn.textContent = L.g.n;
+      }
+      return;
+    }
+    var r = L.r;
+    cols.forEach(function (j, q) {
+      var ch = cellOf(L, j);
+      var f = ch === 'L' ? css('lossInk') : (ch === 'N' ? css('sunken') : (ch === 'E' ? css('limited') : (j === 0 ? css('soft') : css('ret'))));
+      el('rect', { x: X0 + CW * q + 4, y: L.y, width: CW - 8, height: RH - 0.6, fill: f }, svg);
+    });
+    if (r.mark) {   // a decisive fault of the paper: a mark left of its row
+      el('rect', { x: X0 - 22, y: L.y, width: 12, height: RH - 0.6, fill: css('ink') }, svg);
+    }
+    if (LS) {
+      var sl = el('text', { x: X0 - 8, y: L.y + RH / 2 + 4, 'font-size': 11, fill: css('ink'), 'text-anchor': 'end' }, svg);
+      sl.textContent = r.label;
+    } else if (r.key === SEL) {
+      el('rect', { x: X0 - 2, y: L.y - 1.2, width: CW * cols.length + 4, height: RH + 1.8, fill: 'none', stroke: css('ink'), 'stroke-width': 1 }, svg);
+      var st = el('text', { x: X0 - 8, y: L.y + 4, 'font-size': 11, fill: css('ink'), 'text-anchor': 'end' }, svg);
+      st.textContent = r.label;
+    }
+  });
+  // the Compass column outline
+  if (cols[0] === 0) {
+    el('rect', { x: X0 + 1, y: HEAD, width: CW - 2, height: totY - HEAD + 6 + 30 * FOOT.length, fill: 'none', stroke: css('accent'), 'stroke-width': 1.5 }, svg);
+  }
+  // the foot rows: each column's losses as the paper prints them (Table II, Table III), one row a family
+  FOOT.forEach(function (f, k) {
+    var fy = totY + 16 + 30 * k, V = arr(f.vals);
+    var tl = el('text', { x: 16, y: fy, 'font-size': 12, fill: css('ink') }, svg); tl.textContent = f.label;
+    var tl2 = el('text', { x: 16, y: fy + 13, 'font-size': 10.5, fill: css('ink3') }, svg); tl2.textContent = f.sub;
+    cols.forEach(function (j, q) {
+      var cx = X0 + CW * q + CW / 2, v = V[j] == null ? '' : String(V[j]), small = v.length > 4;
+      var a = el('text', { x: cx, y: fy + 4, 'font-size': small ? 10 : 13, 'text-anchor': 'middle',
+        fill: j === 0 ? css('accent') : css('ink'), 'font-weight': j === 0 ? 600 : 400 }, svg);
+      a.textContent = v;
+    });
+  });
+  // hover and click: the card of the cell under the pointer; a click keeps it, with the link to the cell's run
+  GEO = { svg: svg, wrap: wrap, layout: layout, X0: X0, CW: CW, RH: RH, W: W, cols: cols, COLS: COLS, X: X, OTHER: OTHER, cellOf: cellOf };
+  svg.addEventListener('mousemove', function (ev) {
+    if (PIN) { return; }
+    var h = cellAt(ev);
+    if (h) { showCard(h, ev, false); }
+  });
+  svg.addEventListener('click', function (ev) {
+    var h = cellAt(ev);
+    if (!h || h.L.r.open === false) { PIN = null; document.getElementById('card').style.display = 'none'; return; }
+    SEL = h.L.r.key; window.hc.sendEventToMATLAB('select', SEL);
+    var px = { clientX: ev.clientX, clientY: ev.clientY }, jj = h.jj, key = h.L.r.key;
+    renderGrid();
+    var L2 = null;
+    GEO.layout.forEach(function (L) { if (L.kind === 'row' && L.r.key === key) { L2 = L; } });
+    if (L2) { PIN = { L: L2, jj: jj }; showCard(PIN, px, true); }
+  });
+}
+var GEO = null, PIN = null;
+function word(ch) { return ch === 'L' ? 'loses synchronism' : (ch === 'N' ? 'not eligible' : (ch === 'E' ? 'returns, limited at end' : 'returns')); }
+function cellAt(ev) {
+  // the row under the pointer and the column under it (the Current Compass's where the pointer is left of the columns)
+  var rect = GEO.svg.getBoundingClientRect(), yy = ev.clientY - rect.top, hit = null;
+  GEO.layout.forEach(function (L) { if (L.kind === 'row' && yy >= L.y && yy < L.y + GEO.RH) { hit = L; } });
+  if (!hit) { return null; }
+  var q = Math.floor((ev.clientX - rect.left - GEO.X0) / GEO.CW);
+  return { L: hit, jj: (q >= 0 && q < GEO.cols.length) ? GEO.cols[q] : GEO.cols[0] };
+}
+function showCard(h, ev, pinned) {
+  var G = GEO, hit = h.L, r = hit.r, jj = h.jj, COLS = G.COLS, X = G.X, card = document.getElementById('card');
+  var rect = G.svg.getBoundingClientRect(), txt = r.text, dt = '';
+  if (G.OTHER) {
+    txt = COLS.map(function (c, j) { return c.name + ': ' + word(G.cellOf(hit, j)); }).join('; ') + '.';
+    if (X.detail) { dt = String(arr(X.detail)[hit.i] || '').split('|')[jj] || ''; }
+  }
+  var head = '<span class="cellhead">' + COLS[jj].name + ': ' + word(G.cellOf(hit, jj)) + (dt ? '; ' + dt : '') + '.</span>';
+  var canOpen = r.open !== false;
+  var mk = r.mark ? '<span class="mark">' + r.mark + '</span>' : '';
+  var link = !canOpen ? '' : (pinned ? '<br><span class="link" id="open">Open this run in the list of the paper\'s runs \u203A</span>'
+                                     : '<br><span class="hint">Click the cell to open its run.</span>');
+  card.innerHTML = '<b>' + r.longLabel + '</b>' + mk + head + txt + link;
+  card.style.display = 'block';
+  var vis = Math.min(G.W, G.wrap.clientWidth || G.W);   // the card stays inside the visible region
+  card.style.left = Math.max(8, Math.min(ev.clientX - rect.left + 18, vis - 262)) + 'px';
+  var top = hit.y + G.wrap.offsetTop - 1 - G.wrap.scrollTop, ch = card.offsetHeight, sh = card.parentNode.clientHeight;
+  if (top + ch > sh - 4) { top = Math.max(4, top - ch - 6); }   // near the bottom: the card above the row
+  card.style.top = top + 'px';
+  if (pinned && canOpen) {
+    document.getElementById('open').onclick = function () {
+      window.hc.sendEventToMATLAB('openRun', { key: r.key, code: COLS[jj].code, set: r.set || '' });
+    };
+  }
+}
+function renderAll() { if (!D) { return; } renderTabs(); renderToolbar(); renderGrid(); }
+function setup(htmlComponent) {
+  window.hc = htmlComponent;
+  htmlComponent.addEventListener('DataChanged', function () {
+    D = htmlComponent.Data; SEL = (D && D.sel) || SEL;
+    if (D && D.tab) { RESET = RESET || TAB !== D.tab; TAB = D.tab; }
+    renderAll();
+  });
+  D = htmlComponent.Data; if (D) { SEL = D.sel || ''; } renderAll();
+}
+</script>
+</body></html>

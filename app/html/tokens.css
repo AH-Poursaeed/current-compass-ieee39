@@ -1,0 +1,29 @@
+:root {
+  --ground: #F4F5F7;
+  --surface: #FFFFFF;
+  --sunken: #EEF1F5;
+  --border: #E1E5EB;
+  --border2: #C9D0DA;
+  --ink: #0E1726;
+  --ink2: #4A5567;
+  --ink3: #6B7280;
+  --accent: #0054B4;
+  --tint: #E8F0FB;
+  --soft: #CCDFF3;
+  --ret: #E3EDF9;
+  --lossInk: #A3241B;
+  --fault: #FFF2D6;
+  --faultEdge: #E8C98A;
+  --ok: #1E7A4C;
+  --warn: #A86200;
+  --other: #A7B1BF;
+  --tie: #CBD2DC;
+  --axis: #262626;
+  --cap: #B07A16;
+  --rot: #0B6FBF;
+  --rel: #1B7A4B;
+  --accentHover: #00438F;
+  --skeleton: #E8EBEF;
+  --white: #FFFFFF;
+  --limited: #5E3C99;
+}

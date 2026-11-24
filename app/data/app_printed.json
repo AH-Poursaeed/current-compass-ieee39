@@ -1,0 +1,3635 @@
+{
+ "schema": "cca-printed/2",
+ "n": 602,
+ "places": [
+  "Abstract",
+  "Section I",
+  "Section III",
+  "Section IV",
+  "Section V",
+  "Section VI",
+  "Fig. 3, caption",
+  "Fig. 5, caption",
+  "Fig. 6, caption",
+  "Fig. 7, caption",
+  "Table I",
+  "Table II",
+  "Table III",
+  "Table IV"
+ ],
+ "rows": [
+  {
+   "place": "Abstract",
+   "name": "durations of t_parts / ladder / v (largest)",
+   "printed": "2",
+   "path": "durations of s60r.v6.t_parts.ladder.v (largest)"
+  },
+  {
+   "place": "Abstract",
+   "name": "durations of t_parts / lrf_0p001pu / v (largest)",
+   "printed": "1",
+   "path": "durations of s60r.v6.t_parts.lrf_0p001pu.v (largest)"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / sets / lad26 / durations_ms (s)",
+   "printed": "4 and 5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / sets / c101 / n_keys",
+   "printed": "101",
+   "path": "s60r.v6.r15.sets.c101.n_keys"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / c101 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.c101.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / c101 / k / lost",
+   "printed": "5",
+   "path": "s60r.v6.r15.c101.k.lost"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / c101 / min_other",
+   "printed": "32",
+   "path": "s60r.v6.r15.c101.min_other"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / sets / lad26 / n",
+   "printed": "26",
+   "path": "s60r.v6.r15.sets.lad26.n"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / lad26 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.lad26.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / lad26 / k / lost",
+   "printed": "12",
+   "path": "s60r.v6.r15.lad26.k.lost"
+  },
+  {
+   "place": "Abstract",
+   "name": "r17 / q2 / twelve / eleven_others / smallest",
+   "printed": "14",
+   "path": "s60r.v6.r17.q2.twelve.eleven_others.smallest"
+  },
+  {
+   "place": "Abstract",
+   "name": "chain / census / form / compared_laws (published families, lower case)",
+   "printed": "seven",
+   "path": "chain.census.form.compared_laws (published families, lower case)"
+  },
+  {
+   "place": "Abstract",
+   "name": "system / n_unit (word)",
+   "printed": "ten",
+   "path": "system.n_unit (word)"
+  },
+  {
+   "place": "Abstract",
+   "name": "p_na / totals / v / ladder_78 / of",
+   "printed": "78",
+   "path": "s60r.v6.p_na.totals.v.ladder_78.of"
+  },
+  {
+   "place": "Abstract",
+   "name": "p_nr / A2 / twelve_lost_of_78_smallest",
+   "printed": "19",
+   "path": "s60r.v6.p_nr.A2.twelve_lost_of_78_smallest"
+  },
+  {
+   "place": "Abstract",
+   "name": "chain / census / form / compared_laws (published families)",
+   "printed": "Seven",
+   "path": "chain.census.form.compared_laws (published families)"
+  },
+  {
+   "place": "Abstract",
+   "name": "chain / census / form / compared_laws (baseline families)",
+   "printed": "two",
+   "path": "chain.census.form.compared_laws (baseline families)"
+  },
+  {
+   "place": "Abstract",
+   "name": "t_parts / ladder / k / d1000ms (the duration)",
+   "printed": "1",
+   "path": "s60r.v6.t_parts.ladder.k.d1000ms (the duration)"
+  },
+  {
+   "place": "Abstract",
+   "name": "p_path / fault_resistance / base_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.p_path.fault_resistance.base_pu"
+  },
+  {
+   "place": "Abstract",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Abstract",
+   "name": "t_parts / ladder / k / d1000ms / lost",
+   "printed": "4",
+   "path": "s60r.v6.t_parts.ladder.k.d1000ms.lost"
+  },
+  {
+   "place": "Abstract",
+   "name": "p_lrx / eight_laws_d1000ms / smallest_lost",
+   "printed": "5",
+   "path": "s60r.v6.p_lrx.eight_laws_d1000ms.smallest_lost"
+  },
+  {
+   "place": "Abstract",
+   "name": "p_pairs / v_c / D_QF / S3 / n",
+   "printed": "39",
+   "path": "s60r.v6.p_pairs.v_c.D_QF.S3.n"
+  },
+  {
+   "place": "Section I",
+   "name": "durations of t_parts / ladder / v (smallest)",
+   "printed": "0.3",
+   "path": "durations of s60r.v6.t_parts.ladder.v (smallest)"
+  },
+  {
+   "place": "Section I",
+   "name": "durations of t_parts / lrf_0p001pu / v (smallest)",
+   "printed": "0.15",
+   "path": "durations of s60r.v6.t_parts.lrf_0p001pu.v (smallest)"
+  },
+  {
+   "place": "Section I",
+   "name": "p_bench / design / cases",
+   "printed": "69",
+   "path": "s60r.v6.p_bench.design.cases"
+  },
+  {
+   "place": "Section I",
+   "name": "chain / census / form / compared_laws (count)",
+   "printed": "13",
+   "path": "chain.census.form.compared_laws (count)"
+  },
+  {
+   "place": "Section I",
+   "name": "buses of chain / ablation / per_code / v / SHORT / missing_keys and chain / headline / set_R1 / long_common_keys / keys (count)",
+   "printed": "13",
+   "path": "buses of chain.ablation.per_code.v.SHORT.missing_keys and chain.headline.set_R1.long_common_keys.keys (count)"
+  },
+  {
+   "place": "Section I",
+   "name": "t_parts / lrf_0p001pu / k / d1000ms / lost",
+   "printed": "10",
+   "path": "s60r.v6.t_parts.lrf_0p001pu.k.d1000ms.lost"
+  },
+  {
+   "place": "Section I",
+   "name": "p_lrx / eight_laws_d1000ms / largest_lost",
+   "printed": "11",
+   "path": "s60r.v6.p_lrx.eight_laws_d1000ms.largest_lost"
+  },
+  {
+   "place": "Section I",
+   "name": "p_pairs / v_c / D_T / S3 / median",
+   "printed": "6",
+   "path": "s60r.v6.p_pairs.v_c.D_T.S3.median"
+  },
+  {
+   "place": "Section I",
+   "name": "t_parts / parts / c lost keys returned by v (single-line-to-ground, bus 37)",
+   "printed": "10",
+   "path": "s60r.v6.t_parts.parts.c lost keys returned by v (single-line-to-ground, bus 37)"
+  },
+  {
+   "place": "Section I",
+   "name": "durations of t_parts / ladder / v (largest)",
+   "printed": "2",
+   "path": "durations of s60r.v6.t_parts.ladder.v (largest)"
+  },
+  {
+   "place": "Section I",
+   "name": "durations of t_parts / lrf_0p001pu / v (largest)",
+   "printed": "1",
+   "path": "durations of s60r.v6.t_parts.lrf_0p001pu.v (largest)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / sets / lad26 / durations_ms (s)",
+   "printed": "4 and 5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / sets / c101 / n_keys",
+   "printed": "101",
+   "path": "s60r.v6.r15.sets.c101.n_keys"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / c101 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.c101.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / c101 / k / lost",
+   "printed": "5",
+   "path": "s60r.v6.r15.c101.k.lost"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / c101 / min_other",
+   "printed": "32",
+   "path": "s60r.v6.r15.c101.min_other"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / sets / lad26 / n",
+   "printed": "26",
+   "path": "s60r.v6.r15.sets.lad26.n"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / lad26 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.lad26.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / lad26 / k / lost",
+   "printed": "12",
+   "path": "s60r.v6.r15.lad26.k.lost"
+  },
+  {
+   "place": "Section I",
+   "name": "r17 / q2 / twelve / eleven_others / smallest",
+   "printed": "14",
+   "path": "s60r.v6.r17.q2.twelve.eleven_others.smallest"
+  },
+  {
+   "place": "Section I",
+   "name": "chain / census / form / compared_laws (published families, lower case)",
+   "printed": "seven",
+   "path": "chain.census.form.compared_laws (published families, lower case)"
+  },
+  {
+   "place": "Section I",
+   "name": "system / n_unit (word)",
+   "printed": "ten",
+   "path": "system.n_unit (word)"
+  },
+  {
+   "place": "Section I",
+   "name": "p_na / totals / v / ladder_78 / of",
+   "printed": "78",
+   "path": "s60r.v6.p_na.totals.v.ladder_78.of"
+  },
+  {
+   "place": "Section I",
+   "name": "p_nr / A2 / twelve_lost_of_78_smallest",
+   "printed": "19",
+   "path": "s60r.v6.p_nr.A2.twelve_lost_of_78_smallest"
+  },
+  {
+   "place": "Section I",
+   "name": "chain / census / form / compared_laws (published families)",
+   "printed": "Seven",
+   "path": "chain.census.form.compared_laws (published families)"
+  },
+  {
+   "place": "Section I",
+   "name": "chain / census / form / compared_laws (baseline families)",
+   "printed": "two",
+   "path": "chain.census.form.compared_laws (baseline families)"
+  },
+  {
+   "place": "Section I",
+   "name": "t_parts / ladder / k / d1000ms (the duration)",
+   "printed": "1",
+   "path": "s60r.v6.t_parts.ladder.k.d1000ms (the duration)"
+  },
+  {
+   "place": "Section I",
+   "name": "p_path / fault_resistance / base_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.p_path.fault_resistance.base_pu"
+  },
+  {
+   "place": "Section I",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Section I",
+   "name": "t_parts / ladder / k / d1000ms / lost",
+   "printed": "4",
+   "path": "s60r.v6.t_parts.ladder.k.d1000ms.lost"
+  },
+  {
+   "place": "Section I",
+   "name": "p_lrx / eight_laws_d1000ms / smallest_lost",
+   "printed": "5",
+   "path": "s60r.v6.p_lrx.eight_laws_d1000ms.smallest_lost"
+  },
+  {
+   "place": "Section I",
+   "name": "p_pairs / v_c / D_QF / S3 / n",
+   "printed": "39",
+   "path": "s60r.v6.p_pairs.v_c.D_QF.S3.n"
+  },
+  {
+   "place": "Section III",
+   "name": "law / settings / qFloor",
+   "printed": "0.5",
+   "path": "law.settings.qFloor"
+  },
+  {
+   "place": "Section III",
+   "name": "p_cap0 / margin_load_1p0_smallest",
+   "printed": "0.03",
+   "path": "s60r.v6.p_cap0.margin_load_1p0_smallest"
+  },
+  {
+   "place": "Section III",
+   "name": "p_cap0 / margin_load_1p0_largest",
+   "printed": "0.09",
+   "path": "s60r.v6.p_cap0.margin_load_1p0_largest"
+  },
+  {
+   "place": "Section III",
+   "name": "p_cap0 / cap_pu_of_rating_smallest",
+   "printed": "1",
+   "path": "s60r.v6.p_cap0.cap_pu_of_rating_smallest"
+  },
+  {
+   "place": "Section III",
+   "name": "p_cap0 / cap_factor_c",
+   "printed": "0.8",
+   "path": "s60r.v6.p_cap0.cap_factor_c"
+  },
+  {
+   "place": "Section III",
+   "name": "p_cap0 / iLimPu",
+   "printed": "1.25",
+   "path": "s60r.v6.p_cap0.iLimPu"
+  },
+  {
+   "place": "Section III",
+   "name": "theory / v_turn_pu / platform / kappa_rad_s_per_pu_by_unit / unit_10",
+   "printed": "4.147",
+   "path": "s60r.theory.v_turn_pu.platform.kappa_rad_s_per_pu_by_unit.unit_10"
+  },
+  {
+   "place": "Section III",
+   "name": "theory / v_turn_pu / platform / B_C_pu_of_rating_by_unit / unit_10",
+   "printed": "0.0166",
+   "path": "s60r.theory.v_turn_pu.platform.B_C_pu_of_rating_by_unit.unit_10"
+  },
+  {
+   "place": "Section III",
+   "name": "p_bench / winding_instance / V_pu",
+   "printed": "0.40",
+   "path": "s60r.v6.p_bench.winding_instance.V_pu"
+  },
+  {
+   "place": "Section III",
+   "name": "p_bench / winding_instance / R_pu",
+   "printed": "0.02",
+   "path": "s60r.v6.p_bench.winding_instance.R_pu"
+  },
+  {
+   "place": "Section III",
+   "name": "p_bench / winding_instance / X_pu",
+   "printed": "0.06",
+   "path": "s60r.v6.p_bench.winding_instance.X_pu"
+  },
+  {
+   "place": "Section III",
+   "name": "p_bench / winding_instance / Omega_rad_s",
+   "printed": "3.13",
+   "path": "s60r.v6.p_bench.winding_instance.Omega_rad_s"
+  },
+  {
+   "place": "Section III",
+   "name": "p_bench / winding_instance / P_star_pu",
+   "printed": "1.0",
+   "path": "s60r.v6.p_bench.winding_instance.P_star_pu"
+  },
+  {
+   "place": "Section III",
+   "name": "p_bench / winding_instance / cap_alone_converged_starts",
+   "printed": "72",
+   "path": "s60r.v6.p_bench.winding_instance.cap_alone_converged_starts"
+  },
+  {
+   "place": "Section III",
+   "name": "t_par / gfm_control / lag1_power_lowpass / value",
+   "printed": "50",
+   "path": "s60r.v6.t_par.gfm_control.lag1_power_lowpass.value"
+  },
+  {
+   "place": "Section III",
+   "name": "t_par / gfm_control / lag2_droop_state / value",
+   "printed": "10",
+   "path": "s60r.v6.t_par.gfm_control.lag2_droop_state.value"
+  },
+  {
+   "place": "Section III",
+   "name": "theory / v_turn_pu / platform / smallest_v_turn_pu",
+   "printed": "0.65",
+   "path": "s60r.theory.v_turn_pu.platform.smallest_v_turn_pu"
+  },
+  {
+   "place": "Section III",
+   "name": "theory / v_turn_pu / platform / largest_v_turn_pu",
+   "printed": "0.66",
+   "path": "s60r.theory.v_turn_pu.platform.largest_v_turn_pu"
+  },
+  {
+   "place": "Section III",
+   "name": "p_s3 / g / M_min_floor_print",
+   "printed": "21",
+   "path": "s60r.v6.p_s3.g.M_min_floor_print"
+  },
+  {
+   "place": "Section III",
+   "name": "p_s3 / g / circles_evaluated",
+   "printed": "5,616",
+   "path": "s60r.v6.p_s3.g.circles_evaluated"
+  },
+  {
+   "place": "Section IV",
+   "name": "chain / census / form / compared_laws",
+   "printed": "nine",
+   "path": "chain.census.form.compared_laws"
+  },
+  {
+   "place": "Section IV",
+   "name": "t_parts / parts / c lost keys returned by v (their one bus)",
+   "printed": "37",
+   "path": "s60r.v6.t_parts.parts.c lost keys returned by v (their one bus)"
+  },
+  {
+   "place": "Section IV",
+   "name": "system / f_settled_Hz",
+   "printed": "60",
+   "path": "system.f_settled_Hz"
+  },
+  {
+   "place": "Section IV",
+   "name": "r15 / sets / c101 / n_keys",
+   "printed": "101",
+   "path": "s60r.v6.r15.sets.c101.n_keys"
+  },
+  {
+   "place": "Section IV",
+   "name": "durations of the ladder part A keys",
+   "printed": "0.3, 1 and 2",
+   "path": "durations of the ladder part A keys"
+  },
+  {
+   "place": "Section IV",
+   "name": "r15 / sets / c101 / long_buses",
+   "printed": "37 and 39",
+   "path": "s60r.v6.r15.sets.c101.long_buses"
+  },
+  {
+   "place": "Section IV",
+   "name": "r15 / sets / lad26 / durations_ms (s)",
+   "printed": "4 and 5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+  },
+  {
+   "place": "Section IV",
+   "name": "chain / census / form / compared_laws (laws)",
+   "printed": "nine",
+   "path": "chain.census.form.compared_laws (laws)"
+  },
+  {
+   "place": "Section IV",
+   "name": "system / n_unit",
+   "printed": "ten",
+   "path": "system.n_unit"
+  },
+  {
+   "place": "Section IV",
+   "name": "system / n_gfl",
+   "printed": "six",
+   "path": "system.n_gfl"
+  },
+  {
+   "place": "Section IV",
+   "name": "system / n_gfm",
+   "printed": "four",
+   "path": "system.n_gfm"
+  },
+  {
+   "place": "Section IV",
+   "name": "p_path / fault_resistance / base_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.p_path.fault_resistance.base_pu"
+  },
+  {
+   "place": "Section IV",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Section IV",
+   "name": "system / t_fault_s",
+   "printed": "3",
+   "path": "system.t_fault_s"
+  },
+  {
+   "place": "Section IV",
+   "name": "chain / census / form / compared_laws (count)",
+   "printed": "13",
+   "path": "chain.census.form.compared_laws (count)"
+  },
+  {
+   "place": "Section IV",
+   "name": "Table II, published laws (count)",
+   "printed": "seven",
+   "path": "Table II, published laws (count)"
+  },
+  {
+   "place": "Section IV",
+   "name": "Table II, baselines (count)",
+   "printed": "two",
+   "path": "Table II, baselines (count)"
+  },
+  {
+   "place": "Section IV",
+   "name": "system / iLimPu",
+   "printed": "1.25",
+   "path": "system.iLimPu"
+  },
+  {
+   "place": "Section IV",
+   "name": "Table II, published laws with a selected setting (count)",
+   "printed": "four",
+   "path": "Table II, published laws with a selected setting (count)"
+  },
+  {
+   "place": "Section IV",
+   "name": "t_set / harness / n_cases_run",
+   "printed": "68",
+   "path": "s60r.v6.t_set.harness.n_cases_run"
+  },
+  {
+   "place": "Section IV",
+   "name": "buses of chain / ablation / per_code / v / SHORT / missing_keys and chain / headline / set_R1 / long_common_keys / keys (count)",
+   "printed": "13",
+   "path": "buses of chain.ablation.per_code.v.SHORT.missing_keys and chain.headline.set_R1.long_common_keys.keys (count)"
+  },
+  {
+   "place": "Section IV",
+   "name": "system / loadScale_second_point",
+   "printed": "0.9",
+   "path": "system.loadScale_second_point"
+  },
+  {
+   "place": "Section IV",
+   "name": "chain / census / domain / short",
+   "printed": "66",
+   "path": "chain.census.domain.short"
+  },
+  {
+   "place": "Section IV",
+   "name": "durations of chain / ablation / per_code / v / SHORT / missing_keys (min, max)",
+   "printed": "0.3 to 1 s",
+   "path": "durations of chain.ablation.per_code.v.SHORT.missing_keys (min, max)"
+  },
+  {
+   "place": "Section IV",
+   "name": "r15 / sets / c101 / n_long",
+   "printed": "35",
+   "path": "s60r.v6.r15.sets.c101.n_long"
+  },
+  {
+   "place": "Section IV",
+   "name": "r15 / sets / c101 / long_range_print",
+   "printed": "2 to 5",
+   "path": "s60r.v6.r15.sets.c101.long_range_print"
+  },
+  {
+   "place": "Section IV",
+   "name": "keys of e3 / cells held by all ten laws (count)",
+   "printed": "39",
+   "path": "keys of s60r.e3.cells held by all ten laws (count)"
+  },
+  {
+   "place": "Section IV",
+   "name": "sum of t_parts / lrf_0p001pu / v.<0.15, 0.3, 1 s>.of",
+   "printed": "39",
+   "path": "sum of s60r.v6.t_parts.lrf_0p001pu.v.<0.15, 0.3, 1 s>.of"
+  },
+  {
+   "place": "Section IV",
+   "name": "durations of t_parts / lrf_0p001pu / v (0.15, 0.3, 1 s)",
+   "printed": "0.15, 0.3 and 1",
+   "path": "durations of s60r.v6.t_parts.lrf_0p001pu.v (0.15, 0.3, 1 s)"
+  },
+  {
+   "place": "Section IV",
+   "name": "p_s3 / d / vret_0p01pu_min_print",
+   "printed": "0.20",
+   "path": "s60r.v6.p_s3.d.vret_0p01pu_min_print"
+  },
+  {
+   "place": "Section IV",
+   "name": "p_s3 / d / vret_0p01pu_max_print",
+   "printed": "0.40",
+   "path": "s60r.v6.p_s3.d.vret_0p01pu_max_print"
+  },
+  {
+   "place": "Section IV",
+   "name": "p_s3 / d / vret_0p001pu_min_print",
+   "printed": "0.02",
+   "path": "s60r.v6.p_s3.d.vret_0p001pu_min_print"
+  },
+  {
+   "place": "Section IV",
+   "name": "p_s3 / d / vret_0p001pu_max_print",
+   "printed": "0.05",
+   "path": "s60r.v6.p_s3.d.vret_0p001pu_max_print"
+  },
+  {
+   "place": "Section IV",
+   "name": "r15 / sets / lad26 / n",
+   "printed": "26",
+   "path": "s60r.v6.r15.sets.lad26.n"
+  },
+  {
+   "place": "Section IV",
+   "name": "r16 / sets / r1 / n",
+   "printed": "39",
+   "path": "s60r.v6.r16.sets.r1.n"
+  },
+  {
+   "place": "Section IV",
+   "name": "r16 / sets / r1 / durations_print",
+   "printed": "1, 2 and 5",
+   "path": "s60r.v6.r16.sets.r1.durations_print"
+  },
+  {
+   "place": "Section IV",
+   "name": "p_nr / A2 / compared_settings_of_the_ladder (count)",
+   "printed": "twelve",
+   "path": "s60r.v6.p_nr.A2.compared_settings_of_the_ladder (count)"
+  },
+  {
+   "place": "Section IV",
+   "name": "chain / map / note / eligibility / gate_band_Hz",
+   "printed": "0.01",
+   "path": "chain.map.note.eligibility.gate_band_Hz"
+  },
+  {
+   "place": "Section IV",
+   "name": "chain / map / note / eligibility / gate_tQuiet_s",
+   "printed": "2.5",
+   "path": "chain.map.note.eligibility.gate_tQuiet_s"
+  },
+  {
+   "place": "Section IV",
+   "name": "rest_definition / window_last_s_of_record",
+   "printed": "3",
+   "path": "s60r.v6.rest_definition.window_last_s_of_record"
+  },
+  {
+   "place": "Section IV",
+   "name": "rest_definition / drift_max_deg_per_s",
+   "printed": "0.5",
+   "path": "s60r.v6.rest_definition.drift_max_deg_per_s"
+  },
+  {
+   "place": "Section IV",
+   "name": "rest_definition / relf_max_Hz",
+   "printed": "0.0015",
+   "path": "s60r.v6.rest_definition.relf_max_Hz"
+  },
+  {
+   "place": "Section IV",
+   "name": "rest_definition / bandend_max_Hz",
+   "printed": "0.05",
+   "path": "s60r.v6.rest_definition.bandend_max_Hz"
+  },
+  {
+   "place": "Section IV",
+   "name": "chain / census / record_lengths / f3_rows_s",
+   "printed": "8",
+   "path": "chain.census.record_lengths.f3_rows_s"
+  },
+  {
+   "place": "Section IV",
+   "name": "chain / census / record_lengths / long_rows_s",
+   "printed": "20",
+   "path": "chain.census.record_lengths.long_rows_s"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_c / D_QF / S3 / median",
+   "printed": "164",
+   "path": "s60r.v6.p_pairs.v_c.D_QF.S3.median"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / sets / c101 / n_keys",
+   "printed": "101",
+   "path": "s60r.v6.r15.sets.c101.n_keys"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / parts / n / lost",
+   "printed": "84",
+   "path": "s60r.v6.r15.c101.parts.n.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / parts / c / lost",
+   "printed": "10",
+   "path": "s60r.v6.r15.c101.parts.c.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / parts / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.c101.parts.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / parts / e / lost",
+   "printed": "42",
+   "path": "s60r.v6.r15.c101.parts.e.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / c_vs_z / z_returns_c_lost",
+   "printed": "10",
+   "path": "s60r.v6.r15.c101.c_vs_z.z_returns_c_lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / release / z_lost",
+   "printed": "5",
+   "path": "s60r.v6.r15.c101.release.z_lost"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / parts / u1 / SHORT / reread_A_limiter_engaged_at_end",
+   "printed": "63",
+   "path": "s60r.v6.t_parts.parts.u1.SHORT.reread_A_limiter_engaged_at_end"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / parts / u1 / SHORT / of - lost",
+   "printed": "66",
+   "path": "s60r.v6.t_parts.parts.u1.SHORT.of - lost"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / parts / v / SHORT / of - t_parts / parts / v / SHORT / lost",
+   "printed": "66",
+   "path": "s60r.v6.t_parts.parts.v.SHORT.of - s60r.v6.t_parts.parts.v.SHORT.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r3 / u1 / lost (as a word)",
+   "printed": "one",
+   "path": "s60r.v6.r16.r3.u1.lost (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r3 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r16.r3.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_c / D_QF / S3 / x_larger (= n = verdicts / S3 / scenarios)",
+   "printed": "39",
+   "path": "s60r.v6.p_pairs.v_c.D_QF.S3.x_larger (= n = verdicts.S3.scenarios)"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_c / D_T / S3 / x_larger",
+   "printed": "20",
+   "path": "s60r.v6.p_pairs.v_c.D_T.S3.x_larger"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_c / D_T / S3 / x_smaller",
+   "printed": "18",
+   "path": "s60r.v6.p_pairs.v_c.D_T.S3.x_smaller"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_c / D_T / S3 / median",
+   "printed": "6",
+   "path": "s60r.v6.p_pairs.v_c.D_T.S3.median"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / vk_long / LS / v_later",
+   "printed": "8",
+   "path": "s60r.v6.r15.c101.vk_long.LS.v_later"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / vk_long / LS_n",
+   "printed": "16",
+   "path": "s60r.v6.r15.c101.vk_long.LS_n"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / vk_long / LS / median_s",
+   "printed": "0.09",
+   "path": "s60r.v6.r15.c101.vk_long.LS.median_s"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / vk_long / L3 / v_sooner",
+   "printed": "15",
+   "path": "s60r.v6.r15.c101.vk_long.L3.v_sooner"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / vk_long / L3_n",
+   "printed": "19",
+   "path": "s60r.v6.r15.c101.vk_long.L3_n"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / vk_long / L3 / median_s",
+   "printed": "0.40",
+   "path": "s60r.v6.r15.c101.vk_long.L3.median_s"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / k / lost",
+   "printed": "5",
+   "path": "s60r.v6.r15.c101.k.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / min_other",
+   "printed": "32",
+   "path": "s60r.v6.r15.c101.min_other"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.c101.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r4 / MAq / returns",
+   "printed": "101",
+   "path": "s60r.v6.r16.r4.MAq.returns"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r4 / selected / law_losses_on_101",
+   "printed": "32",
+   "path": "s60r.v6.r16.r4.selected.law_losses_on_101"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / sets / c101 / n_long",
+   "printed": "35",
+   "path": "s60r.v6.r15.sets.c101.n_long"
+  },
+  {
+   "place": "Section V",
+   "name": "r20 / f1 / total",
+   "printed": "279",
+   "path": "s60r.v6.r20.f1.total"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / not_at_rest_other_rows",
+   "printed": "45",
+   "path": "s60r.v6.r15.c101.not_at_rest_other_rows"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_k / verdicts / S3 / both_return",
+   "printed": "34",
+   "path": "s60r.v6.p_pairs.v_k.verdicts.S3.both_return"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_k / D_T / S3 / median",
+   "printed": "0.24",
+   "path": "s60r.v6.p_pairs.v_k.D_T.S3.median"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_k / D_SW / S3 / median",
+   "printed": "72",
+   "path": "s60r.v6.p_pairs.v_k.D_SW.S3.median"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_k / D_PF / S3 / median",
+   "printed": "280",
+   "path": "s60r.v6.p_pairs.v_k.D_PF.S3.median"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_k / D_T / SS / x_smaller",
+   "printed": "21",
+   "path": "s60r.v6.p_pairs.v_k.D_T.SS.x_smaller"
+  },
+  {
+   "place": "Section V",
+   "name": "p_pairs / v_k / D_T / SS / n",
+   "printed": "27",
+   "path": "s60r.v6.p_pairs.v_k.D_T.SS.n"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / lad4 / k / buses (counted, as a word)",
+   "printed": "six",
+   "path": "s60r.v6.r140.lad4.k.buses (counted, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / sets / lad_long / duration_ms (s)",
+   "printed": "4",
+   "path": "s60r.v6.r140.sets.lad_long.duration_ms (s)"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / sets / lad26 / durations_ms (s)",
+   "printed": "4 and 5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lad26 / k / buses",
+   "printed": "13",
+   "path": "s60r.v6.r15.lad26.k.buses"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lad26 / k / buses",
+   "printed": "16",
+   "path": "s60r.v6.r15.lad26.k.buses"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lad26 / k / buses",
+   "printed": "18",
+   "path": "s60r.v6.r15.lad26.k.buses"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lad26 / k / buses",
+   "printed": "22",
+   "path": "s60r.v6.r15.lad26.k.buses"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lad26 / k / buses",
+   "printed": "25",
+   "path": "s60r.v6.r15.lad26.k.buses"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lad26 / k / buses",
+   "printed": "26",
+   "path": "s60r.v6.r15.lad26.k.buses"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / relock / print / runs_with_relock_v (as a word)",
+   "printed": "four",
+   "path": "s60r.v6.r15.pooled.relock.print.runs_with_relock_v (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / relock / print / buses_print",
+   "printed": "16 and 18",
+   "path": "s60r.v6.r15.pooled.relock.print.buses_print"
+  },
+  {
+   "place": "Section V",
+   "name": "min over p_nr / A2 / compared_settings_of_the_ladder of p_nr / A2 / lost_of_78_by_setting.<code>",
+   "printed": "19",
+   "path": "min over s60r.v6.p_nr.A2.compared_settings_of_the_ladder of s60r.v6.p_nr.A2.lost_of_78_by_setting.<code>"
+  },
+  {
+   "place": "Section V",
+   "name": "max over p_nr / A2 / compared_settings_of_the_ladder of p_nr / A2 / lost_of_78_by_setting.<code>",
+   "printed": "77",
+   "path": "max over s60r.v6.p_nr.A2.compared_settings_of_the_ladder of s60r.v6.p_nr.A2.lost_of_78_by_setting.<code>"
+  },
+  {
+   "place": "Section V",
+   "name": "p_nr / ladder / e / lost_of_78",
+   "printed": "20",
+   "path": "s60r.v6.p_nr.ladder.e.lost_of_78"
+  },
+  {
+   "place": "Section V",
+   "name": "sum of t_parts / ladder / v.<0.3, 1, 2 s>.of + sum of t_parts / lrf_0p001pu / v.<0.15, 0.3, 1 s>.of",
+   "printed": "78",
+   "path": "sum of s60r.v6.t_parts.ladder.v.<0.3, 1, 2 s>.of + sum of s60r.v6.t_parts.lrf_0p001pu.v.<0.15, 0.3, 1 s>.of"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / ladder / k / d0300ms / lost",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.ladder.k.d0300ms.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / ladder / k / d1000ms / lost",
+   "printed": "4",
+   "path": "s60r.v6.t_parts.ladder.k.d1000ms.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / ladder / k / d2000ms / lost",
+   "printed": "6",
+   "path": "s60r.v6.t_parts.ladder.k.d2000ms.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / ladder / k / d0300ms / of",
+   "printed": "13",
+   "path": "s60r.v6.t_parts.ladder.k.d0300ms.of"
+  },
+  {
+   "place": "Section V",
+   "name": "p_path / fault_resistance / base_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.p_path.fault_resistance.base_pu"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / lrf_0p001pu / k / d1000ms / lost",
+   "printed": "10",
+   "path": "s60r.v6.t_parts.lrf_0p001pu.k.d1000ms.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "t_parts / lrf_0p001pu / k / d1000ms / of",
+   "printed": "13",
+   "path": "s60r.v6.t_parts.lrf_0p001pu.k.d1000ms.of"
+  },
+  {
+   "place": "Section V",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Section V",
+   "name": "r19 / w2 / eleven (as a word)",
+   "printed": "eleven",
+   "path": "s60r.v6.r19.w2.eleven (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r19 / w2 / range_print",
+   "printed": "5 to 13",
+   "path": "s60r.v6.r19.w2.range_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r19 / w2 / of",
+   "printed": "13",
+   "path": "s60r.v6.r19.w2.of"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / sets / lad26 / n",
+   "printed": "26",
+   "path": "s60r.v6.r15.sets.lad26.n"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lad26 / k / lost",
+   "printed": "12",
+   "path": "s60r.v6.r15.lad26.k.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / q2 / twelve / eleven_others / codes (as a word)",
+   "printed": "eleven",
+   "path": "s60r.v6.r17.q2.twelve.eleven_others.codes (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / q2 / twelve / eleven_others / range_print",
+   "printed": "14 to 26",
+   "path": "s60r.v6.r17.q2.twelve.eleven_others.range_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / relock4 / range_print",
+   "printed": "7 to 9",
+   "path": "s60r.v6.r17.relock4.range_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / sets / r1 / n",
+   "printed": "39",
+   "path": "s60r.v6.r16.sets.r1.n"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / q1 / twelve / others_n (as a word)",
+   "printed": "nine",
+   "path": "s60r.v6.r17.q1.twelve.others_n (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / q1 / twelve / others_range_print",
+   "printed": "10 to 36",
+   "path": "s60r.v6.r17.q1.twelve.others_range_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r1 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r16.r1.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r1 / c / lost",
+   "printed": "3",
+   "path": "s60r.v6.r16.r1.c.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r1 / c / lost_keys (bus)",
+   "printed": "37",
+   "path": "s60r.v6.r16.r1.c.lost_keys (bus)"
+  },
+  {
+   "place": "Section V",
+   "name": "buses where the twelve compared settings of the ladder are lost at 0.001 pu, 1 s (d1000ms / buses of ['d', 'k', 'l10', 'l20', 'l51', 'l63', 'l94', 'l98', 'l99', 'o', 'q', 'y']; = p_nr / A2 / b_all_twelve_lost_v_returns)",
+   "printed": "29",
+   "path": "buses where the twelve compared settings of the ladder are lost at 0.001 pu, 1 s (d1000ms.buses of ['d', 'k', 'l10', 'l20', 'l51', 'l63', 'l94', 'l98', 'l99', 'o', 'q', 'y']; = s60r.v6.p_nr.A2.b_all_twelve_lost_v_returns)"
+  },
+  {
+   "place": "Section V",
+   "name": "buses where the twelve compared settings of the ladder are lost at 0.001 pu, 1 s (d1000ms / buses of ['d', 'k', 'l10', 'l20', 'l51', 'l63', 'l94', 'l98', 'l99', 'o', 'q', 'y']; = p_nr / A2 / b_all_twelve_lost_v_returns)",
+   "printed": "38",
+   "path": "buses where the twelve compared settings of the ladder are lost at 0.001 pu, 1 s (d1000ms.buses of ['d', 'k', 'l10', 'l20', 'l51', 'l63', 'l94', 'l98', 'l99', 'o', 'q', 'y']; = s60r.v6.p_nr.A2.b_all_twelve_lost_v_returns)"
+  },
+  {
+   "place": "Section V",
+   "name": "the same (last) = p_nr / A2 / b_all_twelve_lost_v_returns",
+   "printed": "39",
+   "path": "the same (last) = s60r.v6.p_nr.A2.b_all_twelve_lost_v_returns"
+  },
+  {
+   "place": "Section V",
+   "name": "t_par / solver / RelTol / value / r140 / stepb / s2 / T / tolerance (as a word)",
+   "printed": "ten",
+   "path": "s60r.v6.t_par.solver.RelTol.value / s60r.v6.r140.stepb.s2.T.tolerance (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / d1 / n (as a word)",
+   "printed": "Five",
+   "path": "s60r.v6.r17.d1.n (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / d1 / n (as a word)",
+   "printed": "five",
+   "path": "s60r.v6.r17.d1.n (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "p_nr / decisive_39 / twelve_run (= p_nr / decisive_39 / twelve_lost = the count of p_nr / A2 / compared_settings_of_the_ladder)",
+   "printed": "twelve",
+   "path": "s60r.v6.p_nr.decisive_39.twelve_run (= s60r.v6.p_nr.decisive_39.twelve_lost = the count of s60r.v6.p_nr.A2.compared_settings_of_the_ladder)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / d1 / new_n (as a word)",
+   "printed": "two",
+   "path": "s60r.v6.r17.d1.new_n (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / d1 / new_per_key.<i>.duration_s",
+   "printed": "4 and 5",
+   "path": "s60r.v6.r17.d1.new_per_key.<i>.duration_s"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / d1 / new_per_key.<i>.resistance_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.r17.d1.new_per_key.<i>.resistance_pu"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / d1 / new_per_key.<i>.bus",
+   "printed": "26",
+   "path": "s60r.v6.r17.d1.new_per_key.<i>.bus"
+  },
+  {
+   "place": "Section V",
+   "name": "p_s3 / b / window_from_onset_print",
+   "printed": "0.3",
+   "path": "s60r.v6.p_s3.b.window_from_onset_print"
+  },
+  {
+   "place": "Section V",
+   "name": "p_s3 / b / v / r_max_print_up2",
+   "printed": "0.41",
+   "path": "s60r.v6.p_s3.b.v.r_max_print_up2"
+  },
+  {
+   "place": "Section V",
+   "name": "p_s3 / b / n / dw_mean_range_print",
+   "printed": "3.1 to 3.8",
+   "path": "s60r.v6.p_s3.b.n.dw_mean_range_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r20 / n3 / lost_in_fault (as a word)",
+   "printed": "two",
+   "path": "s60r.v6.r20.n3.lost_in_fault (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r20 / n3 / range_after_clearing_print",
+   "printed": "0.12 to 3.13",
+   "path": "s60r.v6.r20.n3.range_after_clearing_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r20 / n3 / lost_after_clearing (as a word)",
+   "printed": "ten",
+   "path": "s60r.v6.r20.n3.lost_after_clearing (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "p_nr / decisive_39 / loss_instants_s (the count, as a word)",
+   "printed": "twelve",
+   "path": "s60r.v6.p_nr.decisive_39.loss_instants_s (the count, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "p_nr / decisive_39 / v_sat_last_s",
+   "printed": "0.07",
+   "path": "s60r.v6.p_nr.decisive_39.v_sat_last_s"
+  },
+  {
+   "place": "Section V",
+   "name": "r19 / w3 / v_t_ret_s_print",
+   "printed": "0.40",
+   "path": "s60r.v6.r19.w3.v_t_ret_s_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r19 / w3 / v_swing_fine_deg_print",
+   "printed": "37.2",
+   "path": "s60r.v6.r19.w3.v_swing_fine_deg_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / ov_common / compared_range_print",
+   "printed": "1.15 to 1.87",
+   "path": "s60r.v6.r15.pooled.ov_common.compared_range_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / ov_common / compared_p75_range_print",
+   "printed": "1.31 to 2.11",
+   "path": "s60r.v6.r15.pooled.ov_common.compared_p75_range_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / ov_common / v_print",
+   "printed": "1.51",
+   "path": "s60r.v6.r15.pooled.ov_common.v_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / ov_common / v_p75_print",
+   "printed": "2.24",
+   "path": "s60r.v6.r15.pooled.ov_common.v_p75_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / pooled / toggling / toggling_rows",
+   "printed": "10",
+   "path": "s60r.v6.r16.pooled.toggling.toggling_rows"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / pooled / toggling / rows",
+   "printed": "240",
+   "path": "s60r.v6.r16.pooled.toggling.rows"
+  },
+  {
+   "place": "Section V",
+   "name": "p_burst / v / HF_above_0p05 (the census threshold of the leaf name)",
+   "printed": "5%",
+   "path": "s60r.v6.p_burst.v.HF_above_0p05 (the census threshold of the leaf name)"
+  },
+  {
+   "place": "Section V",
+   "name": "p_rep12 / pop / census_band_print",
+   "printed": "300 to 600 Hz",
+   "path": "s60r.v6.p_rep12.pop.census_band_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / stepb / s2 / T / rows_rerun (as a word)",
+   "printed": "Two",
+   "path": "s60r.v6.r140.stepb.s2.T.rows_rerun (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / stepb / s2 / H / rows (as a word)",
+   "printed": "nine",
+   "path": "s60r.v6.r140.stepb.s2.H.rows (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / stepb / s2 / H / K",
+   "printed": "4",
+   "path": "s60r.v6.r140.stepb.s2.H.K"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / tests / T-S3 / lock_x_print",
+   "printed": "2.1",
+   "path": "s60r.v6.r15.pooled.tests.T-S3.lock_x_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / tests / T-S1 / median_print",
+   "printed": "0.32%",
+   "path": "s60r.v6.r15.pooled.tests.T-S1.median_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / tests / T-S1 / n_print",
+   "printed": "4.9 million",
+   "path": "s60r.v6.r15.pooled.tests.T-S1.n_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / tests / T-S4 / samples_v_print",
+   "printed": "2.7 million",
+   "path": "s60r.v6.r15.pooled.tests.T-S4.samples_v_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / tests / T-S4 / rows_v",
+   "printed": "109",
+   "path": "s60r.v6.r15.pooled.tests.T-S4.rows_v"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / tests / T-S3 / seconds_v_print",
+   "printed": "20",
+   "path": "s60r.v6.r15.pooled.tests.T-S3.seconds_v_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / tests / T-S3 / unit_runs_v",
+   "printed": "16",
+   "path": "s60r.v6.r15.pooled.tests.T-S3.unit_runs_v"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / s3a / v / most_not_steady_print",
+   "printed": "most",
+   "path": "s60r.v6.r15.pooled.s3a.v.most_not_steady_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / pooled / inductor / median_print",
+   "printed": "0.0002",
+   "path": "s60r.v6.r15.pooled.inductor.median_print"
+  },
+  {
+   "place": "Section V",
+   "name": "p_cur / predictions / PB2 (parsed: threshold)",
+   "printed": "15%",
+   "path": "s60r.v6.p_cur.predictions.PB2 (parsed: threshold)"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / tests / cur / compared_settings_slg_peak_over_15pct",
+   "printed": "12",
+   "path": "s60r.v6.r140.tests.cur.compared_settings_slg_peak_over_15pct"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / tests / cur / compared_settings_n",
+   "printed": "13",
+   "path": "s60r.v6.r140.tests.cur.compared_settings_n"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / tests / cur / v_slg_output_peak_print",
+   "printed": "23%",
+   "path": "s60r.v6.r140.tests.cur.v_slg_output_peak_print"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench / per_reading_and_class / M / R5 / judged - p_bench / per_reading_and_class / M / R5 / held",
+   "printed": "2",
+   "path": "s60r.v6.p_bench.per_reading_and_class.M.R5.judged - s60r.v6.p_bench.per_reading_and_class.M.R5.held"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench / design / P_star_pu",
+   "printed": "1.0",
+   "path": "s60r.v6.p_bench.design.P_star_pu"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench / design / cases",
+   "printed": "69",
+   "path": "s60r.v6.p_bench.design.cases"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench / R3_turning_source / largest_gap_pf_from_identity",
+   "printed": "0.001",
+   "path": "s60r.v6.p_bench.R3_turning_source.largest_gap_pf_from_identity"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench / per_reading_and_class / M / R4 / refuted",
+   "printed": "13",
+   "path": "s60r.v6.p_bench.per_reading_and_class.M.R4.refuted"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench / per_reading_reader / R4 / judged",
+   "printed": "24",
+   "path": "s60r.v6.p_bench.per_reading_reader.R4.judged"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench / per_reading_and_class / M / R5 / judged",
+   "printed": "6",
+   "path": "s60r.v6.p_bench.per_reading_and_class.M.R5.judged"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench_hold / reader / R4 / judged",
+   "printed": "48",
+   "path": "s60r.v6.p_bench_hold.reader.R4.judged"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench_hold.{H1,H2}.gap_abs_largest_rad (max, two decimals)",
+   "printed": "0.06",
+   "path": "s60r.v6.p_bench_hold.{H1,H2}.gap_abs_largest_rad (max, two decimals)"
+  },
+  {
+   "place": "Section V",
+   "name": "p_bench_hold / beside_first_job_live_direction / refuted_gap_abs_largest_rad",
+   "printed": "0.80",
+   "path": "s60r.v6.p_bench_hold.beside_first_job_live_direction.refuted_gap_abs_largest_rad"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / sets / s18 / n_keys",
+   "printed": "18",
+   "path": "s60r.v6.r140.sets.s18.n_keys"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / c5 / k / lost",
+   "printed": "5",
+   "path": "s60r.v6.r140.c5.k.lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / stepb / s5 / six_n (as a word)",
+   "printed": "six",
+   "path": "s60r.v6.r140.stepb.s5.six_n (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / stepb / s5 / ten_keys (as a word)",
+   "printed": "ten",
+   "path": "s60r.v6.r140.stepb.s5.ten_keys (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / s18 / table / design / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r140.s18.table.design.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / stepb / s5 / all_ten_return_at_every_tested_value (asserted true)",
+   "printed": "all",
+   "path": "s60r.v6.r140.stepb.s5.all_ten_return_at_every_tested_value (asserted true)"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lim / limits_print",
+   "printed": "1.1, 1.15, 1.2 and 1.4",
+   "path": "s60r.v6.r15.lim.limits_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lim / k.1p1 / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r15.lim.k.1p1.cell_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lim / k.1p15 / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r15.lim.k.1p15.cell_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lim / k.1p2 / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r15.lim.k.1p2.cell_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lim / k.1p4 / cell_print",
+   "printed": "7",
+   "path": "s60r.v6.r15.lim.k.1p4.cell_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lim_d2 / smallest_of_six_at_every_limit",
+   "printed": "3",
+   "path": "s60r.v6.r15.lim_d2.smallest_of_six_at_every_limit"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / lim / v_lost_at_every_limit (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.lim.v_lost_at_every_limit (= 0, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / s18 / droop2 / k_lost",
+   "printed": "5",
+   "path": "s60r.v6.r140.s18.droop2.k_lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r140 / s18 / droop2 / v_lost",
+   "printed": "3",
+   "path": "s60r.v6.r140.s18.droop2.v_lost"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r2 / P_path_by_size_print.0p2pu",
+   "printed": "541 to 545",
+   "path": "s60r.v6.r16.r2.P_path_by_size_print.0p2pu"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / sets / r2 / buses (rising, or)",
+   "printed": "23, 25 or 29",
+   "path": "s60r.v6.r16.sets.r2.buses (rising, or)"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r2 / P_path_by_size_print.0p1pu",
+   "printed": "1039 to 1048",
+   "path": "s60r.v6.r16.r2.P_path_by_size_print.0p1pu"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / vf / per_bus.<23, 25, 29>.cap_longest_bind_s (smallest to largest, two decimals)",
+   "printed": "0.02 to 0.07",
+   "path": "s60r.v6.r17.vf.per_bus.<23, 25, 29>.cap_longest_bind_s (smallest to largest, two decimals)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / vf / per_bus.<23, 25>.df_max_print_up (rounded up)",
+   "printed": "0.03",
+   "path": "s60r.v6.r17.vf.per_bus.<23, 25>.df_max_print_up (rounded up)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / vf / per_bus.29 / df_max_print_up (rounded up)",
+   "printed": "0.10",
+   "path": "s60r.v6.r17.vf.per_bus.29.df_max_print_up (rounded up)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / vf / per_bus (the bus of the other value)",
+   "printed": "29",
+   "path": "s60r.v6.r17.vf.per_bus (the bus of the other value)"
+  },
+  {
+   "place": "Section V",
+   "name": "r17 / vf / buses (count, as a word)",
+   "printed": "three",
+   "path": "s60r.v6.r17.vf.buses (count, as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r19 / vf / event_dur_print",
+   "printed": "5",
+   "path": "s60r.v6.r19.vf.event_dur_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r2 / compared_with_a_loss_n (as a word)",
+   "printed": "Six",
+   "path": "s60r.v6.r16.r2.compared_with_a_loss_n (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r2 / compared_n (as a word)",
+   "printed": "twelve",
+   "path": "s60r.v6.r16.r2.compared_n (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r2 / compared_loss_range_print",
+   "printed": "1 to 5",
+   "path": "s60r.v6.r16.r2.compared_loss_range_print"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / sets / r2 / n (as a word)",
+   "printed": "six",
+   "path": "s60r.v6.r16.sets.r2.n (as a word)"
+  },
+  {
+   "place": "Section V",
+   "name": "r16 / r2 / per_code / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r16.r2.per_code.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section VI",
+   "name": "durations of t_parts / ladder / v (largest)",
+   "printed": "2",
+   "path": "durations of s60r.v6.t_parts.ladder.v (largest)"
+  },
+  {
+   "place": "Section VI",
+   "name": "durations of t_parts / lrf_0p001pu / v (largest)",
+   "printed": "1",
+   "path": "durations of s60r.v6.t_parts.lrf_0p001pu.v (largest)"
+  },
+  {
+   "place": "Section VI",
+   "name": "r15 / sets / c101 / n_keys",
+   "printed": "101",
+   "path": "s60r.v6.r15.sets.c101.n_keys"
+  },
+  {
+   "place": "Section VI",
+   "name": "r15 / c101 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.c101.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section VI",
+   "name": "r15 / c101 / k / lost",
+   "printed": "5",
+   "path": "s60r.v6.r15.c101.k.lost"
+  },
+  {
+   "place": "Section VI",
+   "name": "r15 / c101 / min_other",
+   "printed": "32",
+   "path": "s60r.v6.r15.c101.min_other"
+  },
+  {
+   "place": "Section VI",
+   "name": "r15 / lad26 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.lad26.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section VI",
+   "name": "system / n_unit (word)",
+   "printed": "ten",
+   "path": "system.n_unit (word)"
+  },
+  {
+   "place": "Section VI",
+   "name": "p_na / totals / v / ladder_78 / of",
+   "printed": "78",
+   "path": "s60r.v6.p_na.totals.v.ladder_78.of"
+  },
+  {
+   "place": "Section VI",
+   "name": "p_nr / A2 / twelve_lost_of_78_smallest",
+   "printed": "19",
+   "path": "s60r.v6.p_nr.A2.twelve_lost_of_78_smallest"
+  },
+  {
+   "place": "Section VI",
+   "name": "t_parts / ladder / k / d1000ms (the duration)",
+   "printed": "1",
+   "path": "s60r.v6.t_parts.ladder.k.d1000ms (the duration)"
+  },
+  {
+   "place": "Section VI",
+   "name": "p_path / fault_resistance / base_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.p_path.fault_resistance.base_pu"
+  },
+  {
+   "place": "Section VI",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Section VI",
+   "name": "p_lrx / eight_laws_d1000ms / smallest_lost",
+   "printed": "5",
+   "path": "s60r.v6.p_lrx.eight_laws_d1000ms.smallest_lost"
+  },
+  {
+   "place": "Section VI",
+   "name": "p_pairs / v_c / D_QF / S3 / n",
+   "printed": "39",
+   "path": "s60r.v6.p_pairs.v_c.D_QF.S3.n"
+  },
+  {
+   "place": "Fig. 3, caption",
+   "name": "p_bench / design / circles_thevenin_pu / M / V",
+   "printed": "0.60",
+   "path": "s60r.v6.p_bench.design.circles_thevenin_pu.M.V"
+  },
+  {
+   "place": "Fig. 3, caption",
+   "name": "p_bench / design / circles_thevenin_pu / M / R",
+   "printed": "0.05",
+   "path": "s60r.v6.p_bench.design.circles_thevenin_pu.M.R"
+  },
+  {
+   "place": "Fig. 3, caption",
+   "name": "p_bench / design / circles_thevenin_pu / M / X",
+   "printed": "0.25",
+   "path": "s60r.v6.p_bench.design.circles_thevenin_pu.M.X"
+  },
+  {
+   "place": "Fig. 3, caption",
+   "name": "p_bench / design / circles_thevenin_pu / D / V",
+   "printed": "0.35",
+   "path": "s60r.v6.p_bench.design.circles_thevenin_pu.D.V"
+  },
+  {
+   "place": "Fig. 3, caption",
+   "name": "p_bench / design / circles_thevenin_pu / D / R",
+   "printed": "0.02",
+   "path": "s60r.v6.p_bench.design.circles_thevenin_pu.D.R"
+  },
+  {
+   "place": "Fig. 3, caption",
+   "name": "p_bench / design / circles_thevenin_pu / D / X",
+   "printed": "0.10",
+   "path": "s60r.v6.p_bench.design.circles_thevenin_pu.D.X"
+  },
+  {
+   "place": "Fig. 5, caption",
+   "name": "t_par / converters.<u>.kind: the first GFM unit",
+   "printed": "7",
+   "path": "t_par.converters.<u>.kind: the first GFM unit"
+  },
+  {
+   "place": "Fig. 5, caption",
+   "name": "t_par / converters.<u>.kind: the last GFM unit",
+   "printed": "10",
+   "path": "t_par.converters.<u>.kind: the last GFM unit"
+  },
+  {
+   "place": "Fig. 5, caption",
+   "name": "p_rep12 / units / dispatch_print",
+   "printed": "0.91 to 0.97 pu",
+   "path": "s60r.v6.p_rep12.units.dispatch_print"
+  },
+  {
+   "place": "Fig. 6, caption",
+   "name": "r15 / sets / c101 / n_keys",
+   "printed": "101",
+   "path": "s60r.v6.r15.sets.c101.n_keys"
+  },
+  {
+   "place": "Fig. 6, caption",
+   "name": "t_dur / laws / v / d0100ms / of",
+   "printed": "27",
+   "path": "s60r.v6.t_dur.laws.v.d0100ms.of"
+  },
+  {
+   "place": "Fig. 6, caption",
+   "name": "sum of t_parts / ladder / v.<0.3, 1, 2 s>.of + sum of t_parts / lrf_0p001pu / v.<0.15, 0.3, 1 s>.of",
+   "printed": "78",
+   "path": "sum of s60r.v6.t_parts.ladder.v.<0.3, 1, 2 s>.of + sum of s60r.v6.t_parts.lrf_0p001pu.v.<0.15, 0.3, 1 s>.of"
+  },
+  {
+   "place": "Fig. 6, caption",
+   "name": "r16 / sets / r2 / n (as a word)",
+   "printed": "six",
+   "path": "s60r.v6.r16.sets.r2.n (as a word)"
+  },
+  {
+   "place": "Fig. 6, caption",
+   "name": "r16 / sets / r2 / buses (rising)",
+   "printed": "23, 25, 29",
+   "path": "s60r.v6.r16.sets.r2.buses (rising)"
+  },
+  {
+   "place": "Fig. 7, caption",
+   "name": "t_par / converters.<u>.kind: the last GFM unit",
+   "printed": "10",
+   "path": "t_par.converters.<u>.kind: the last GFM unit"
+  },
+  {
+   "place": "Fig. 7, caption",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Fig. 7, caption",
+   "name": "r20 / f2 / peak_print",
+   "printed": "1.445",
+   "path": "s60r.v6.r20.f2.peak_print"
+  },
+  {
+   "place": "Table I",
+   "name": "law / settings / pShape",
+   "printed": "0.8",
+   "path": "law.settings.pShape"
+  },
+  {
+   "place": "Table I",
+   "name": "law / settings / qGain",
+   "printed": "20",
+   "path": "law.settings.qGain"
+  },
+  {
+   "place": "Table I",
+   "name": "law / settings / qFloor",
+   "printed": "0.5",
+   "path": "law.settings.qFloor"
+  },
+  {
+   "place": "Table I",
+   "name": "law / settings / frtRelTf",
+   "printed": "5",
+   "path": "law.settings.frtRelTf"
+  },
+  {
+   "place": "Table I",
+   "name": "law / settings / frtRelTau",
+   "printed": "10",
+   "path": "law.settings.frtRelTau"
+  },
+  {
+   "place": "Table I",
+   "name": "law / settings / frtRelTb",
+   "printed": "1000",
+   "path": "law.settings.frtRelTb"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / system / Sbase / value",
+   "printed": "100",
+   "path": "s60r.v6.t_par.system.Sbase.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / system / Vbase / value",
+   "printed": "345",
+   "path": "s60r.v6.t_par.system.Vbase.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / system / f0 / value",
+   "printed": "60",
+   "path": "s60r.v6.t_par.system.f0.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / system / load_total / value.0",
+   "printed": "6254.23",
+   "path": "s60r.v6.t_par.system.load_total.value.0"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / system / load_total / value.1",
+   "printed": "1387.1",
+   "path": "s60r.v6.t_par.system.load_total.value.1"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / converters.<7-10>.rating (smallest)",
+   "printed": "564",
+   "path": "s60r.v6.t_par.converters.<7-10>.rating (smallest)"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / converters.<7-10>.rating (largest)",
+   "printed": "1100",
+   "path": "s60r.v6.t_par.converters.<7-10>.rating (largest)"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / converters.<1-6>.rating (smallest)",
+   "printed": "508",
+   "path": "s60r.v6.t_par.converters.<1-6>.rating (smallest)"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / converters.<1-6>.rating (largest)",
+   "printed": "1040",
+   "path": "s60r.v6.t_par.converters.<1-6>.rating (largest)"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / per_unit.<7-10>.droop_slope (smallest)",
+   "printed": "0.56",
+   "path": "s60r.v6.t_par.gfm_control.per_unit.<7-10>.droop_slope (smallest)"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / per_unit.<7-10>.droop_slope (largest)",
+   "printed": "1.10",
+   "path": "s60r.v6.t_par.gfm_control.per_unit.<7-10>.droop_slope (largest)"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / fdev_clamp / value",
+   "printed": "2",
+   "path": "s60r.v6.t_par.gfm_control.fdev_clamp.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / lag1_power_lowpass (time constant, ms)",
+   "printed": "50",
+   "path": "s60r.v6.t_par.gfm_control.lag1_power_lowpass (time constant, ms)"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / lag2_droop_state / value",
+   "printed": "10",
+   "path": "s60r.v6.t_par.gfm_control.lag2_droop_state.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / L_filter / value",
+   "printed": "24.6",
+   "path": "s60r.v6.t_par.gfm_control.L_filter.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / C_filter / value",
+   "printed": "407",
+   "path": "s60r.v6.t_par.gfm_control.C_filter.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / Kp_v / value",
+   "printed": "0.122",
+   "path": "s60r.v6.t_par.gfm_control.Kp_v.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / Ki_v / value",
+   "printed": "0.325",
+   "path": "s60r.v6.t_par.gfm_control.Ki_v.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / Kp_i / value",
+   "printed": "6.15",
+   "path": "s60r.v6.t_par.gfm_control.Kp_i.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / Ki_i / value",
+   "printed": "30.7",
+   "path": "s60r.v6.t_par.gfm_control.Ki_i.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfl_control / pll_natural_frequency / value",
+   "printed": "1.2",
+   "path": "s60r.v6.t_par.gfl_control.pll_natural_frequency.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfl_control / pll_damping / value",
+   "printed": "0.99",
+   "path": "s60r.v6.t_par.gfl_control.pll_damping.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / gfm_control / iLimPu / value",
+   "printed": "1.25",
+   "path": "s60r.v6.t_par.gfm_control.iLimPu.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / solver / RelTol / value",
+   "printed": "0.001",
+   "path": "s60r.v6.t_par.solver.RelTol.value"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / solver / MaxStep / value",
+   "printed": "0.1",
+   "path": "s60r.v6.t_par.solver.MaxStep.value"
+  },
+  {
+   "place": "Table I",
+   "name": "p_path / fault_resistance / base_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.p_path.fault_resistance.base_pu"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / fault / Rf / value",
+   "printed": "11.9",
+   "path": "s60r.v6.t_par.fault.Rf.value"
+  },
+  {
+   "place": "Table I",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Table I",
+   "name": "t_par / fault / element (ramp, ms)",
+   "printed": "0.4",
+   "path": "s60r.v6.t_par.fault.element (ramp, ms)"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / h / text frtXfZvX",
+   "printed": "0.2",
+   "path": "s60r.v6.t_set.setting.h.text frtXfZvX"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / h / text frtXfKappa",
+   "printed": "1",
+   "path": "s60r.v6.t_set.setting.h.text frtXfKappa"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / h / text frtXfMq",
+   "printed": "0.2",
+   "path": "s60r.v6.t_set.setting.h.text frtXfMq"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / y / text frtXfZvX",
+   "printed": "0.4",
+   "path": "s60r.v6.t_set.setting.y.text frtXfZvX"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / y / text frtXfKappa",
+   "printed": "1.5",
+   "path": "s60r.v6.t_set.setting.y.text frtXfKappa"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / y / text frtXfMq",
+   "printed": "0.4",
+   "path": "s60r.v6.t_set.setting.y.text frtXfMq"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / d / text frtQsynWfrac",
+   "printed": "0.1",
+   "path": "s60r.v6.t_set.setting.d.text frtQsynWfrac"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / q / text frtQsynWfrac",
+   "printed": "0.05",
+   "path": "s60r.v6.t_set.setting.q.text frtQsynWfrac"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / o / text frtGaoKr",
+   "printed": "2.5",
+   "path": "s60r.v6.t_set.setting.o.text frtGaoKr"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / o / text frtGaoIth",
+   "printed": "1.25",
+   "path": "s60r.v6.t_set.setting.o.text frtGaoIth"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l10 / text frtPbclThetaBlock",
+   "printed": "1",
+   "path": "s60r.v6.t_set.setting.l10.text frtPbclThetaBlock"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l20 / text frtPbclThetaBlock",
+   "printed": "2",
+   "path": "s60r.v6.t_set.setting.l20.text frtPbclThetaBlock"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l63 / text frtXfZvX",
+   "printed": "0.3",
+   "path": "s60r.v6.t_set.setting.l63.text frtXfZvX"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l63 / text frtXfKappa",
+   "printed": "1",
+   "path": "s60r.v6.t_set.setting.l63.text frtXfKappa"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l63 / text frtXfMq",
+   "printed": "0.2",
+   "path": "s60r.v6.t_set.setting.l63.text frtXfMq"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l94 / text frtXfZvX",
+   "printed": "0.4",
+   "path": "s60r.v6.t_set.setting.l94.text frtXfZvX"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l94 / text frtXfKappa",
+   "printed": "1.5",
+   "path": "s60r.v6.t_set.setting.l94.text frtXfKappa"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l94 / text frtXfMq",
+   "printed": "0.4",
+   "path": "s60r.v6.t_set.setting.l94.text frtXfMq"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l51 / text frtPbclUth",
+   "printed": "0.9",
+   "path": "s60r.v6.t_set.setting.l51.text frtPbclUth"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l99 / text frtVimpX",
+   "printed": "0.3",
+   "path": "s60r.v6.t_set.setting.l99.text frtVimpX"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l99 / text frtVimpR",
+   "printed": "0",
+   "path": "s60r.v6.t_set.setting.l99.text frtVimpR"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / setting / l99 / text frtVimpIth",
+   "printed": "1",
+   "path": "s60r.v6.t_set.setting.l99.text frtVimpIth"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / v / lost",
+   "printed": "0",
+   "path": "s60r.v6.r15.c101.laws.v.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / k / lost",
+   "printed": "5",
+   "path": "s60r.v6.r15.c101.laws.k.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / o / lost",
+   "printed": "55",
+   "path": "s60r.v6.r15.c101.laws.o.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / d / lost",
+   "printed": "42",
+   "path": "s60r.v6.r15.c101.laws.d.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / q / lost",
+   "printed": "32",
+   "path": "s60r.v6.r15.c101.laws.q.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / h / lost",
+   "printed": "7",
+   "path": "s60r.v6.r15.c101.laws.h.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / h / of",
+   "printed": "12",
+   "path": "s60r.v6.r15.c101.laws.h.of"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / y / lost",
+   "printed": "45",
+   "path": "s60r.v6.r15.c101.laws.y.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / l63 / lost",
+   "printed": "46",
+   "path": "s60r.v6.r15.c101.laws.l63.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / l94 / lost",
+   "printed": "43",
+   "path": "s60r.v6.r15.c101.laws.l94.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / l10 / lost",
+   "printed": "97",
+   "path": "s60r.v6.r15.c101.laws.l10.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / l20 / lost",
+   "printed": "97",
+   "path": "s60r.v6.r15.c101.laws.l20.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / l51 / lost",
+   "printed": "45",
+   "path": "s60r.v6.r15.c101.laws.l51.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / l99 / lost",
+   "printed": "79",
+   "path": "s60r.v6.r15.c101.laws.l99.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / c101 / laws / l98 / lost",
+   "printed": "98",
+   "path": "s60r.v6.r15.c101.laws.l98.lost"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / module_search / modules",
+   "printed": "18",
+   "path": "s60r.v6.t_set.module_search.modules"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / rule (conditions)",
+   "printed": "five",
+   "path": "s60r.v6.t_set.rule (conditions)"
+  },
+  {
+   "place": "Table II",
+   "name": "p_rep12 / select / dur_print",
+   "printed": "0.25 to 1 s",
+   "path": "s60r.v6.p_rep12.select.dur_print"
+  },
+  {
+   "place": "Table II",
+   "name": "p_rep12 / select / buses_print",
+   "printed": "16, 38 and 39",
+   "path": "s60r.v6.p_rep12.select.buses_print"
+  },
+  {
+   "place": "Table II",
+   "name": "t_set / rule (a loss in s)",
+   "printed": "5",
+   "path": "s60r.v6.t_set.rule (a loss in s)"
+  },
+  {
+   "place": "Table II",
+   "name": "r20 / f5 / print",
+   "printed": "5, 43 and 97",
+   "path": "s60r.v6.r20.f5.print"
+  },
+  {
+   "place": "Table II",
+   "name": "r15 / sets / c101 / n_keys",
+   "printed": "101",
+   "path": "s60r.v6.r15.sets.c101.n_keys"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / sets / lad26 / durations_ms (s)",
+   "printed": "4 and 5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / population / n_short",
+   "printed": "66",
+   "path": "s60r.v6.t_parts.population.n_short"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / sets / c101 / n_long",
+   "printed": "35",
+   "path": "s60r.v6.r15.sets.c101.n_long"
+  },
+  {
+   "place": "Table III",
+   "name": "p_path / fault_resistance / base_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.p_path.fault_resistance.base_pu"
+  },
+  {
+   "place": "Table III",
+   "name": "sum of t_parts / ladder / v.<0.3, 1, 2 s>.of",
+   "printed": "39",
+   "path": "sum of s60r.v6.t_parts.ladder.v.<0.3, 1, 2 s>.of"
+  },
+  {
+   "place": "Table III",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Table III",
+   "name": "sum of t_parts / lrf_0p001pu / v.<0.15, 0.3, 1 s>.of",
+   "printed": "39",
+   "path": "sum of s60r.v6.t_parts.lrf_0p001pu.v.<0.15, 0.3, 1 s>.of"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / sets / lad26 / n",
+   "printed": "26",
+   "path": "s60r.v6.r15.sets.lad26.n"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / sets / r1 / n",
+   "printed": "39",
+   "path": "s60r.v6.r16.sets.r1.n"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / sets / r2 / n",
+   "printed": "6",
+   "path": "s60r.v6.r16.sets.r2.n"
+  },
+  {
+   "place": "Table III",
+   "name": "sum of t_parts / ladder / v.<0.3, 1, 2 s>.lost",
+   "printed": "0",
+   "path": "sum of s60r.v6.t_parts.ladder.v.<0.3, 1, 2 s>.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / lrf_0p001pu / v / lost_of_39",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.lrf_0p001pu.v.lost_of_39"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / v / long_returns_print",
+   "printed": "0 of 35",
+   "path": "s60r.v6.r15.c101.parts.v.long_returns_print"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / v / median_s",
+   "printed": "0.31",
+   "path": "s60r.v6.p_rt.rows.v.median_s"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / v / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r3.v.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / v / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r1.v.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / v / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r2.per_code.v.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / v / engaged_print",
+   "printed": "0 of 26",
+   "path": "s60r.v6.r16.r3.v.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / v / engaged_print",
+   "printed": "0 of 39",
+   "path": "s60r.v6.r16.r1.v.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / v / engaged_print",
+   "printed": "0 of 6",
+   "path": "s60r.v6.r16.r2.per_code.v.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / v / SHORT / lost",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.v.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / v / long_lost",
+   "printed": "0",
+   "path": "s60r.v6.r15.c101.parts.v.long_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / v / slg_lost",
+   "printed": "0",
+   "path": "s60r.v6.r15.c101.parts.v.slg_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / v / SHORT / reread_A_limiter_engaged_at_end",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.v.SHORT.reread_A_limiter_engaged_at_end"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / v / SHORT / of - t_parts / parts / v / SHORT / lost",
+   "printed": "66",
+   "path": "s60r.v6.t_parts.parts.v.SHORT.of - s60r.v6.t_parts.parts.v.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "sum of t_parts / ladder / u1.<0.3, 1, 2 s>.lost",
+   "printed": "0",
+   "path": "sum of s60r.v6.t_parts.ladder.u1.<0.3, 1, 2 s>.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "p_lrx / per_law / u1 / lost_of_39",
+   "printed": "0",
+   "path": "s60r.v6.p_lrx.per_law.u1.lost_of_39"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / u1 / long_returns_print",
+   "printed": "31 of 35",
+   "path": "s60r.v6.r15.c101.parts.u1.long_returns_print"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / u1 / median_s",
+   "printed": "0.32",
+   "path": "s60r.v6.p_rt.rows.u1.median_s"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / u1 / lost",
+   "printed": "1",
+   "path": "s60r.v6.r16.r3.u1.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / u1 / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r1.u1.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / u1 / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r2.per_code.u1.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / u1 / engaged_print",
+   "printed": "25 of 25",
+   "path": "s60r.v6.r16.r3.u1.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / u1 / engaged_print",
+   "printed": "39 of 39",
+   "path": "s60r.v6.r16.r1.u1.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / u1 / engaged_print",
+   "printed": "6 of 6",
+   "path": "s60r.v6.r16.r2.per_code.u1.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / u1 / SHORT / lost",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.u1.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / u1 / long_lost",
+   "printed": "0",
+   "path": "s60r.v6.r15.c101.parts.u1.long_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / u1 / slg_lost",
+   "printed": "0",
+   "path": "s60r.v6.r15.c101.parts.u1.slg_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / u1 / SHORT / reread_A_limiter_engaged_at_end",
+   "printed": "63",
+   "path": "s60r.v6.t_parts.parts.u1.SHORT.reread_A_limiter_engaged_at_end"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / u1 / SHORT / of - t_parts / parts / u1 / SHORT / lost",
+   "printed": "66",
+   "path": "s60r.v6.t_parts.parts.u1.SHORT.of - s60r.v6.t_parts.parts.u1.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / f / long_returns_print",
+   "printed": "28 of 30",
+   "path": "s60r.v6.r15.c101.parts.f.long_returns_print"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / f / median_s",
+   "printed": "0.32",
+   "path": "s60r.v6.p_rt.rows.f.median_s"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / f / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r3.f.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / f / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r1.f.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / f / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r2.per_code.f.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / f / engaged_print",
+   "printed": "25 of 26",
+   "path": "s60r.v6.r16.r3.f.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / f / engaged_print",
+   "printed": "39 of 39",
+   "path": "s60r.v6.r16.r1.f.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / f / engaged_print",
+   "printed": "6 of 6",
+   "path": "s60r.v6.r16.r2.per_code.f.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / f / SHORT / lost",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.f.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / f / long_lost",
+   "printed": "5",
+   "path": "s60r.v6.r15.c101.parts.f.long_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / f / slg_lost",
+   "printed": "0",
+   "path": "s60r.v6.r15.c101.parts.f.slg_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / f / SHORT / reread_A_limiter_engaged_at_end",
+   "printed": "64",
+   "path": "s60r.v6.t_parts.parts.f.SHORT.reread_A_limiter_engaged_at_end"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / f / SHORT / of - t_parts / parts / f / SHORT / lost",
+   "printed": "66",
+   "path": "s60r.v6.t_parts.parts.f.SHORT.of - s60r.v6.t_parts.parts.f.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / z / long_returns_print",
+   "printed": "0 of 30",
+   "path": "s60r.v6.r15.c101.parts.z.long_returns_print"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / z / median_s",
+   "printed": "0.31",
+   "path": "s60r.v6.p_rt.rows.z.median_s"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / z / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r3.z.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / z / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r1.z.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / z / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r2.per_code.z.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / z / engaged_print",
+   "printed": "0 of 26",
+   "path": "s60r.v6.r16.r3.z.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / z / engaged_print",
+   "printed": "0 of 39",
+   "path": "s60r.v6.r16.r1.z.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / z / engaged_print",
+   "printed": "0 of 6",
+   "path": "s60r.v6.r16.r2.per_code.z.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / z / SHORT / lost",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.z.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / z / long_lost",
+   "printed": "5",
+   "path": "s60r.v6.r15.c101.parts.z.long_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / z / slg_lost",
+   "printed": "0",
+   "path": "s60r.v6.r15.c101.parts.z.slg_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / z / SHORT / reread_A_limiter_engaged_at_end",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.z.SHORT.reread_A_limiter_engaged_at_end"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / z / SHORT / of - t_parts / parts / z / SHORT / lost",
+   "printed": "66",
+   "path": "s60r.v6.t_parts.parts.z.SHORT.of - s60r.v6.t_parts.parts.z.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "sum of t_parts / ladder / c.<0.3, 1, 2 s>.lost",
+   "printed": "0",
+   "path": "sum of s60r.v6.t_parts.ladder.c.<0.3, 1, 2 s>.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / lrf_0p001pu / c / lost_of_39",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.lrf_0p001pu.c.lost_of_39"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / c / long_returns_print",
+   "printed": "0 of 27",
+   "path": "s60r.v6.r15.c101.parts.c.long_returns_print"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / c / median_s",
+   "printed": "0.28",
+   "path": "s60r.v6.p_rt.rows.c.median_s"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / c / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r3.c.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / c / lost",
+   "printed": "3",
+   "path": "s60r.v6.r16.r1.c.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / c / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r2.per_code.c.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / c / engaged_print",
+   "printed": "0 of 26",
+   "path": "s60r.v6.r16.r3.c.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / c / engaged_print",
+   "printed": "0 of 36",
+   "path": "s60r.v6.r16.r1.c.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / c / engaged_print",
+   "printed": "0 of 6",
+   "path": "s60r.v6.r16.r2.per_code.c.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / c / SHORT / lost",
+   "printed": "2",
+   "path": "s60r.v6.t_parts.parts.c.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / c / long_lost",
+   "printed": "8",
+   "path": "s60r.v6.r15.c101.parts.c.long_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / c / slg_lost",
+   "printed": "10",
+   "path": "s60r.v6.r15.c101.parts.c.slg_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / c / SHORT / reread_A_limiter_engaged_at_end",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.c.SHORT.reread_A_limiter_engaged_at_end"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / c / SHORT / of - t_parts / parts / c / SHORT / lost",
+   "printed": "64",
+   "path": "s60r.v6.t_parts.parts.c.SHORT.of - s60r.v6.t_parts.parts.c.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / e / long_returns_print",
+   "printed": "0 of 3",
+   "path": "s60r.v6.r15.c101.parts.e.long_returns_print"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / e / median_s",
+   "printed": "0.66",
+   "path": "s60r.v6.p_rt.rows.e.median_s"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / e / count",
+   "printed": "29",
+   "path": "s60r.v6.p_rt.rows.e.count"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / e / lost",
+   "printed": "22",
+   "path": "s60r.v6.r16.r3.e.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / e / lost",
+   "printed": "13",
+   "path": "s60r.v6.r16.r1.e.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / e / lost",
+   "printed": "0",
+   "path": "s60r.v6.r16.r2.per_code.e.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / e / engaged_print",
+   "printed": "0 of 4",
+   "path": "s60r.v6.r16.r3.e.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / e / engaged_print",
+   "printed": "0 of 26",
+   "path": "s60r.v6.r16.r1.e.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / e / engaged_print",
+   "printed": "0 of 6",
+   "path": "s60r.v6.r16.r2.per_code.e.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / e / SHORT / lost",
+   "printed": "10",
+   "path": "s60r.v6.t_parts.parts.e.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / e / long_lost",
+   "printed": "32",
+   "path": "s60r.v6.r15.c101.parts.e.long_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / e / slg_lost",
+   "printed": "13",
+   "path": "s60r.v6.r15.c101.parts.e.slg_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / e / SHORT / reread_A_limiter_engaged_at_end",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.e.SHORT.reread_A_limiter_engaged_at_end"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / e / SHORT / of - t_parts / parts / e / SHORT / lost",
+   "printed": "56",
+   "path": "s60r.v6.t_parts.parts.e.SHORT.of - s60r.v6.t_parts.parts.e.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "sum of t_parts / ladder / n.<0.3, 1, 2 s>.lost",
+   "printed": "31",
+   "path": "sum of s60r.v6.t_parts.ladder.n.<0.3, 1, 2 s>.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / lrf_0p001pu / n / lost_of_39",
+   "printed": "23",
+   "path": "s60r.v6.t_parts.lrf_0p001pu.n.lost_of_39"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / n / median_s",
+   "printed": "0.51",
+   "path": "s60r.v6.p_rt.rows.n.median_s"
+  },
+  {
+   "place": "Table III",
+   "name": "p_rt / rows / n / count",
+   "printed": "5",
+   "path": "s60r.v6.p_rt.rows.n.count"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / n / lost",
+   "printed": "24",
+   "path": "s60r.v6.r16.r3.n.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / n / lost",
+   "printed": "30",
+   "path": "s60r.v6.r16.r1.n.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / n / lost",
+   "printed": "3",
+   "path": "s60r.v6.r16.r2.per_code.n.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r3 / n / engaged_print",
+   "printed": "0 of 2",
+   "path": "s60r.v6.r16.r3.n.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r1 / n / engaged_print",
+   "printed": "0 of 9",
+   "path": "s60r.v6.r16.r1.n.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "r16 / r2 / per_code / n / engaged_print",
+   "printed": "0 of 3",
+   "path": "s60r.v6.r16.r2.per_code.n.engaged_print"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / n / SHORT / lost",
+   "printed": "49",
+   "path": "s60r.v6.t_parts.parts.n.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / n / long_lost",
+   "printed": "35",
+   "path": "s60r.v6.r15.c101.parts.n.long_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / c101 / parts / n / slg_lost",
+   "printed": "31",
+   "path": "s60r.v6.r15.c101.parts.n.slg_lost"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / n / SHORT / reread_A_limiter_engaged_at_end",
+   "printed": "0",
+   "path": "s60r.v6.t_parts.parts.n.SHORT.reread_A_limiter_engaged_at_end"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / parts / n / SHORT / of - t_parts / parts / n / SHORT / lost",
+   "printed": "17",
+   "path": "s60r.v6.t_parts.parts.n.SHORT.of - s60r.v6.t_parts.parts.n.SHORT.lost"
+  },
+  {
+   "place": "Table III",
+   "name": "r15 / sets / c101 / long_range_print",
+   "printed": "2 to 5",
+   "path": "s60r.v6.r15.sets.c101.long_range_print"
+  },
+  {
+   "place": "Table III",
+   "name": "t_parts / keys_by_type / SHORT / three_phase",
+   "printed": "39",
+   "path": "s60r.v6.t_parts.keys_by_type.SHORT.three_phase"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_nr / ladder / f.0p01pu / lost_of_39",
+   "printed": "0",
+   "path": "s60r.v6.p_nr.ladder.f.0p01pu.lost_of_39"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_nr / ladder / f.0p001pu / lost_of_39",
+   "printed": "0",
+   "path": "s60r.v6.p_nr.ladder.f.0p001pu.lost_of_39"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_nr / ladder / z.0p01pu / lost_of_39",
+   "printed": "0",
+   "path": "s60r.v6.p_nr.ladder.z.0p01pu.lost_of_39"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_nr / ladder / z.0p001pu / lost_of_39",
+   "printed": "0",
+   "path": "s60r.v6.p_nr.ladder.z.0p001pu.lost_of_39"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_nr / ladder / e.0p01pu / lost_of_39",
+   "printed": "13",
+   "path": "s60r.v6.p_nr.ladder.e.0p01pu.lost_of_39"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_nr / ladder / e.0p001pu / lost_of_39",
+   "printed": "7",
+   "path": "s60r.v6.p_nr.ladder.e.0p001pu.lost_of_39"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / design / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.design.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / design / k / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r140.s18.table.design.k.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / f1_v / value (parsed value)",
+   "printed": "0.3",
+   "path": "s60r.v6.p_rob.per_value_law.f1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / f2_v / value (parsed value)",
+   "printed": "0.4",
+   "path": "s60r.v6.p_rob.per_value_law.f2_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / f3_v / value (parsed value)",
+   "printed": "0.6",
+   "path": "s60r.v6.p_rob.per_value_law.f3_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / f4_v / value (parsed value)",
+   "printed": "0.7",
+   "path": "s60r.v6.p_rob.per_value_law.f4_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / f1_v / value (parsed value)",
+   "printed": "0.5",
+   "path": "s60r.v6.p_rob.per_value_law.f1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / floor_0p3 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.floor_0p3.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / floor_0p4 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.floor_0p4.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / floor_0p6 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.floor_0p6.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / floor_0p7 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.floor_0p7.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / g1_v / value (parsed value)",
+   "printed": "10",
+   "path": "s60r.v6.p_rob.per_value_law.g1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / g2_v / value (parsed value)",
+   "printed": "40",
+   "path": "s60r.v6.p_rob.per_value_law.g2_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / g1_v / value (parsed value)",
+   "printed": "20",
+   "path": "s60r.v6.p_rob.per_value_law.g1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / gain_10 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.gain_10.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / gain_40 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.gain_40.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / s1_v / value (parsed value)",
+   "printed": "0.7",
+   "path": "s60r.v6.p_rob.per_value_law.s1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / s2_v / value (parsed value)",
+   "printed": "0.9",
+   "path": "s60r.v6.p_rob.per_value_law.s2_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / s3_v / value (parsed value)",
+   "printed": "1.0",
+   "path": "s60r.v6.p_rob.per_value_law.s3_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / s1_v / value (parsed value)",
+   "printed": "0.8",
+   "path": "s60r.v6.p_rob.per_value_law.s1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "r19 / t4 / cells / capf_0p7 / ab_print_table_ii_form",
+   "printed": "0/9",
+   "path": "s60r.v6.r19.t4.cells.capf_0p7.ab_print_table_ii_form"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / capf_0p9 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.capf_0p9.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / capf_1p0 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.capf_1p0.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / tested / clo / value_print",
+   "printed": "2",
+   "path": "s60r.v6.p_rel.tested.clo.value_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / tested / chi / value_print",
+   "printed": "5",
+   "path": "s60r.v6.p_rel.tested.chi.value_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / design_values / factor",
+   "printed": "3",
+   "path": "s60r.v6.p_rel.design_values.factor"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / tested / flo / value_print",
+   "printed": "2",
+   "path": "s60r.v6.p_rel.tested.flo.value_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / tested / fhi / value_print",
+   "printed": "10",
+   "path": "s60r.v6.p_rel.tested.fhi.value_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / design_values / filter_ms",
+   "printed": "5",
+   "path": "s60r.v6.p_rel.design_values.filter_ms"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / tested / tlo / value_print",
+   "printed": "5",
+   "path": "s60r.v6.p_rel.tested.tlo.value_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / tested / thi / value_print",
+   "printed": "20",
+   "path": "s60r.v6.p_rel.tested.thi.value_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rel / design_values / decay_ms",
+   "printed": "10",
+   "path": "s60r.v6.p_rel.design_values.decay_ms"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / ratio_2 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.ratio_2.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / ratio_5 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.ratio_5.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / vfilt_2 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.vfilt_2.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / vfilt_10 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.vfilt_10.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / decay_5 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.decay_5.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / decay_20 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.decay_20.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / v.1p1 / limit_pu",
+   "printed": "1.1",
+   "path": "s60r.v6.r15.lim.v.1p1.limit_pu"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / v.1p15 / limit_pu",
+   "printed": "1.15",
+   "path": "s60r.v6.r15.lim.v.1p15.limit_pu"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / v.1p2 / limit_pu",
+   "printed": "1.2",
+   "path": "s60r.v6.r15.lim.v.1p2.limit_pu"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / v.1p4 / limit_pu",
+   "printed": "1.4",
+   "path": "s60r.v6.r15.lim.v.1p4.limit_pu"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / v.1p1 / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r15.lim.v.1p1.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / v.1p15 / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r15.lim.v.1p15.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / v.1p2 / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r15.lim.v.1p2.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / v.1p4 / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r15.lim.v.1p4.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / k.1p1 / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r15.lim.k.1p1.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / k.1p15 / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r15.lim.k.1p15.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / k.1p2 / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r15.lim.k.1p2.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim / k.1p4 / cell_print",
+   "printed": "7",
+   "path": "s60r.v6.r15.lim.k.1p4.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / l1_v / value (parsed value)",
+   "printed": "1.25",
+   "path": "s60r.v6.p_rob.per_value_law.l1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / p1_v / value (parsed value)",
+   "printed": "3.2",
+   "path": "s60r.v6.p_rob.per_value_law.p1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / p1_v / value (parsed value)",
+   "printed": "9.0",
+   "path": "s60r.v6.p_rob.per_value_law.p1_v.value (parsed value)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / nominal_pll_Hz",
+   "printed": "1.2",
+   "path": "s60r.v6.p_rob.nominal_pll_Hz"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / pll_3p2 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.pll_3p2.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / pll_9p0 / v / cell_print",
+   "printed": "1",
+   "path": "s60r.v6.r140.s18.table.pll_9p0.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / pll_3p2 / k / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r140.s18.table.pll_3p2.k.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / pll_9p0 / k / cell_print",
+   "printed": "11",
+   "path": "s60r.v6.r140.s18.table.pll_9p0.k.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / d1_v / value (droopScale inverted: the slope)",
+   "printed": "0.5",
+   "path": "s60r.v6.p_rob.per_value_law.d1_v.value (droopScale inverted: the slope)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / d2_v / value (droopScale inverted: the slope)",
+   "printed": "2",
+   "path": "s60r.v6.p_rob.per_value_law.d2_v.value (droopScale inverted: the slope)"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_rob / per_value_law / d*_v / value (the design slope)",
+   "printed": "1",
+   "path": "s60r.v6.p_rob.per_value_law.d*_v.value (the design slope)"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / droop_0p5 / v / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.droop_0p5.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / droop_2 / v / cell_print",
+   "printed": "3",
+   "path": "s60r.v6.r140.s18.table.droop_2.v.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / droop_0p5 / k / cell_print",
+   "printed": "0",
+   "path": "s60r.v6.r140.s18.table.droop_0p5.k.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / table / droop_2 / k / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r140.s18.table.droop_2.k.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r19 / t4 / cells / capf_0p7 / cap_factor",
+   "printed": "0.7",
+   "path": "s60r.v6.r19.t4.cells.capf_0p7.cap_factor"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / note / pll_fast_v_returns_unsettled",
+   "printed": "6",
+   "path": "s60r.v6.r140.s18.note.pll_fast_v_returns_unsettled"
+  },
+  {
+   "place": "Table IV",
+   "name": "p_nr / sweep_settled_definition / band_Hz",
+   "printed": "0.05",
+   "path": "s60r.v6.p_nr.sweep_settled_definition.band_Hz"
+  },
+  {
+   "place": "Table IV",
+   "name": "system / f_settled_Hz",
+   "printed": "60",
+   "path": "system.f_settled_Hz"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / sets / s18 / n_keys",
+   "printed": "18",
+   "path": "s60r.v6.r140.sets.s18.n_keys"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / o.1p1 / cell_print",
+   "printed": "9",
+   "path": "s60r.v6.r15.lim_d2.o.1p1.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / o.1p15 / cell_print",
+   "printed": "6",
+   "path": "s60r.v6.r15.lim_d2.o.1p15.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / o.1p2 / cell_print",
+   "printed": "8",
+   "path": "s60r.v6.r15.lim_d2.o.1p2.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / o.1p4 / cell_print",
+   "printed": "12",
+   "path": "s60r.v6.r15.lim_d2.o.1p4.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / q.1p1 / cell_print",
+   "printed": "3",
+   "path": "s60r.v6.r15.lim_d2.q.1p1.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / q.1p15 / cell_print",
+   "printed": "3",
+   "path": "s60r.v6.r15.lim_d2.q.1p15.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / q.1p2 / cell_print",
+   "printed": "3",
+   "path": "s60r.v6.r15.lim_d2.q.1p2.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / q.1p4 / cell_print",
+   "printed": "3",
+   "path": "s60r.v6.r15.lim_d2.q.1p4.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / y.1p1 / cell_print",
+   "printed": "10",
+   "path": "s60r.v6.r15.lim_d2.y.1p1.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / y.1p15 / cell_print",
+   "printed": "9",
+   "path": "s60r.v6.r15.lim_d2.y.1p15.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / y.1p2 / cell_print",
+   "printed": "7",
+   "path": "s60r.v6.r15.lim_d2.y.1p2.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / y.1p4 / cell_print",
+   "printed": "3",
+   "path": "s60r.v6.r15.lim_d2.y.1p4.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l94.1p1 / cell_print",
+   "printed": "8",
+   "path": "s60r.v6.r15.lim_d2.l94.1p1.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l94.1p15 / cell_print",
+   "printed": "7",
+   "path": "s60r.v6.r15.lim_d2.l94.1p15.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l94.1p2 / cell_print",
+   "printed": "5",
+   "path": "s60r.v6.r15.lim_d2.l94.1p2.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l94.1p4 / cell_print",
+   "printed": "3",
+   "path": "s60r.v6.r15.lim_d2.l94.1p4.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l10.1p1 / cell_print",
+   "printed": "8",
+   "path": "s60r.v6.r15.lim_d2.l10.1p1.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l10.1p15 / cell_print",
+   "printed": "9",
+   "path": "s60r.v6.r15.lim_d2.l10.1p15.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l10.1p2 / cell_print",
+   "printed": "16",
+   "path": "s60r.v6.r15.lim_d2.l10.1p2.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l10.1p4 / cell_print",
+   "printed": "15",
+   "path": "s60r.v6.r15.lim_d2.l10.1p4.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l51.1p1 / cell_print",
+   "printed": "12",
+   "path": "s60r.v6.r15.lim_d2.l51.1p1.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l51.1p15 / cell_print",
+   "printed": "10",
+   "path": "s60r.v6.r15.lim_d2.l51.1p15.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l51.1p2 / cell_print",
+   "printed": "9",
+   "path": "s60r.v6.r15.lim_d2.l51.1p2.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r15 / lim_d2 / l51.1p4 / cell_print",
+   "printed": "6",
+   "path": "s60r.v6.r15.lim_d2.l51.1p4.cell_print"
+  },
+  {
+   "place": "Table IV",
+   "name": "r140 / s18 / note / without_release_v",
+   "printed": "3",
+   "path": "s60r.v6.r140.s18.note.without_release_v"
+  }
+ ],
+ "src": "the released record's _printed: the paper's printed numbers, each at the place where the paper prints it"
+}
