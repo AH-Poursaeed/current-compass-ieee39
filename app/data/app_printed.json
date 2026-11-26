@@ -1,6 +1,6 @@
 {
  "schema": "cca-printed/2",
- "n": 602,
+ "n": 605,
  "places": [
   "Abstract",
   "Section I",
@@ -20,33 +20,39 @@
  "rows": [
   {
    "place": "Abstract",
-   "name": "durations of t_parts / ladder / v (largest)",
-   "printed": "2",
-   "path": "durations of s60r.v6.t_parts.ladder.v (largest)"
+   "name": "durations of t_parts / ladder / v (smallest)",
+   "printed": "0.3",
+   "path": "durations of s60r.v6.t_parts.ladder.v (smallest)"
   },
   {
    "place": "Abstract",
-   "name": "durations of t_parts / lrf_0p001pu / v (largest)",
-   "printed": "1",
-   "path": "durations of s60r.v6.t_parts.lrf_0p001pu.v (largest)"
+   "name": "r15 / sets / c101 / keys (the shortest fault, s)",
+   "printed": "0.3",
+   "path": "s60r.v6.r15.sets.c101.keys (the shortest fault, s)"
   },
   {
    "place": "Abstract",
-   "name": "r15 / sets / lad26 / durations_ms (s)",
-   "printed": "4 and 5",
-   "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+   "name": "r15 / sets / c101 / keys (the longest fault, s)",
+   "printed": "5",
+   "path": "s60r.v6.r15.sets.c101.keys (the longest fault, s)"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / sets / c101 / keys (buses, count)",
+   "printed": "13",
+   "path": "s60r.v6.r15.sets.c101.keys (buses, count)"
+  },
+  {
+   "place": "Abstract",
+   "name": "r15 / sets / lad26 / durations_ms (the longest fault of the two sweeps, s)",
+   "printed": "5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (the longest fault of the two sweeps, s)"
   },
   {
    "place": "Abstract",
    "name": "r15 / sets / c101 / n_keys",
    "printed": "101",
    "path": "s60r.v6.r15.sets.c101.n_keys"
-  },
-  {
-   "place": "Abstract",
-   "name": "r15 / c101 / v / lost (= 0, as a word)",
-   "printed": "none",
-   "path": "s60r.v6.r15.c101.v.lost (= 0, as a word)"
   },
   {
    "place": "Abstract",
@@ -68,33 +74,9 @@
   },
   {
    "place": "Abstract",
-   "name": "r15 / lad26 / v / lost (= 0, as a word)",
-   "printed": "none",
-   "path": "s60r.v6.r15.lad26.v.lost (= 0, as a word)"
-  },
-  {
-   "place": "Abstract",
-   "name": "r15 / lad26 / k / lost",
-   "printed": "12",
-   "path": "s60r.v6.r15.lad26.k.lost"
-  },
-  {
-   "place": "Abstract",
-   "name": "r17 / q2 / twelve / eleven_others / smallest",
-   "printed": "14",
-   "path": "s60r.v6.r17.q2.twelve.eleven_others.smallest"
-  },
-  {
-   "place": "Abstract",
    "name": "chain / census / form / compared_laws (published families, lower case)",
    "printed": "seven",
    "path": "chain.census.form.compared_laws (published families, lower case)"
-  },
-  {
-   "place": "Abstract",
-   "name": "system / n_unit (word)",
-   "printed": "ten",
-   "path": "system.n_unit (word)"
   },
   {
    "place": "Abstract",
@@ -104,9 +86,9 @@
   },
   {
    "place": "Abstract",
-   "name": "p_nr / A2 / twelve_lost_of_78_smallest",
-   "printed": "19",
-   "path": "s60r.v6.p_nr.A2.twelve_lost_of_78_smallest"
+   "name": "chain / census / form / compared_laws (count)",
+   "printed": "13",
+   "path": "chain.census.form.compared_laws (count)"
   },
   {
    "place": "Abstract",
@@ -122,27 +104,9 @@
   },
   {
    "place": "Abstract",
-   "name": "t_parts / ladder / k / d1000ms (the duration)",
-   "printed": "1",
-   "path": "s60r.v6.t_parts.ladder.k.d1000ms (the duration)"
-  },
-  {
-   "place": "Abstract",
-   "name": "p_path / fault_resistance / base_pu",
-   "printed": "0.01",
-   "path": "s60r.v6.p_path.fault_resistance.base_pu"
-  },
-  {
-   "place": "Abstract",
-   "name": "p_path / fault_resistance / low_pu",
-   "printed": "0.001",
-   "path": "s60r.v6.p_path.fault_resistance.low_pu"
-  },
-  {
-   "place": "Abstract",
-   "name": "t_parts / ladder / k / d1000ms / lost",
-   "printed": "4",
-   "path": "s60r.v6.t_parts.ladder.k.d1000ms.lost"
+   "name": "buses of chain / ablation / per_code / v / SHORT / missing_keys and chain / headline / set_R1 / long_common_keys / keys (count)",
+   "printed": "13",
+   "path": "buses of chain.ablation.per_code.v.SHORT.missing_keys and chain.headline.set_R1.long_common_keys.keys (count)"
   },
   {
    "place": "Abstract",
@@ -157,10 +121,16 @@
    "path": "s60r.v6.p_pairs.v_c.D_QF.S3.n"
   },
   {
+   "place": "Abstract",
+   "name": "r24 / runs / total",
+   "printed": "7,218",
+   "path": "s60r.v6.r24.runs.total"
+  },
+  {
    "place": "Section I",
-   "name": "durations of t_parts / ladder / v (smallest)",
-   "printed": "0.3",
-   "path": "durations of s60r.v6.t_parts.ladder.v (smallest)"
+   "name": "durations of t_parts / ladder / v (largest)",
+   "printed": "2",
+   "path": "durations of s60r.v6.t_parts.ladder.v (largest)"
   },
   {
    "place": "Section I",
@@ -170,21 +140,75 @@
   },
   {
    "place": "Section I",
+   "name": "durations of t_parts / lrf_0p001pu / v (largest)",
+   "printed": "1",
+   "path": "durations of s60r.v6.t_parts.lrf_0p001pu.v (largest)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / sets / lad26 / durations_ms (s)",
+   "printed": "4 and 5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / c101 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.c101.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / lad26 / v / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.r15.lad26.v.lost (= 0, as a word)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / lad26 / k / lost",
+   "printed": "12",
+   "path": "s60r.v6.r15.lad26.k.lost"
+  },
+  {
+   "place": "Section I",
+   "name": "r17 / q2 / twelve / eleven_others / smallest",
+   "printed": "14",
+   "path": "s60r.v6.r17.q2.twelve.eleven_others.smallest"
+  },
+  {
+   "place": "Section I",
+   "name": "p_nr / A2 / twelve_lost_of_78_smallest",
+   "printed": "19",
+   "path": "s60r.v6.p_nr.A2.twelve_lost_of_78_smallest"
+  },
+  {
+   "place": "Section I",
    "name": "p_bench / design / cases",
    "printed": "69",
    "path": "s60r.v6.p_bench.design.cases"
   },
   {
    "place": "Section I",
-   "name": "chain / census / form / compared_laws (count)",
-   "printed": "13",
-   "path": "chain.census.form.compared_laws (count)"
+   "name": "t_parts / ladder / k / d1000ms (the duration)",
+   "printed": "1",
+   "path": "s60r.v6.t_parts.ladder.k.d1000ms (the duration)"
   },
   {
    "place": "Section I",
-   "name": "buses of chain / ablation / per_code / v / SHORT / missing_keys and chain / headline / set_R1 / long_common_keys / keys (count)",
-   "printed": "13",
-   "path": "buses of chain.ablation.per_code.v.SHORT.missing_keys and chain.headline.set_R1.long_common_keys.keys (count)"
+   "name": "p_path / fault_resistance / base_pu",
+   "printed": "0.01",
+   "path": "s60r.v6.p_path.fault_resistance.base_pu"
+  },
+  {
+   "place": "Section I",
+   "name": "p_path / fault_resistance / low_pu",
+   "printed": "0.001",
+   "path": "s60r.v6.p_path.fault_resistance.low_pu"
+  },
+  {
+   "place": "Section I",
+   "name": "t_parts / ladder / k / d1000ms / lost",
+   "printed": "4",
+   "path": "s60r.v6.t_parts.ladder.k.d1000ms.lost"
   },
   {
    "place": "Section I",
@@ -212,33 +236,45 @@
   },
   {
    "place": "Section I",
-   "name": "durations of t_parts / ladder / v (largest)",
-   "printed": "2",
-   "path": "durations of s60r.v6.t_parts.ladder.v (largest)"
+   "name": "p_na / totals / v / ladder_78 / lost (= 0, as a word)",
+   "printed": "none",
+   "path": "s60r.v6.p_na.totals.v.ladder_78.lost (= 0, as a word)"
   },
   {
    "place": "Section I",
-   "name": "durations of t_parts / lrf_0p001pu / v (largest)",
-   "printed": "1",
-   "path": "durations of s60r.v6.t_parts.lrf_0p001pu.v (largest)"
+   "name": "durations of t_parts / ladder / v (smallest)",
+   "printed": "0.3",
+   "path": "durations of s60r.v6.t_parts.ladder.v (smallest)"
   },
   {
    "place": "Section I",
-   "name": "r15 / sets / lad26 / durations_ms (s)",
-   "printed": "4 and 5",
-   "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+   "name": "r15 / sets / c101 / keys (the shortest fault, s)",
+   "printed": "0.3",
+   "path": "s60r.v6.r15.sets.c101.keys (the shortest fault, s)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / sets / c101 / keys (the longest fault, s)",
+   "printed": "5",
+   "path": "s60r.v6.r15.sets.c101.keys (the longest fault, s)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / sets / c101 / keys (buses, count)",
+   "printed": "13",
+   "path": "s60r.v6.r15.sets.c101.keys (buses, count)"
+  },
+  {
+   "place": "Section I",
+   "name": "r15 / sets / lad26 / durations_ms (the longest fault of the two sweeps, s)",
+   "printed": "5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (the longest fault of the two sweeps, s)"
   },
   {
    "place": "Section I",
    "name": "r15 / sets / c101 / n_keys",
    "printed": "101",
    "path": "s60r.v6.r15.sets.c101.n_keys"
-  },
-  {
-   "place": "Section I",
-   "name": "r15 / c101 / v / lost (= 0, as a word)",
-   "printed": "none",
-   "path": "s60r.v6.r15.c101.v.lost (= 0, as a word)"
   },
   {
    "place": "Section I",
@@ -260,33 +296,9 @@
   },
   {
    "place": "Section I",
-   "name": "r15 / lad26 / v / lost (= 0, as a word)",
-   "printed": "none",
-   "path": "s60r.v6.r15.lad26.v.lost (= 0, as a word)"
-  },
-  {
-   "place": "Section I",
-   "name": "r15 / lad26 / k / lost",
-   "printed": "12",
-   "path": "s60r.v6.r15.lad26.k.lost"
-  },
-  {
-   "place": "Section I",
-   "name": "r17 / q2 / twelve / eleven_others / smallest",
-   "printed": "14",
-   "path": "s60r.v6.r17.q2.twelve.eleven_others.smallest"
-  },
-  {
-   "place": "Section I",
    "name": "chain / census / form / compared_laws (published families, lower case)",
    "printed": "seven",
    "path": "chain.census.form.compared_laws (published families, lower case)"
-  },
-  {
-   "place": "Section I",
-   "name": "system / n_unit (word)",
-   "printed": "ten",
-   "path": "system.n_unit (word)"
   },
   {
    "place": "Section I",
@@ -296,9 +308,9 @@
   },
   {
    "place": "Section I",
-   "name": "p_nr / A2 / twelve_lost_of_78_smallest",
-   "printed": "19",
-   "path": "s60r.v6.p_nr.A2.twelve_lost_of_78_smallest"
+   "name": "chain / census / form / compared_laws (count)",
+   "printed": "13",
+   "path": "chain.census.form.compared_laws (count)"
   },
   {
    "place": "Section I",
@@ -314,27 +326,9 @@
   },
   {
    "place": "Section I",
-   "name": "t_parts / ladder / k / d1000ms (the duration)",
-   "printed": "1",
-   "path": "s60r.v6.t_parts.ladder.k.d1000ms (the duration)"
-  },
-  {
-   "place": "Section I",
-   "name": "p_path / fault_resistance / base_pu",
-   "printed": "0.01",
-   "path": "s60r.v6.p_path.fault_resistance.base_pu"
-  },
-  {
-   "place": "Section I",
-   "name": "p_path / fault_resistance / low_pu",
-   "printed": "0.001",
-   "path": "s60r.v6.p_path.fault_resistance.low_pu"
-  },
-  {
-   "place": "Section I",
-   "name": "t_parts / ladder / k / d1000ms / lost",
-   "printed": "4",
-   "path": "s60r.v6.t_parts.ladder.k.d1000ms.lost"
+   "name": "buses of chain / ablation / per_code / v / SHORT / missing_keys and chain / headline / set_R1 / long_common_keys / keys (count)",
+   "printed": "13",
+   "path": "buses of chain.ablation.per_code.v.SHORT.missing_keys and chain.headline.set_R1.long_common_keys.keys (count)"
   },
   {
    "place": "Section I",
@@ -347,6 +341,12 @@
    "name": "p_pairs / v_c / D_QF / S3 / n",
    "printed": "39",
    "path": "s60r.v6.p_pairs.v_c.D_QF.S3.n"
+  },
+  {
+   "place": "Section I",
+   "name": "r24 / runs / total",
+   "printed": "7,218",
+   "path": "s60r.v6.r24.runs.total"
   },
   {
    "place": "Section III",
@@ -467,6 +467,12 @@
    "name": "p_s3 / g / circles_evaluated",
    "printed": "5,616",
    "path": "s60r.v6.p_s3.g.circles_evaluated"
+  },
+  {
+   "place": "Section IV",
+   "name": "system / n_unit (word)",
+   "printed": "ten",
+   "path": "system.n_unit (word)"
   },
   {
    "place": "Section IV",
@@ -728,6 +734,18 @@
   },
   {
    "place": "Section IV",
+   "name": "r24 / runs / total",
+   "printed": "7,218",
+   "path": "s60r.v6.r24.runs.total"
+  },
+  {
+   "place": "Section IV",
+   "name": "r24 / runs / fault",
+   "printed": "6,721",
+   "path": "s60r.v6.r24.runs.fault"
+  },
+  {
+   "place": "Section IV",
    "name": "chain / census / record_lengths / f3_rows_s",
    "printed": "8",
    "path": "chain.census.record_lengths.f3_rows_s"
@@ -854,12 +872,6 @@
   },
   {
    "place": "Section V",
-   "name": "r15 / c101 / vk_long / LS / median_s",
-   "printed": "0.09",
-   "path": "s60r.v6.r15.c101.vk_long.LS.median_s"
-  },
-  {
-   "place": "Section V",
    "name": "r15 / c101 / vk_long / L3 / v_sooner",
    "printed": "15",
    "path": "s60r.v6.r15.c101.vk_long.L3.v_sooner"
@@ -869,6 +881,12 @@
    "name": "r15 / c101 / vk_long / L3_n",
    "printed": "19",
    "path": "s60r.v6.r15.c101.vk_long.L3_n"
+  },
+  {
+   "place": "Section V",
+   "name": "r15 / c101 / vk_long / LS / median_s",
+   "printed": "0.09",
+   "path": "s60r.v6.r15.c101.vk_long.LS.median_s"
   },
   {
    "place": "Section V",
@@ -1700,15 +1718,21 @@
   },
   {
    "place": "Section VI",
-   "name": "r15 / sets / c101 / n_keys",
-   "printed": "101",
-   "path": "s60r.v6.r15.sets.c101.n_keys"
+   "name": "r15 / sets / c101 / keys (the longest fault, s)",
+   "printed": "5",
+   "path": "s60r.v6.r15.sets.c101.keys (the longest fault, s)"
   },
   {
    "place": "Section VI",
-   "name": "r15 / c101 / v / lost (= 0, as a word)",
-   "printed": "none",
-   "path": "s60r.v6.r15.c101.v.lost (= 0, as a word)"
+   "name": "r15 / sets / lad26 / durations_ms (the longest fault of the two sweeps, s)",
+   "printed": "5",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (the longest fault of the two sweeps, s)"
+  },
+  {
+   "place": "Section VI",
+   "name": "r15 / sets / c101 / n_keys",
+   "printed": "101",
+   "path": "s60r.v6.r15.sets.c101.n_keys"
   },
   {
    "place": "Section VI",
@@ -1721,18 +1745,6 @@
    "name": "r15 / c101 / min_other",
    "printed": "32",
    "path": "s60r.v6.r15.c101.min_other"
-  },
-  {
-   "place": "Section VI",
-   "name": "r15 / lad26 / v / lost (= 0, as a word)",
-   "printed": "none",
-   "path": "s60r.v6.r15.lad26.v.lost (= 0, as a word)"
-  },
-  {
-   "place": "Section VI",
-   "name": "system / n_unit (word)",
-   "printed": "ten",
-   "path": "system.n_unit (word)"
   },
   {
    "place": "Section VI",
@@ -1775,6 +1787,12 @@
    "name": "p_pairs / v_c / D_QF / S3 / n",
    "printed": "39",
    "path": "s60r.v6.p_pairs.v_c.D_QF.S3.n"
+  },
+  {
+   "place": "Section VI",
+   "name": "r24 / runs / total",
+   "printed": "7,218",
+   "path": "s60r.v6.r24.runs.total"
   },
   {
    "place": "Fig. 3, caption",

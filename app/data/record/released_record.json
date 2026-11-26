@@ -1,6 +1,6 @@
 {
  "_source": {
-  "source_record_sha256": "fad0401ba9ca7833a3ede7a208d60440f0a1f6d256eb14d4a5f8be9be1b3575b",
+  "source_record_sha256": "270c94291dbed61758eded4cc3112353e665461fb1f23577768668bd693c7f82",
   "request_list_sha256": "9f0e44282644874a7b4e6e602432236610eefe253d7721a3916cdbbc1584bc92"
  },
  "system": {
@@ -4106,7 +4106,7 @@
     }
    },
    "fig_compare": {
-    "png_sha256": "b0ee19d80c600e3969f1f51339057e3c33f311e3a31a38cdb75eaef1e483080a"
+    "png_sha256": "9cbfbeb0a3e06c16e0863fa8ed580bf36ee8782c7c86bca9db6e93b2a844f528"
    },
    "p_nr": {
     "cells": {
@@ -41499,6 +41499,30 @@
   },
   {
    "where": "abstract",
+   "path": "s60r.v6.r15.sets.c101.keys (the shortest fault, s)",
+   "value": 300,
+   "printed": "0.3"
+  },
+  {
+   "where": "abstract",
+   "path": "s60r.v6.r15.sets.c101.keys (the longest fault, s)",
+   "value": 5000,
+   "printed": "5"
+  },
+  {
+   "where": "abstract",
+   "path": "s60r.v6.r15.sets.c101.keys (buses, count)",
+   "value": 13,
+   "printed": "13"
+  },
+  {
+   "where": "abstract",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (the longest fault of the two sweeps, s)",
+   "value": 5000,
+   "printed": "5"
+  },
+  {
+   "where": "abstract",
    "path": "s60r.v6.r15.sets.c101.n_keys",
    "value": 101,
    "printed": "101"
@@ -41676,6 +41700,18 @@
    "path": "s60r.v6.t_parts.parts.c lost keys returned by v (their one bus)",
    "value": 37,
    "printed": "37"
+  },
+  {
+   "where": "abstract",
+   "path": "s60r.v6.r24.runs.total",
+   "value": 7218,
+   "printed": "7,218"
+  },
+  {
+   "where": "abstract",
+   "path": "s60r.v6.p_na.totals.v.ladder_78.lost (= 0, as a word)",
+   "value": 0,
+   "printed": "none"
   },
   {
    "where": "cc_sec1_introduction.section",
@@ -41712,6 +41748,30 @@
   },
   {
    "where": "cc_sec1_introduction.section",
+   "path": "s60r.v6.r15.sets.c101.keys (the shortest fault, s)",
+   "value": 300,
+   "printed": "0.3"
+  },
+  {
+   "where": "cc_sec1_introduction.section",
+   "path": "s60r.v6.r15.sets.c101.keys (the longest fault, s)",
+   "value": 5000,
+   "printed": "5"
+  },
+  {
+   "where": "cc_sec1_introduction.section",
+   "path": "s60r.v6.r15.sets.c101.keys (buses, count)",
+   "value": 13,
+   "printed": "13"
+  },
+  {
+   "where": "cc_sec1_introduction.section",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (the longest fault of the two sweeps, s)",
+   "value": 5000,
+   "printed": "5"
+  },
+  {
+   "where": "cc_sec1_introduction.section",
    "path": "s60r.v6.r15.sets.c101.n_keys",
    "value": 101,
    "printed": "101"
@@ -41889,6 +41949,18 @@
    "path": "s60r.v6.t_parts.parts.c lost keys returned by v (their one bus)",
    "value": 37,
    "printed": "37"
+  },
+  {
+   "where": "cc_sec1_introduction.section",
+   "path": "s60r.v6.r24.runs.total",
+   "value": 7218,
+   "printed": "7,218"
+  },
+  {
+   "where": "cc_sec1_introduction.section",
+   "path": "s60r.v6.p_na.totals.v.ladder_78.lost (= 0, as a word)",
+   "value": 0,
+   "printed": "none"
   },
   {
    "where": "cc_sec3_compass.section",
@@ -42293,6 +42365,18 @@
   },
   {
    "where": "cc_sec4_test_system.section",
+   "path": "s60r.v6.r24.runs.total",
+   "value": 7218,
+   "printed": "7,218"
+  },
+  {
+   "where": "cc_sec4_test_system.section",
+   "path": "s60r.v6.r24.runs.fault",
+   "value": 6721,
+   "printed": "6,721"
+  },
+  {
+   "where": "cc_sec4_test_system.section",
    "path": "chain.census.record_lengths.f3_rows_s",
    "value": 8,
    "printed": "8"
@@ -42419,12 +42503,6 @@
   },
   {
    "where": "cc_sec5_results.section",
-   "path": "s60r.v6.r15.c101.vk_long.LS.median_s",
-   "value": 0.08574999999999999,
-   "printed": "0.09"
-  },
-  {
-   "where": "cc_sec5_results.section",
    "path": "s60r.v6.r15.c101.vk_long.L3.v_sooner",
    "value": 15,
    "printed": "15"
@@ -42434,6 +42512,12 @@
    "path": "s60r.v6.r15.c101.vk_long.L3_n",
    "value": 19,
    "printed": "19"
+  },
+  {
+   "where": "cc_sec5_results.section",
+   "path": "s60r.v6.r15.c101.vk_long.LS.median_s",
+   "value": 0.08574999999999999,
+   "printed": "0.09"
   },
   {
    "where": "cc_sec5_results.section",
@@ -43437,6 +43521,30 @@
   },
   {
    "where": "cc_sec6_conclusion.section",
+   "path": "s60r.v6.r15.sets.c101.keys (the shortest fault, s)",
+   "value": 300,
+   "printed": "0.3"
+  },
+  {
+   "where": "cc_sec6_conclusion.section",
+   "path": "s60r.v6.r15.sets.c101.keys (the longest fault, s)",
+   "value": 5000,
+   "printed": "5"
+  },
+  {
+   "where": "cc_sec6_conclusion.section",
+   "path": "s60r.v6.r15.sets.c101.keys (buses, count)",
+   "value": 13,
+   "printed": "13"
+  },
+  {
+   "where": "cc_sec6_conclusion.section",
+   "path": "s60r.v6.r15.sets.lad26.durations_ms (the longest fault of the two sweeps, s)",
+   "value": 5000,
+   "printed": "5"
+  },
+  {
+   "where": "cc_sec6_conclusion.section",
    "path": "s60r.v6.r15.sets.c101.n_keys",
    "value": 101,
    "printed": "101"
@@ -43614,6 +43722,24 @@
    "path": "s60r.v6.t_parts.parts.c lost keys returned by v (their one bus)",
    "value": 37,
    "printed": "37"
+  },
+  {
+   "where": "cc_sec6_conclusion.section",
+   "path": "s60r.v6.r24.runs.total",
+   "value": 7218,
+   "printed": "7,218"
+  },
+  {
+   "where": "cc_sec6_conclusion.section",
+   "path": "s60r.v6.p_na.totals.v.ladder_78.lost (= 0, as a word)",
+   "value": 0,
+   "printed": "none"
+  },
+  {
+   "where": "cc_sec6_conclusion.section",
+   "path": "s60r.v6.r24.runs.total",
+   "value": 7218,
+   "printed": "7,218"
   },
   {
    "where": "cc_sec2_saturated_unit.figures",

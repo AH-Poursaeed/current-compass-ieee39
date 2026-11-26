@@ -24,7 +24,8 @@ classdef tCore < matlab.unittest.TestCase
         end
 
         function styleContrast(tc)
-            % text tokens on the grounds they sit on (WCAG relative luminance); ink3 only on the white surface
+            % text tokens on the grounds they sit on (WCAG relative luminance); ink3 on the white surface, the one
+            % ground it is drawn on
             pairs = {'ink', 'ground'; 'ink', 'surface'; 'ink2', 'ground'; 'ink2', 'surface'; 'ink2', 'sunken'; ...
                 'accent', 'surface'; 'accent', 'tint'; 'ink3', 'surface'; 'lossInk', 'surface'; 'limited', 'surface'};
             for i = 1:size(pairs, 1)
@@ -118,7 +119,7 @@ classdef tCore < matlab.unittest.TestCase
         function setRuleHolds(tc)
             % the application's set (the author's word R140, decision D97): faults of at most 5 s, in every data
             % file read as text, in every table of the grid, the ladder, the run files and the list of the paper's
-            % runs; the droop slope only at the values of the record's robustness rows (droopFound: none other)
+            % runs; the droop slope at no value but those of the record's robustness rows (droopFound: none other)
             maxMs = 5000;
             tc.verifyEqual(cca.data.leaf(tc.D, 's60r.v6.r15.sets.c101.max_duration_ms'), maxMs);
             tc.verifyEqual(tc.D.grid.rule_max_ms, maxMs);
@@ -164,7 +165,7 @@ classdef tCore < matlab.unittest.TestCase
         function ladderAgainstFamilies(tc)
             % the ladder's SLG faults (rule R142 R1) and its three-phase faults of 4 and 5 s (R3) for Table III's
             % rows and [9]: each column's losses, runs and returns limited at the end against the group s60r.v6.r16;
-            % a return limited at the end (E) only where the record reads it per run
+            % a return limited at the end (E) where the record reads it per run and nowhere else
             Lg = tc.D.grid.ladder;
             cells = char(Lg.cells);
             cls = Lg.cls(:);
@@ -277,6 +278,47 @@ classdef tCore < matlab.unittest.TestCase
                 tc.verifyMatches(t, '(?m)^39 bus numbers drawn');
                 tc.verifyEqual(numel(regexp(t, '(?m)^bus +\d+ +number at', 'match')), 39);
             end
+        end
+
+        function lawPictures(tc)
+            % the laws' controller pictures of the Model screen (app/assets/model/law_pictures.json): every law a
+            % law or a part of app_laws.json, printed from the model built for a fault-free run of that law in the
+            % list of the paper's runs; every file listed present; its own blocks and charts named; its words
+            % written; the Current Compass and the circular limiter alone among them
+            f = fullfile(tc.root, 'assets', 'model', 'law_pictures.json');
+            tc.assumeTrue(isfile(f), 'no law picture in this build');
+            J = jsondecode(fileread(f));
+            Lw = J.laws;
+            if iscell(Lw), Lw = [Lw{:}]; end
+            tc.verifyNotEmpty(Lw);
+            known = [tc.D.laws; tc.D.others];
+            if iscell(known), known = [known{:}]; end
+            Rl = tc.D.runlist;
+            for i = 1:numel(Lw)
+                e = Lw(i);
+                tc.verifyTrue(any(strcmp({known.code}, e.code)), e.code);
+                r = find(strcmp(Rl.tag, e.run));
+                tc.verifyNumElements(r, 1, [e.code ': its run is a row of the list']);
+                if isscalar(r)
+                    tc.verifyEqual(Rl.code{r}, e.code, e.code);
+                    tc.verifyEqual(Rl.set{r}, 'fault-free row', e.code);
+                end
+                bl = {};
+                if ~isempty(e.blocks), bl = reshape(cellstr(e.blocks), 1, []); end
+                tc.verifyNotEmpty(bl, [e.code ': its own blocks enlarged']);
+                files = [{e.controller, e.controller_view}, bl];
+                for k = 1:numel(files)
+                    tc.verifyTrue(isfile(fullfile(tc.root, files{k})), files{k});
+                    tc.verifyTrue(startsWith(files{k}, 'assets/model/law_'), files{k});
+                end
+                tc.verifyTrue(any(strcmp(cellstr(e.own), 'Iref')), [e.code ': the chart Iref is its own']);
+                tc.verifyNotEmpty(e.words_controller, e.code);
+                tc.verifyNotEmpty(e.words_blocks, e.code);
+                tc.verifySubstring(e.build, 'a whole build', e.code);
+            end
+            tc.verifyTrue(all(ismember({'v', 'n'}, {Lw.code})), 'the Current Compass and the circular limiter alone');
+            tc.verifyEqual(J.unit_name, sprintf('GFM %d - Bus %d', J.unit, J.bus));
+            tc.verifyTrue(all(cellfun(@(c) startsWith(c, [J.unit_name '/CTRL_']), {Lw.controller_block})));
         end
 
         function formatRule(tc)
@@ -453,7 +495,7 @@ classdef tCore < matlab.unittest.TestCase
         function regenerationIsByteEqual(tc)
             % the data step's release mode, run as the Reproduce screen's button runs it, from the released files
             % of app/data alone into a temporary folder: every number file byte for byte as MANIFEST.json holds it,
-            % and every file of MANIFEST.json either regenerated or shipped as data (needs Python 3 only)
+            % and every file of MANIFEST.json either regenerated or shipped as data (needs Python 3 and nothing else)
             [R, info] = cca.data.regenerate(tc.D);
             tc.assumeTrue(info.started, ['no Python 3 here: ' info.output]);
             tc.verifyEqual(info.status, 0, info.output);
@@ -480,7 +522,7 @@ l = 0.2126 * c(1) + 0.7152 * c(2) + 0.0722 * c(3);
 end
 
 function rx = toolNamesPattern()
-% the release's pattern of tool, model and vendor names (case ignored; the second group as whole words, only letters
+% the release's pattern of tool, model and vendor names (case ignored; the second group as whole words, letters alone
 % counted as word characters); each name is held reversed, so that this file names none of them
 rv = @(c) cellfun(@fliplr, c, 'UniformOutput', false);
 sub = rv({'artsA', 'xedoc', 'TPGtahC', 'edualC', 'inimeG', 'ytivargitnA', 'ciporhtnA', 'IAnepO', 'tolipoC', ...

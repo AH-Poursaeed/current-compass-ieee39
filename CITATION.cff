@@ -5,7 +5,7 @@ message: >-
   on (Wang and Chen, IEEE Trans. Power Systems, 2026,
   doi:10.1109/TPWRS.2026.3684791).
 title: >-
-  Current Compass: A Local Control Law for Synchronization Stability
+  Current Compass: A Local Control Law for Synchronisation Stability
   of Grid-Forming Converters at the Current Limit
   (reproduction repository)
 type: software
@@ -27,7 +27,7 @@ repository-code: "https://github.com/AH-Poursaeed/current-compass-ieee39"
 preferred-citation:
   type: article
   title: >-
-    Current Compass: A Local Control Law for Synchronization Stability
+    Current Compass: A Local Control Law for Synchronisation Stability
     of Grid-Forming Converters at the Current Limit
   authors:
     - family-names: Poursaeed

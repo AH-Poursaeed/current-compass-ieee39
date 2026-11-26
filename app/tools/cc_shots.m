@@ -9,6 +9,7 @@ arguments
     opts.Lint (1,1) logical = true
     opts.Settle (1,1) double = 4
     opts.Tests (1,:) string = strings(1, 0)
+    opts.Help (1,1) logical = true      % also the page "How to read this screen" of each screen that has one
 end
 if ~isfolder(outdir)
     mkdir(outdir);
@@ -87,6 +88,16 @@ for s = screens
         exportapp(fig, f);
         info = imfinfo(f);
         say('SHOT %s %dx%d in %.1f s', s, info.Width, info.Height, toc(t1));
+        S = app.screens.(s);
+        if opts.Help && isfield(S, 'help') && ~isempty(S.help.button)
+            % the page of explanations, opened as a click opens it, pictured, then closed again
+            S.help.button.ButtonPushedFcn(S.help.button, []);
+            settle(fig, opts.Settle);
+            exportapp(fig, fullfile(outdir, "help_" + s + ".png"));
+            say('SHOT help_%s: shown %d', s, S.help.isShown());
+            S.help.button.ButtonPushedFcn(S.help.button, []);
+            settle(fig, 1);
+        end
         if s == "compare" && isfield(app.screens.compare, 'setTab')
             for tab = ["ablation", "location", "loadsteps"]
                 app.screens.compare.setTab(tab);

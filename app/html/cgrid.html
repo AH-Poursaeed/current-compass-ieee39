@@ -296,7 +296,7 @@ function renderAll() { if (!D) { return; } renderTabs(); renderToolbar(); render
 function setup(htmlComponent) {
   window.hc = htmlComponent;
   htmlComponent.addEventListener('DataChanged', function () {
-    D = htmlComponent.Data; SEL = (D && D.sel) || SEL;
+    D = htmlComponent.Data; SEL = (D && typeof D.sel === 'string') ? D.sel : SEL;
     if (D && D.tab) { RESET = RESET || TAB !== D.tab; TAB = D.tab; }
     renderAll();
   });

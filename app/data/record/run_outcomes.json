@@ -4518,9 +4518,7 @@
     "Section V",
     "Table II",
     "Table III",
-    "Abstract",
-    "Section I",
-    "Section VI"
+    "Section I"
    ],
    "y": [
     "Table II",
@@ -4569,7 +4567,6 @@
     "Section V"
    ],
    "k": [
-    "Abstract",
     "Section I",
     "Section V",
     "Section VI"
@@ -4700,104 +4697,84 @@
   "faults of 4 and 5 s": {
    "c": [
     "Table III",
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "d": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "e": [
     "Table III",
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "f": [
     "Table III",
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "k": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "l10": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "l20": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "l51": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "l63": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "l94": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "l98": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "l99": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "n": [
     "Table III",
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "o": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "q": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "u1": [
     "Section V",
     "Table III",
-    "Abstract",
     "Section I"
    ],
    "v": [
-    "Abstract",
     "Section I",
-    "Section VI",
     "Section V",
     "Table III"
    ],
    "y": [
-    "Abstract",
     "Section I",
     "Section V"
    ],
    "z": [
     "Table III",
-    "Abstract",
     "Section I",
     "Section V"
    ]

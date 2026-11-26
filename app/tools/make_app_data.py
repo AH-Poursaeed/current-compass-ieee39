@@ -1247,16 +1247,18 @@ SETS = ("common scenarios", "shortened runs", "ladder 0.01 pu", "ladder 0.001 pu
         "single-phase ladder", "load steps", "Table IV", "reruns", "theory checks", "module search", "fault-free row")
 NEUTRAL = "in the printed count"
 OUTCOMES = (
-    ("returned", "R", "the run returned to synchronism after the fault was cleared or the event ended (the paper: "
-                      "returns)"),
-    ("returned, a limiter engaged at the end", "E", "the run returned, with a current limiter still engaged at the "
-                                                    "end of its record (Table III, ending with a limiter engaged)"),
-    ("lost", "L", "the run lost synchronism (the Lost columns of Tables II and III, Fig. 6)"),
-    ("not eligible", "N", "the law's fault-free run at this load and network state is not steady, so the paper does "
-                          "not count this scenario for the law (Table II, a/b: of the b eligible)"),
-    ("steady", "R", "a fault-free run that is steady (Section IV: a law is eligible on a scenario if its fault-free "
-                    "run is steady)"),
-    ("not steady", "L", "a fault-free run that is not steady"),
+    ("returned", "R", "after the fault was cleared (or the event ended), the grid-forming units returned to "
+                      "synchronism by the test of Section IV (the paper: returns)"),
+    ("returned, a limiter engaged at the end", "E", "the run returned, but a current limiter was still engaged at the "
+                                                    "end of its record (Table III: ending with a limiter engaged)"),
+    ("lost", "L", "the grid-forming units lost synchronism by the test of Section IV (the Lost columns of Tables II and "
+                  "III, Fig. 6)"),
+    ("not eligible", "N", "the law's run without a fault at this load and network state is not steady, so the paper "
+                          "does not count this scenario for the law (Table II, a/b: a losses of the b scenarios where "
+                          "it is eligible)"),
+    ("steady", "R", "a run without a fault that is steady (Section IV: a law is eligible on a scenario if its "
+                    "fault-free run is steady)"),
+    ("not steady", "L", "a run without a fault that is not steady (Section IV)"),
     ("identical", "R", "a rerun at a solver tolerance ten times tighter, identical to its first run (Section V-D)"),
     ("verdict unchanged", "R", "a rerun with both steps halved whose verdict is that of its first run (Section V-D)"),
     (NEUTRAL, "C", "the record holds the printed count of this run's family, not this run's own outcome: the row's "
@@ -1302,6 +1304,77 @@ PLACE_PATHS = {
     "module search": (r"s60r\.v6\.t_set\.module_search\.",),
     "fault-free row": (r"chain\.map\.note", R15 + r"\.c101\.laws\.{c}\.of\b"),
 }
+
+
+# each set in a reader's words (part 24, R155: the screens explain what a set is and where the paper counts it); the
+# faults or events of the set are added by set_about() from the set's own rows of the campaign table
+ABOUT = {
+    "common scenarios": "the fault scenarios on which every law is compared (Section IV); Table II's Lost column, "
+                        "Table III and Fig. 6 count them",
+    "shortened runs": "common scenarios run again with a shorter fault; Fig. 6 counts their losses by fault "
+                      "duration (its caption)",
+    "ladder 0.01 pu": "the ladder of fault locations (Section IV): three-phase faults at every bus of the common "
+                      "scenarios, at base load in the base network, run after the constants of the Current Compass "
+                      "were frozen; Table III, Fig. 6 and Section V-C count them",
+    "ladder 0.001 pu": "the same ladder through the low fault resistance, so the faulted bus falls deeper; Table "
+                       "III, Fig. 6 and Section V-C count them, and Fig. 7 draws three of its faults",
+    "faults of 4 and 5 s": "the ladder's long three-phase faults (Section IV); Table III and Section V-C count them",
+    "single-phase ladder": "the ladder's single-line-to-ground faults (Section IV); Table III and Section V-C count "
+                           "them",
+    "load steps": "a resistive load switched on and off without a fault (Section V-F); Table III and Fig. 6 count "
+                  "them",
+    "Table IV": "the robustness study of Table IV: one setting varied at a time on the scenarios of the table "
+                "(Section V-F)",
+    "reruns": "runs of the Current Compass repeated at a tighter solver tolerance or with both steps halved, as a "
+              "numerical check (Section V-D)",
+    "theory checks": "runs of the 39-bus system that Section V-E uses to check the theory",
+    "module search": "runs without a fault of the own synchronisation modules of cross-forming control [14], each "
+                     "module at several operating states (Table II, its note)",
+    "fault-free row": "the run without a fault of a law, part or setting at one load and network state; the law is "
+                      "eligible on the scenarios of that state if this run is steady (Section IV)",
+}
+KIND_WORDS = {"three-phase": "three-phase", "SLG": "single-line-to-ground"}
+
+
+def set_about(s, rs):
+    """a set's words for the reader (ABOUT), then what its rows hold: the faults (type, durations, fault resistance,
+    buses), the load steps, or the runs without a disturbance, and the loads and network states, read from the rows"""
+    def seq(xs):
+        xs = list(xs)
+        return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]
+
+    fx = [r for r in rs if r["fault_bus"] != "-"]
+    ev = sorted({r["event"] for r in rs if r["event"] != "-"})
+    nd = [r for r in rs if r["fault_bus"] == "-" and r["event"] == "-"]
+    words = []
+    if fx:
+        durs = sorted({int(r["fault_ms"]) for r in fx})
+        ds = ["%g" % (d / 1000.0) for d in durs]
+        dtxt = seq(ds) if len(ds) <= 4 else "%s to %s" % (ds[0], ds[-1])
+        kinds = [KIND_WORDS[k] for k in ("three-phase", "SLG") if any(r["fault_kind"] == k for r in fx)]
+        rfs = sorted({r["fault_r_pu"] for r in fx}, key=float)
+        words.append("%s faults of %s s through %s pu at %d buses" % (seq(kinds), dtxt, seq(rfs),
+                                                                     len({r["fault_bus"] for r in fx})))
+    if ev:
+        words.append("%d load steps" % len(ev))
+    if nd:
+        words.append("runs without a fault")
+    loads = sorted({r["load"] for r in rs}, reverse=True)
+    nets = [n for n in NET if any(r["network"] == n for r in rs)]
+    words.append("%s %s; %s" % ("load" if len(loads) == 1 else "loads", seq(loads),
+                                 seq(["the base network" if n == "base" else n for n in nets])))
+    return "%s. Its rows: %s." % (ABOUT[s][0].upper() + ABOUT[s][1:], "; ".join(words))
+
+
+# the paper's spelling of a law's name (British -ise, as the paper prints the laws' names): the campaign table
+# keeps the words of its writing, the list of runs prints the paper's
+PAPER_SPELLING = (("synchronization", "synchronisation"), ("Synchronization", "Synchronisation"))
+
+
+def paper_spelling(s):
+    for a, b in PAPER_SPELLING:
+        s = s.replace(a, b)
+    return s
 
 
 def table_rows():
@@ -1783,7 +1856,7 @@ def runs_table(m, g, laws, others):
                     set_places[s].append(p_)
     for i, r in enumerate(rows):
         for c in TABLE_COLS:
-            out[c].append(r[c])
+            out[c].append(paper_spelling(r[c]) if c == "law" else r[c])
         out["key"].append(keys[i])
         out["outcome"].append(outcome[i])
         out["detail"].append(detail[i] or "-")
@@ -1808,7 +1881,8 @@ def runs_table(m, g, laws, others):
                 if p_ not in pl:
                     pl.append(p_)
         sets_.append({"name": s, "rows": len(mem), "held": len(held), "scenarios": len(sc),
-                      "place": "; ".join(pl) if pl else "-", "with_outcome": with_outcome[s], "note": note[s]})
+                      "place": "; ".join(pl) if pl else "-", "with_outcome": with_outcome[s], "note": note[s],
+                      "about": set_about(s, [rows[i] for i in mem])})
     laws_ = []
     for c in dict.fromkeys(["v"] + [x["code"] for x in laws[1:]] + [x["code"] for x in others]
                            + [r["code"] for r in rows]):
@@ -1816,7 +1890,7 @@ def runs_table(m, g, laws, others):
         if nr_:
             lw = {r["law"] for r in rows if r["code"] == c}
             assert len(lw) == 1, c
-            laws_.append({"code": c, "law": lw.pop(), "rows": nr_})
+            laws_.append({"code": c, "law": paper_spelling(lw.pop()), "rows": nr_})
     doc = {"schema": "cca-runs/1", "n_rows": n,
            "table": {"file": "artifacts/campaign/campaign_table_paper.tsv", "sha256": tsha, "rows": n},
            "columns": list(RUN_COLS), "data": out,

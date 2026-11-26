@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="cc.css">
+<style>
+/* the page of a screen's "How to read this screen": a title, a lead paragraph and sections in two columns */
+html { overflow: hidden; height: 100%; background: var(--surface); }
+body { overflow-x: hidden; overflow-y: auto; height: 100%; background: var(--surface); }
+.page { padding: 16px 26px 26px 26px; }
+h1 { font-family: Cambria, "Times New Roman", serif; font-weight: 400; font-size: 22px; margin: 0 0 6px 0;
+  color: var(--ink); }
+.intro { font-size: 13px; line-height: 1.5; color: var(--ink2); margin: 0 0 10px 0; max-width: 1100px; }
+.cols { column-count: 2; column-gap: 40px; }
+.sec { break-inside: avoid; margin: 0 0 14px 0; }
+h2 { font-family: "Segoe UI Semibold", "Segoe UI", sans-serif; font-weight: 600; font-size: 14px; color: var(--ink);
+  margin: 0 0 4px 0; }
+p { font-size: 12.5px; line-height: 1.5; color: var(--ink2); margin: 0 0 5px 0; }
+p.quote { color: var(--ink); border-left: 3px solid var(--border2); padding-left: 10px; }
+p.quote .from { display: block; color: var(--ink3); font-size: 11.5px; margin-bottom: 2px; }
+dl { margin: 0 0 5px 0; }
+dt { font-size: 12.5px; color: var(--ink); font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
+  font-weight: 600; margin: 4px 0 0 0; }
+dd { font-size: 12.5px; line-height: 1.45; color: var(--ink2); margin: 0 0 2px 14px; }
+</style></head>
+<body><div class="page" id="page"></div>
+<script>
+function arr(x) { return Array.isArray(x) ? x : (x == null || x === '' ? [] : [x]); }
+function add(parent, tag, cls, text) {
+  var e = document.createElement(tag);
+  if (cls) { e.className = cls; }
+  if (text != null) { e.textContent = String(text); }
+  parent.appendChild(e);
+  return e;
+}
+function render(D) {
+  var page = document.getElementById('page');
+  page.innerHTML = '';
+  if (!D) { return; }
+  add(page, 'h1', '', D.title || '');
+  arr(D.intro).forEach(function (s) { add(page, 'p', 'intro', s); });
+  var cols = add(page, 'div', 'cols', null);
+  arr(D.sections).forEach(function (s) {
+    var sec = add(cols, 'div', 'sec', null);
+    add(sec, 'h2', '', s.head || '');
+    if (s.quote) {   // the paper's own words, with the place they come from
+      var q = add(sec, 'p', 'quote', null);
+      add(q, 'span', 'from', s.quoteFrom || 'The paper:');
+      q.appendChild(document.createTextNode(String(s.quote)));
+    }
+    arr(s.paras).forEach(function (t) { add(sec, 'p', '', t); });
+    var items = arr(s.items);
+    if (items.length) {
+      var dl = add(sec, 'dl', '', null);
+      items.forEach(function (it) { add(dl, 'dt', '', it.term); add(dl, 'dd', '', it.text); });
+    }
+  });
+}
+function setup(htmlComponent) {
+  htmlComponent.addEventListener('DataChanged', function () { render(htmlComponent.Data); });
+  render(htmlComponent.Data);
+}
+</script>
+</body></html>

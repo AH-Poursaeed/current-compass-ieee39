@@ -1,0 +1,635 @@
+{
+ "schema": "cca-model-laws/1",
+ "unit_name": "GFM 8 - Bus 37",
+ "unit": 8,
+ "bus": 37,
+ "shade": "#99C7FF",
+ "about": "The controller of one grid-forming unit under each law, printed from the model built for the law's fault-free run at base load in the base network, without simulating; each law's own blocks shaded; values shown as symbols.",
+ "laws": [
+  {
+   "code": "v",
+   "run": "MH0v_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_v_controller.png",
+   "controller_view": "assets/model/law_v_controller_view.png",
+   "blocks": [
+    "assets/model/law_v_blocks_1.png",
+    "assets/model/law_v_blocks_2.png"
+   ],
+   "own": [
+    "DphiD",
+    "Iref",
+    "PShAlpha",
+    "PShImax",
+    "PShape",
+    "QfloorC",
+    "QgainC",
+    "RelOnD",
+    "RelTauD",
+    "RelVfD",
+    "RelVminD",
+    "TsC"
+   ],
+   "absent": [],
+   "taps": [
+    "dphi_out",
+    "iL_d_out",
+    "iL_q_out",
+    "lim_d_out",
+    "lim_q_out",
+    "raw_d_out",
+    "raw_q_out",
+    "uv_d_out",
+    "uv_q_out",
+    "xii_d_out",
+    "xii_q_out",
+    "xiv_d_out",
+    "xiv_q_out"
+   ],
+   "n_blocks": 106,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax",
+      "dphiPrev",
+      "Q",
+      "Qfloor",
+      "kq",
+      "Ts",
+      "vminPrev",
+      "tauPrev",
+      "relPrev",
+      "vfPrev"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat",
+      "dphi",
+      "rawd",
+      "rawq",
+      "vminN",
+      "tauN",
+      "relN",
+      "vfN"
+     ]
+    },
+    {
+     "name": "PShape",
+     "in": [
+      "pref",
+      "vd",
+      "vq",
+      "Imax",
+      "alpha"
+     ],
+     "out": [
+      "pe"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "Shaded, the law's blocks: PShape caps the active-power reference in proportion to the terminal voltage before the droop, and the chart Iref turns the saturated current towards lagging by the rotation held in DphiD, driven by the unit's reactive power against its floor, with the release held in RelVminD, RelTauD, RelOnD and RelVfD. The outputs from uv_d_out to dphi_out carry the channels that the law's runs record.",
+   "words_blocks": "The cap PShape with its constants PShImax and PShAlpha, and the chart Iref with its inputs: the voltage loop's output, the measured current and voltage, the rotation of the previous step, the reactive power, the floor and the gain, and the states of the release."
+  },
+  {
+   "code": "k",
+   "run": "MH0k_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_k_controller.png",
+   "controller_view": "assets/model/law_k_controller_view.png",
+   "blocks": [
+    "assets/model/law_k_blocks_1.png",
+    "assets/model/law_k_blocks_2.png"
+   ],
+   "own": [
+    "Iref",
+    "PvD"
+   ],
+   "absent": [],
+   "taps": [],
+   "n_blocks": 83,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat",
+      "pv"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "Shaded, the law's blocks: the unit delay PvD feeds the droop the power of the current reference before the limiter (the output pv of the chart Iref) in place of the measured power; Iref clips the reference on the current-limit circle, as the circular limiter alone does.",
+   "words_blocks": "PvD between the output pv of the chart Iref and the droop's power input, and Iref with the inputs of the circular limiter's chart and its fourth output, pv."
+  },
+  {
+   "code": "o",
+   "run": "MH0o_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_o_controller.png",
+   "controller_view": "assets/model/law_o_controller_view.png",
+   "blocks": [
+    "assets/model/law_o_blocks_1.png",
+    "assets/model/law_o_blocks_2.png"
+   ],
+   "own": [
+    "GaoRef",
+    "Iref"
+   ],
+   "absent": [
+    "VpkC"
+   ],
+   "taps": [],
+   "n_blocks": 82,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "GaoRef",
+     "in": [
+      "pref",
+      "vd",
+      "vq",
+      "iod",
+      "ioq"
+     ],
+     "out": [
+      "pe",
+      "vn",
+      "dvd",
+      "dvq"
+     ]
+    },
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 257 lines on the model's top page",
+   "words_controller": "Shaded, the law's blocks: the chart GaoRef estimates the grid-side voltage from the unit's own voltage and current with the granted pre-fault reactance, caps the active-power reference at the largest power that the current threshold allows, and gives the voltage loop its reference and the drop of an adaptive virtual resistance; the fixed voltage reference VpkC is absent. The chart Iref clips on the circle.",
+   "words_blocks": "GaoRef with its inputs (the power reference, the voltage and the output current in the unit's frame) and its outputs (the capped power to the droop, the voltage reference and the two drops to the voltage errors)."
+  },
+  {
+   "code": "d",
+   "run": "MH0d_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_d_controller.png",
+   "controller_view": "assets/model/law_d_controller_view.png",
+   "blocks": [
+    "assets/model/law_d_blocks_1.png",
+    "assets/model/law_d_blocks_2.png"
+   ],
+   "own": [
+    "Iref",
+    "QSynF"
+   ],
+   "absent": [],
+   "taps": [],
+   "n_blocks": 83,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat"
+     ]
+    },
+    {
+     "name": "QSynF",
+     "in": [
+      "fdroop",
+      "satPrev",
+      "Q"
+     ],
+     "out": [
+      "f"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 257 lines on the model's top page",
+   "words_controller": "Shaded, the law's blocks: while the limiter flag of the previous step is up, the chart QSynF moves the unit's angle by the error between its reactive power and a target from the granted pre-fault reactance, in place of the droop's frequency; the chart Iref clips the reference with its d-axis part first.",
+   "words_blocks": "QSynF with its inputs (the droop's frequency, the delayed limiter flag from SatD and the reactive power) and its output, the frequency that drives the angle."
+  },
+  {
+   "code": "h",
+   "run": "MH0h_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_h_controller.png",
+   "controller_view": "assets/model/law_h_controller_view.png",
+   "blocks": [
+    "assets/model/law_h_blocks_1.png"
+   ],
+   "own": [
+    "Iref",
+    "MuD",
+    "VfdD",
+    "VfqD"
+   ],
+   "absent": [
+    "AwGate",
+    "AwOne",
+    "Evd",
+    "Evq",
+    "ImaxC",
+    "PIvd_Gt",
+    "PIvd_KiTs",
+    "PIvd_Kp",
+    "PIvd_Sat",
+    "PIvd_Sum",
+    "PIvd_SumI",
+    "PIvd_Xi",
+    "PIvq_Gt",
+    "PIvq_KiTs",
+    "PIvq_Kp",
+    "PIvq_Sat",
+    "PIvq_Sum",
+    "PIvq_SumI",
+    "PIvq_Xi",
+    "VpkC",
+    "Zero",
+    "wC"
+   ],
+   "taps": [],
+   "n_blocks": 63,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "vd",
+      "vq",
+      "Q",
+      "muP",
+      "vfdP",
+      "vfqP"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat",
+      "muN",
+      "vfdN",
+      "vfqN"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "Shaded, the law's blocks: the chart Iref computes the current reference from a virtual admittance, with the voltage feedback divided by the current-limiting factor that MuD holds and the filtered voltages that VfdD and VfqD hold; the voltage loop's proportional-integral blocks are absent, because the law takes the place of the voltage loop.",
+   "words_blocks": "Iref with its inputs (the voltage, the reactive power and the three states of the previous step) and its outputs (the current reference, the limiter flag and the three states), and the unit delays MuD, VfdD and VfqD."
+  },
+  {
+   "code": "l63",
+   "run": "MH0l63_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_l63_controller.png",
+   "controller_view": "assets/model/law_l63_controller_view.png",
+   "blocks": [
+    "assets/model/law_l63_blocks_1.png"
+   ],
+   "own": [
+    "Iref",
+    "MuD",
+    "VfdD",
+    "VfqD"
+   ],
+   "absent": [
+    "AwGate",
+    "AwOne",
+    "Evd",
+    "Evq",
+    "ImaxC",
+    "PIvd_Gt",
+    "PIvd_KiTs",
+    "PIvd_Kp",
+    "PIvd_Sat",
+    "PIvd_Sum",
+    "PIvd_SumI",
+    "PIvd_Xi",
+    "PIvq_Gt",
+    "PIvq_KiTs",
+    "PIvq_Kp",
+    "PIvq_Sat",
+    "PIvq_Sum",
+    "PIvq_SumI",
+    "PIvq_Xi",
+    "VpkC",
+    "Zero",
+    "wC"
+   ],
+   "taps": [],
+   "n_blocks": 63,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "vd",
+      "vq",
+      "Q",
+      "muP",
+      "vfdP",
+      "vfqP"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat",
+      "muN",
+      "vfdN",
+      "vfqN"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "The blocks of cross-forming control: the lower limit that this law adds to the current-limiting factor, computed from the grid impedance, is applied inside the chart Iref, and the voltage loop's proportional-integral blocks are absent here too.",
+   "words_blocks": "Iref with its inputs (the voltage, the reactive power and the three states of the previous step) and its outputs, and the unit delays MuD, VfdD and VfqD, as under cross-forming control."
+  },
+  {
+   "code": "l10",
+   "run": "MH0l10_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_l10_controller.png",
+   "controller_view": "assets/model/law_l10_controller_view.png",
+   "blocks": [
+    "assets/model/law_l10_blocks_1.png",
+    "assets/model/law_l10_blocks_2.png"
+   ],
+   "own": [
+    "Iref",
+    "PbBlk",
+    "PbThD"
+   ],
+   "absent": [],
+   "taps": [],
+   "n_blocks": 84,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat"
+     ]
+    },
+    {
+     "name": "PbBlk",
+     "in": [
+      "fs",
+      "thP",
+      "satP"
+     ],
+     "out": [
+      "f",
+      "thN"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "Shaded, the law's blocks: the chart PbBlk with its state PbThD holds the droop angle below its limit while the unit is limited (the droop-angle block), and the chart Iref sets the current at a fixed angle in the unit's voltage frame when the reference reaches the limit.",
+   "words_blocks": "PbBlk with its inputs (the droop's frequency, its angle state and the limiter flag of the previous step) and its outputs (the frequency to the angle and the next angle state), PbThD, and Iref."
+  },
+  {
+   "code": "l51",
+   "run": "MH0l51_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_l51_controller.png",
+   "controller_view": "assets/model/law_l51_controller_view.png",
+   "blocks": [
+    "assets/model/law_l51_blocks_1.png"
+   ],
+   "own": [
+    "Iref",
+    "PbLatD"
+   ],
+   "absent": [],
+   "taps": [],
+   "n_blocks": 83,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax",
+      "latP"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat",
+      "lat"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "Shaded, the law's blocks: the state PbLatD keeps the unit in its current-limited mode, entered when the reference reaches the limit, until the estimated grid voltage exceeds its threshold and the angle lies in its range, and the chart Iref holds the current at a fixed angle while that mode lasts.",
+   "words_blocks": "Iref with its inputs (those of the circular limiter's chart and the mode of the previous step) and its outputs, and PbLatD, which closes the mode."
+  },
+  {
+   "code": "l99",
+   "run": "MH0l99_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_l99_controller.png",
+   "controller_view": "assets/model/law_l99_controller_view.png",
+   "blocks": [
+    "assets/model/law_l99_blocks_1.png",
+    "assets/model/law_l99_blocks_2.png",
+    "assets/model/law_l99_blocks_3.png"
+   ],
+   "own": [
+    "Iref",
+    "Vimp",
+    "VimpIth",
+    "VimpR",
+    "VimpX",
+    "VimpZb"
+   ],
+   "absent": [],
+   "taps": [],
+   "n_blocks": 87,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat"
+     ]
+    },
+    {
+     "name": "Vimp",
+     "in": [
+      "iod",
+      "ioq",
+      "Rv",
+      "Xv",
+      "Ith",
+      "Zb"
+     ],
+     "out": [
+      "dvd",
+      "dvq"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "Shaded, the law's blocks: the chart Vimp with its constants VimpR, VimpX, VimpIth and VimpZb lowers the voltage reference by a virtual impedance times the output current's excess over the threshold, and the chart Iref clips on the circle behind it.",
+   "words_blocks": "Vimp with its inputs (the output current and the four constants) and its two outputs, the drops that the voltage errors Evd and Evq subtract."
+  },
+  {
+   "code": "l98",
+   "run": "MH0l98_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_l98_controller.png",
+   "controller_view": "assets/model/law_l98_controller_view.png",
+   "blocks": [
+    "assets/model/law_l98_blocks_1.png"
+   ],
+   "own": [
+    "Iref"
+   ],
+   "absent": [],
+   "taps": [],
+   "n_blocks": 82,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "No block of its own beyond the chart Iref: when the reference exceeds the limit, Iref keeps its q-axis (reactive) part first and gives the d-axis part what is left of the limit.",
+   "words_blocks": "Iref with the same inputs and outputs as the circular limiter's chart; the two laws differ in the clip that the chart computes."
+  },
+  {
+   "code": "n",
+   "run": "MH0n_10F",
+   "controller_block": "GFM 8 - Bus 37/CTRL_37",
+   "controller": "assets/model/law_n_controller.png",
+   "controller_view": "assets/model/law_n_controller_view.png",
+   "blocks": [
+    "assets/model/law_n_blocks_1.png"
+   ],
+   "own": [
+    "Iref"
+   ],
+   "absent": [],
+   "taps": [],
+   "n_blocks": 82,
+   "shade": "#99C7FF",
+   "charts": [
+    {
+     "name": "Iref",
+     "in": [
+      "uvd",
+      "uvq",
+      "iod",
+      "ioq",
+      "vd",
+      "vq",
+      "wC",
+      "Imax"
+     ],
+     "out": [
+      "id",
+      "iq",
+      "sat"
+     ]
+    }
+   ],
+   "build": "a whole build: the builder's own verdict, its grouping and its one-line page all sound, no free port; 118 blocks and 259 lines on the model's top page",
+   "words_controller": "The common base of the compared laws: the chart Iref scales the current reference onto the limit circle and keeps its angle; around it are the frame, the droop and the voltage and current loops.",
+   "words_blocks": "Iref with its inputs (the voltage loop's output uvd and uvq, the output current iod and ioq, the voltage vd and vq, the capacitor term wC and the limit Imax) and its outputs (the current reference id and iq and the limiter flag sat)."
+  }
+ ]
+}

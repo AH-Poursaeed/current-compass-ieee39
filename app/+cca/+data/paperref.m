@@ -35,10 +35,15 @@ switch string(kind)
             end
         end
     case "statement"
+        % the name as the paper prints it, its apostrophe curly or straight (the data carry the paper's marks)
         X = asStruct(P.statements);
-        m = X(strcmp({X.name}, key));
-        if ~isempty(m), s = sprintf('%s %d', m.kind, m.number); end
+        m = X(strcmp(straight({X.name}), straight(key)));
+        if ~isempty(m), s = sprintf('%s %d', m(1).kind, m(1).number); end
 end
+end
+
+function s = straight(s)
+s = strrep(cellstr(s), char(8217), '''');
 end
 
 function x = asStruct(x)

@@ -6,14 +6,14 @@
   "files": [
    {
     "file": "app/data/record/released_record.json",
-    "bytes": 1089243,
-    "sha256": "b9fcdd25cbb5363cd54ea8945af403e2b375cb711a835b38d511ece6928df344"
+    "bytes": 1092254,
+    "sha256": "b6b285e4165ab00114c7fd19ca96b67b70c8dd7e9714eb69ffcbbe13e351350f"
    }
   ],
-  "sha256_8": "b9fcdd25",
-  "group": "s60r.v6.r20",
+  "sha256_8": "b6b285e4",
+  "group": "s60r.v6.r24",
   "group_state": "FINAL",
-  "generated_utc": "2026-11-23 19:57 UTC"
+  "generated_utc": "2026-11-26 06:09 UTC"
  },
  "rule": {
   "max_duration_ms": 5000,
@@ -29,43 +29,43 @@
   {
    "file": "app_laws.json",
    "bytes": 4365,
-   "sha256": "cdc4b5643c763059616ecaea7529922ebd03af51c2c8a9701f70840495a490bc",
+   "sha256": "6dd358c9ad2e3a41e7fcd037fdde1f8070490f0d3b76d63e974306d6e7416407",
    "from": "regenerated from the released record and the inputs file (Table II's laws and settings, Table III's rows, the names and colours: data/record/inputs.json)"
   },
   {
    "file": "app_numbers.json",
    "bytes": 26791,
-   "sha256": "09a1358060c83b472c9ddbdef36a3986da61cbf16a00d2971fa52a3375926244",
+   "sha256": "803286cd09ea81394fcd1021db94f608e738eecc72d7eb72e7d09086fb3e8311",
    "from": "regenerated from the released record (data/record/released_record.json)"
   },
   {
    "file": "app_paper.json",
-   "bytes": 29747,
-   "sha256": "cd81f1bc2317f0c0657cc7860a6eb8b27b16319d5a4392100bf98444eb84de8f",
+   "bytes": 33566,
+   "sha256": "8c6163b223e3e983b84bf9a02ffbffa2603be60ad129770820f62b7400aed8e4",
    "from": "shipped as data: the paper's own texts (headings, captions, table titles, cells and notes, references) and its figure files' sha256"
   },
   {
    "file": "app_printed.json",
-   "bytes": 98383,
-   "sha256": "22b25ac67b3a944daeab012453af403d17ea73107f77e5eac6667995e0e0c246",
+   "bytes": 99258,
+   "sha256": "5b44bc096e886dc3a239c44b2019e955a30f1fde3e4f072ee074bd4cd633f874",
    "from": "regenerated from the released record's printed leaves (every printed number of the paper)"
   },
   {
    "file": "app_runs.json",
-   "bytes": 2734524,
-   "sha256": "9664602b5a296b0a18847ddeb3d792ba7c2e11103ee0ba0cf7b973a07bfe751f",
+   "bytes": 2730239,
+   "sha256": "6e8446352e4e9132045751648b66d0e77cb7265244e7f6da378bdabf62cfb75d",
    "from": "regenerated from the campaign table of the paper's runs (artifacts/campaign), the released record and the runs' outcomes (data/record/run_outcomes.json): every run of the paper with its outcome where the record holds it"
   },
   {
    "file": "app_text.json",
    "bytes": 5446,
-   "sha256": "bb1948e0f3caaad89c9f3db29fa642e5f8622176bc9691a27538b49ca277d57e",
+   "sha256": "9a2ad66d8210f4817341e82fccee8a98300caa730b50366cf73731b13d395497",
    "from": "shipped as data: CITATION.cff, LICENSE, the notices and the paper's authors block"
   },
   {
    "file": "record/inputs.json",
-   "bytes": 13464,
-   "sha256": "a11156686472c81c9bd645a39a4207a2f0222a4825b48039e95b86b194d08d02",
+   "bytes": 13661,
+   "sha256": "0eef18053c620134734186d5c755100313bf0bd59ddab3b750d0e7735ba1dcc3",
    "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
   },
   {
@@ -76,14 +76,14 @@
   },
   {
    "file": "record/released_record.json",
-   "bytes": 1089243,
-   "sha256": "b9fcdd25cbb5363cd54ea8945af403e2b375cb711a835b38d511ece6928df344",
+   "bytes": 1092254,
+   "sha256": "b6b285e4165ab00114c7fd19ca96b67b70c8dd7e9714eb69ffcbbe13e351350f",
    "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
   },
   {
    "file": "record/run_outcomes.json",
-   "bytes": 114791,
-   "sha256": "a2a6ffadd549d35c6fc9a82374f3fede9332ba00088ba3caf68c5b5318fbd2eb",
+   "bytes": 114419,
+   "sha256": "ae255007181b14c24b4c3490662315e1e50c9f18811afb7f6459d6417588e1f9",
    "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
   },
   {
@@ -148,8 +148,8 @@
   },
   {
    "file": "assets/figs/cc_fig_compare.png",
-   "bytes": 732998,
-   "sha256": "b0ee19d80c600e3969f1f51339057e3c33f311e3a31a38cdb75eaef1e483080a"
+   "bytes": 732722,
+   "sha256": "9cbfbeb0a3e06c16e0863fa8ed580bf36ee8782c7c86bca9db6e93b2a844f528"
   },
   {
    "file": "assets/figs/cc_fig_concept.png",

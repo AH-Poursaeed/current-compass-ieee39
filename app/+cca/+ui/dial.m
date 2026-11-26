@@ -1,6 +1,6 @@
 function info = dial(ax, T, D, R, tSel)
 %DIAL  The compass dial: the current command's direction at 0 deg, the limited current turned by the rotation
-%   psi toward lagging (clockwise), the quarter-turn clamp, and the measured trail of psi over the fault, from the
+%   psi towards lagging (clockwise), the quarter-turn clamp, and the measured trail of psi over the fault, from the
 %   run R (cca.data.runpack; [] draws the dial without a trail).
 %   info = cca.ui.dial(ax, T, D, R, tSel)   tSel: the time shown (s after clearing; default: clearing)
 %   info.caption, info.needle (the line handle), info.psi (deg at tSel), info.update(t) moves the needle
@@ -12,7 +12,7 @@ hold(ax, 'on');
 th = linspace(0, 2 * pi, 361);
 plot(ax, cos(th), sin(th), '-', 'Color', T.c.border2, 'LineWidth', 1.2);
 plot(ax, 0.55 * cos(th), 0.55 * sin(th), ':', 'Color', T.c.border2, 'LineWidth', 0.8);
-% the clamp: a quarter turn toward lagging
+% the clamp: a quarter turn towards lagging
 tc = linspace(0, -pi / 2, 91);
 plot(ax, 1.1 * cos(tc), 1.1 * sin(tc), '-', 'Color', T.c.soft, 'LineWidth', 5);
 plot(ax, [0.98 1.22] * cos(-pi / 2), [0.98 1.22] * sin(-pi / 2), '-', 'Color', T.c.accent, 'LineWidth', 1.4);
@@ -27,7 +27,7 @@ text(ax, -0.05, -1.22, 'lagging', 'Color', T.c.ink3, 'FontName', T.font.chrome, 
     'HorizontalAlignment', 'center');
 info.psi = NaN;
 info.needle = [];
-info.caption = ['The rotation of the saturated current toward lagging, from the current command''s direction, ' ...
+info.caption = ['The rotation of the saturated current towards lagging, from the current command''s direction, ' ...
     'held within the quarter-turn clamp.'];
 if ~isempty(R) && isfield(R.series, 'psi') && any(~isnan(R.series.psi.y))
     s = R.series.psi;

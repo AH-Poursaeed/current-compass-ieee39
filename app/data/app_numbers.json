@@ -6,12 +6,12 @@
   "files": [
    {
     "file": "app/data/record/released_record.json",
-    "bytes": 1089243,
-    "sha256": "b9fcdd25cbb5363cd54ea8945af403e2b375cb711a835b38d511ece6928df344"
+    "bytes": 1092254,
+    "sha256": "b6b285e4165ab00114c7fd19ca96b67b70c8dd7e9714eb69ffcbbe13e351350f"
    }
   ],
-  "sha256_8": "b9fcdd25",
-  "group": "s60r.v6.r20",
+  "sha256_8": "b6b285e4",
+  "group": "s60r.v6.r24",
   "group_state": "FINAL"
  },
  "leaves": [
