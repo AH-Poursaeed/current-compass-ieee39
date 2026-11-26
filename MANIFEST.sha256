@@ -1,7 +1,7 @@
-# the released files with their SHA-256; written 2026-11-24 23:03 UTC from source revision 4200dcd9a65f; 87 files
+# the released files with their SHA-256; written 2026-11-26 03:10 UTC from source revision f034c3761b94; 89 files
 53693a773282052e3e2ddcb076f2f51be21ac0640a07517570cfc6c0be95826b  CITATION.cff
 3df53fcfd1aa3a07f3719917e1951a552db69c265b398bde2664298503291d7f  LICENSE
-174ce2d13ab47f0baadb8f459d6ca10be5a261a4521e3cebc852e384fda5c191  README.md
+7c5f27b982a84bdc839e0ace7867b17914f4ea293802adca612fdd06b880aace  README.md
 b8bd9e03c33ee60b47ef5d61b2f426a6da66c3d6b75fbb707ea8d9b98b8ed20c  app/+cca/+data/leaf.m
 9626c0768950dee9fc1bcd81b637920a7ae4510130dd5fd5ba6792e563320534  app/+cca/+data/load.m
 d8c5088dfb47446dad2b0356d97f44cdb113dbc73c0d0362ec03675d1d6b7d40  app/+cca/+data/paperref.m
@@ -11,7 +11,7 @@ d8c5088dfb47446dad2b0356d97f44cdb113dbc73c0d0362ec03675d1d6b7d40  app/+cca/+data
 57a74a3b7268fdbc112746e1615f4d4e5f1dc3872596a5daad0d3c58c705c30a  app/+cca/+data/scenario.m
 b7699b7fcf6482f2131b1f2e6ac8e805062e6d33caede850c92c0ac8c83451a6  app/+cca/+screen/about.m
 9297d166397a57b47a9f6a966312d33e07ae85abdd44a5b6e1d787c91c7f95d6  app/+cca/+screen/compare.m
-45d47799e22a243bbe1898114c18d75127c771f4211c87a9f90e87fef1acc61e  app/+cca/+screen/model.m
+481caae2071a46e1cd5c67d06f990a709460196f49e5568808ede19abb18dbe8  app/+cca/+screen/model.m
 17c16f07745d33fdde0714555ef3781f918fe4412fdbc3e62a4bf3a0ac5d091d  app/+cca/+screen/overview.m
 b897ac3141f8edf62c3cad9327981d32dbcebdb40ce44f4e6079476b3948d298  app/+cca/+screen/placeholder.m
 8395c8b872fda51b89b0a2a7425efcd5ebed7c3168499cfbebe5405142d33e30  app/+cca/+screen/provenance.m
@@ -73,11 +73,13 @@ fc1a457e31fcb187295f831891ad7765e3d323f9757a2aee5f597bf8a452e8af  app/html/rail.
 ee13e9812cb54e20395e5725dd249fc58de88e698398248d7f131ac464dcf473  app/html/tokens.css
 9b05a634675d0d2899453f42d53ad067bd37194e294453e2fa2c2965ac6c837e  app/html/topbar.html
 7768aa36a8dae585fac32d489a09b3fc5b1c0331a75c2ca37467a77cd38586f1  app/tests/tCore.m
-203710d4db160e4f876b51d700a72af62e3f7080b23c1879b364307f9283b739  app/tests/tUI.m
+b5f7b182be43e3fb1b59ca1da7ecf909b171642750caeca18752043d617144fe  app/tests/tUI.m
 4ed9e9bd80746b7aa75fe81f72af438ee4fbead5a25d2a45b2963484f5ea7430  app/tools/cc_shots.m
 3c945087fb08a470aee738bc69bc8fbb8e8d50d3e48cf564eec3a7c5cc49c323  app/tools/make_app_data.py
 97bc3283b11230d074907d9c23a52e7f5a4b5bdfc0111ff1bb29d9641abc6287  artifacts/campaign/README.txt
 b8c6782f08a336a5d747526998b0f9cb40ad66675a8f75fe87c20a190e4e8e01  artifacts/campaign/campaign_table_paper.tsv
+217732f98c10e5b042606d378023d237b95e5aeb32c373e051e4aa80dea25182  guide/How_to_use_the_application.pdf
+3f7cbdc123cba3c6e611e76dd6a34dcb3d50183716cd1d3cf9efb29e4897c5ac  guide/app_overview.png
 a6012edb5067b16307729d295a356e8151c62b65140284109b0b983b6e6f14e7  requirements.txt
 d63db8743ff22517ac8004a08c0718f249d2718ece517d27227184c386d41769  src/frt/readers/map_reader.py
 80ed16d86e167fbba84984ebbb6d8806528e5e3f8df1f8b24ed832ecceffde35  src/frt/readers/okcheck.py

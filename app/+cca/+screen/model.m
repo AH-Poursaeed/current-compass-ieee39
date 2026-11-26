@@ -57,7 +57,7 @@ cap.Layout.Column = 2;
 bFit = uibutton(nav, 'state', 'Text', 'Fit', 'Value', true, 'FontName', T.font.chrome, 'FontSize', 12, ...
     'Tooltip', 'Fit the picture to the panel, or show it at full size and scroll');
 bFit.Layout.Column = 3;
-bFit.ValueChangedFcn = @(~, ~) go(level);
+bFit.ValueChangedFcn = @(~, ~) refit();   % a nested function reads the level at the click, not at the build
 bNext = uibutton(nav, 'Text', ['Next ' char(8250)], 'FontName', T.font.chrome, 'FontSize', 12);
 bNext.Layout.Column = 4;
 fig1 = figEntry(D, 'cc_fig_system');
@@ -82,8 +82,8 @@ if isfile(strrep(fullfile(D.root, 'assets', 'model', 'level1_network.png'), '.pn
         cca.data.paperref(D, "figure", "cc_fig_oneline"));
 end
 level = 1;
-bBack.ButtonPushedFcn = @(~, ~) go(level - 1);
-bNext.ButtonPushedFcn = @(~, ~) go(level + 1);
+bBack.ButtonPushedFcn = @(~, ~) stepLevel(-1);
+bNext.ButtonPushedFcn = @(~, ~) stepLevel(1);
 go(1);
 
 % ------------------------------------------------------------------ right: the equations and the constants
@@ -131,6 +131,16 @@ S.level = @getLevel;
 
     function v = getLevel()
         v = level;
+    end
+
+    function stepLevel(d)
+        % Back and Next: one level from the level shown now (an anonymous function would keep the level of the build)
+        go(level + d);
+    end
+
+    function refit()
+        % Fit: the level shown now, fitted to the panel or at full size
+        go(level);
     end
 
     function go(k)

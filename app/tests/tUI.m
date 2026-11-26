@@ -222,6 +222,27 @@ classdef tUI < matlab.unittest.TestCase
             S.go(1);
         end
 
+        function modelButtons(tc)
+            % the buttons as a click calls them: Next walks every level, Back returns one, Fit keeps the level
+            tc.app.show("model");
+            S = tc.app.screens.model;
+            S.go(1);
+            b = S.handles;
+            for k = 2:4
+                b.next.ButtonPushedFcn(b.next, []);
+                tc.verifyEqual(S.level(), k);
+            end
+            b.back.ButtonPushedFcn(b.back, []);
+            tc.verifyEqual(S.level(), 3);
+            b.fit.Value = false;
+            b.fit.ValueChangedFcn(b.fit, struct('Value', false));
+            tc.verifyEqual(S.level(), 3);
+            b.fit.Value = true;
+            b.fit.ValueChangedFcn(b.fit, struct('Value', true));
+            tc.verifyEqual(S.level(), 3);
+            S.go(1);
+        end
+
         function reproduceTables(tc)
             % every table of the paper shows every cell as the paper prints it, the bold cells bold and the spanning
             % heads where the data hold them; Table IV lists its scenarios
