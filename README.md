@@ -4,7 +4,7 @@ This repository holds the MATLAB application of the paper "Current Compass: A Lo
 
 With the application you can:
 
-- see every figure and every table of the paper, and every one of the 605 numbers that the paper prints, each at
+- see every figure and every table of the paper, and every one of the 608 numbers that the paper prints, each at
   its place in the paper;
 - see the outcome of every one of the paper's 7,218 simulation runs, with its set, law, setting, fault, load and
   network state;
@@ -54,7 +54,7 @@ ccapp(Screen="run")            % the list of the paper's runs
 - **7,218 simulation runs** of one EMT model of the IEEE 39-bus system, built in Simscape Electrical. Every
   source is a converter: six grid-following and four grid-forming units.
 - **278 GB of simulation records**, one MATLAB file per run (16 to 147 MB each). The application carries what the
-  paper reads from them: the outcome of every run, all 605 numbers that the paper prints, and the traces of the 7
+  paper reads from them: the outcome of every run, all 608 numbers that the paper prints, and the traces of the 7
   runs of Fig. 7.
 - **The laws:** the Current Compass, its six parts, and 13 compared settings of seven published laws and two
   baselines. All of them are compared on the same faults.

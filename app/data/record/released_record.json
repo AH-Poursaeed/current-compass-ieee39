@@ -42124,6 +42124,27 @@
   },
   {
    "where": "cc_sec4_test_system.section",
+   "path": "the development rows C2, F1 to F9 and J1 to J4: their fault buses",
+   "value": [
+    16,
+    39
+   ],
+   "printed": "16 and 39"
+  },
+  {
+   "where": "cc_sec4_test_system.section",
+   "path": "s60r.e1.scenarios",
+   "value": 66,
+   "printed": "66"
+  },
+  {
+   "where": "cc_sec4_test_system.section",
+   "path": "s60r.v6.r16.sets.r1.common_keys and r3.common_keys, members in chain.headline.set_R1.long_common_keys.keys (count)",
+   "value": 3,
+   "printed": "three"
+  },
+  {
+   "where": "cc_sec4_test_system.section",
    "path": "chain.census.form.compared_laws (laws)",
    "value": 9,
    "printed": "nine"

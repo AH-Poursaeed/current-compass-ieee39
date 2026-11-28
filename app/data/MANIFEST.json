@@ -6,14 +6,14 @@
   "files": [
    {
     "file": "app/data/record/released_record.json",
-    "bytes": 1092254,
-    "sha256": "b6b285e4165ab00114c7fd19ca96b67b70c8dd7e9714eb69ffcbbe13e351350f"
+    "bytes": 1092784,
+    "sha256": "ec13b05cda10a9b264eb10f79ede3f6c3cfac182f31cf38f63089022b4e663e2"
    }
   ],
-  "sha256_8": "b6b285e4",
+  "sha256_8": "ec13b05c",
   "group": "s60r.v6.r24",
   "group_state": "FINAL",
-  "generated_utc": "2026-11-26 06:09 UTC"
+  "generated_utc": "2026-11-28 03:28 UTC"
  },
  "rule": {
   "max_duration_ms": 5000,
@@ -35,19 +35,19 @@
   {
    "file": "app_numbers.json",
    "bytes": 26791,
-   "sha256": "803286cd09ea81394fcd1021db94f608e738eecc72d7eb72e7d09086fb3e8311",
+   "sha256": "55bbe468de0ba2f9c5e187d705bc0dc0938152ebb46c20278d3aa65def757079",
    "from": "regenerated from the released record (data/record/released_record.json)"
   },
   {
    "file": "app_paper.json",
-   "bytes": 33566,
-   "sha256": "8c6163b223e3e983b84bf9a02ffbffa2603be60ad129770820f62b7400aed8e4",
+   "bytes": 33701,
+   "sha256": "20c05c5a76566e8932075dd640c9768f0a345d909ab48d4642485abf8764395b",
    "from": "shipped as data: the paper's own texts (headings, captions, table titles, cells and notes, references) and its figure files' sha256"
   },
   {
    "file": "app_printed.json",
-   "bytes": 99258,
-   "sha256": "5b44bc096e886dc3a239c44b2019e955a30f1fde3e4f072ee074bd4cd633f874",
+   "bytes": 99917,
+   "sha256": "0d1c170f6b7e234a44fe96fd3eb0d8c01cc26d96397d85f397607b7c6c72eed7",
    "from": "regenerated from the released record's printed leaves (every printed number of the paper)"
   },
   {
@@ -64,8 +64,8 @@
   },
   {
    "file": "record/inputs.json",
-   "bytes": 13661,
-   "sha256": "0eef18053c620134734186d5c755100313bf0bd59ddab3b750d0e7735ba1dcc3",
+   "bytes": 13709,
+   "sha256": "fffba305b5a54c82fd444670509c2180742b0f84c1a96a171a4f1bc6c8c78cdc",
    "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
   },
   {
@@ -76,8 +76,8 @@
   },
   {
    "file": "record/released_record.json",
-   "bytes": 1092254,
-   "sha256": "b6b285e4165ab00114c7fd19ca96b67b70c8dd7e9714eb69ffcbbe13e351350f",
+   "bytes": 1092784,
+   "sha256": "ec13b05cda10a9b264eb10f79ede3f6c3cfac182f31cf38f63089022b4e663e2",
    "from": "shipped: the released record (the record paths the data step reads and the paper's printed leaves), the list of its paths, the inputs file and the runs' outcomes under their tags"
   },
   {

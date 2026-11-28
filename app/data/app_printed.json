@@ -1,6 +1,6 @@
 {
  "schema": "cca-printed/2",
- "n": 605,
+ "n": 608,
  "places": [
   "Abstract",
   "Section I",
@@ -515,6 +515,24 @@
    "name": "r15 / sets / lad26 / durations_ms (s)",
    "printed": "4 and 5",
    "path": "s60r.v6.r15.sets.lad26.durations_ms (s)"
+  },
+  {
+   "place": "Section IV",
+   "name": "the development rows C2, F1 to F9 and J1 to J4: their fault buses",
+   "printed": "16 and 39",
+   "path": "the development rows C2, F1 to F9 and J1 to J4: their fault buses"
+  },
+  {
+   "place": "Section IV",
+   "name": "e1 / scenarios",
+   "printed": "66",
+   "path": "s60r.e1.scenarios"
+  },
+  {
+   "place": "Section IV",
+   "name": "r16 / sets / r1 / common_keys and r3 / common_keys, members in chain / headline / set_R1 / long_common_keys / keys (count)",
+   "printed": "three",
+   "path": "s60r.v6.r16.sets.r1.common_keys and r3.common_keys, members in chain.headline.set_R1.long_common_keys.keys (count)"
   },
   {
    "place": "Section IV",
